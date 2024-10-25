@@ -1,1 +1,0 @@
-/home/phat/testpublicsher/build/cpp_pub/ament_cmake_core/cpp_pubConfig.cmake

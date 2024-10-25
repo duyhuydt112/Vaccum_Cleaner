@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':
- - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/cppcheck.xunit.xml
-
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/phat/testpublicsher/build/testservice/test_results/testservice/cppcheck.xunit.xml'

@@ -1,1 +1,0 @@
-/home/phat/testpublicsher/src/my_bot/launch/launch_sim.launch.py

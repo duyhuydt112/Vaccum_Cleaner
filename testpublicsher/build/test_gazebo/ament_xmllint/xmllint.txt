@@ -1,3 +1,0 @@
--- run_test.py: invoking following command in '/home/phat/testpublicsher/src/test_gazebo':
- - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/xmllint.xunit.xml
-

@@ -1,9 +1,0 @@
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/install/strip.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/install.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/list_install_components.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/rebuild_cache.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/edit_cache.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/test.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/install/local.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/test_gazebo_uninstall.dir
-/home/phat/testpublicsher/build/test_gazebo/CMakeFiles/uninstall.dir

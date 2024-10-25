@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target service[0m
-[35m[1mScanning dependencies of target client[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/service.dir/src/service_server.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client_server.cpp.o[0m

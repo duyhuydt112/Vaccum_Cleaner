@@ -1,4 +1,0 @@
-source;share/testservice/local_setup.bash
-source;share/testservice/local_setup.dsv
-source;share/testservice/local_setup.sh
-source;share/testservice/local_setup.zsh

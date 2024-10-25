@@ -1,1 +1,0 @@
-/home/phat/testpublicsher/build/tutorial_service/rosidl_cmake/srv/AddThreeInts_Request.msg

@@ -1,1 +1,0 @@
-/home/phat/testpublicsher/build/tutorial_service/rosidl_typesupport_introspection_c/tutorial_service/msg/rosidl_typesupport_introspection_c__visibility_control.h

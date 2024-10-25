@@ -1,3 +1,0 @@
--- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':
- - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/xmllint.xunit.xml
-

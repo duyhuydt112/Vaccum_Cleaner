@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/phat/testpublicsher/build/tutorial_service/rosidl_generator_py/tutorial_service/libtutorial_service__python.so" "TARGETS" "tutorial_service__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

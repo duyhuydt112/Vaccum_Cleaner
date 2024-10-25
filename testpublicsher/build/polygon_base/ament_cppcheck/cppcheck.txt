@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/phat/testpublicsher/src/polygon_base':
- - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml --include_dirs /home/phat/testpublicsher/src/polygon_base/include
-
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml'
