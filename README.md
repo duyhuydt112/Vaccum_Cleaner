@@ -1,4 +1,5 @@
 # Vaccum_Cleaner
++ source install/setup.bash
 + ros2 run teleop_twist_keyboard teleop_twist_keyboard 
 + LC_NUMERIC="en_US.UTF-8"; ros2 run rviz2 rviz2
 + ros2 launch my_bot launch_sim.launch.py world:=~/testpublicsher/src/my_bot/worlds/testworld.world
