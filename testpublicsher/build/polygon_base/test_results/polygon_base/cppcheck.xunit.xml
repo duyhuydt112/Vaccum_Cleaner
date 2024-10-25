@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="polygon_base.cppcheck"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.013"
+  skipped="0"
+>
+  <testcase
+    name="include/polygon_base/regular_polygon.hpp"
+    classname="polygon_base.cppcheck"/>
+  <testcase
+    name="src/area_node.cpp"
+    classname="polygon_base.cppcheck"/>
+  <system-out>Checked files:
+* include/polygon_base/regular_polygon.hpp
+* src/area_node.cpp</system-out>
+</testsuite>

@@ -1,0 +1,1 @@
+/home/phat/testpublicsher/build/tutorial_service/ament_cmake_core/tutorial_serviceConfig.cmake

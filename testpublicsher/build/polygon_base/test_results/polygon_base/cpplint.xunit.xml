@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="polygon_base.cpplint"
+  tests="5"
+  failures="5"
+  errors="0"
+  time="0.016"
+>
+  <testcase
+    name="legal/copyright [5] (/home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:0)"
+    classname="polygon_base.cpplint"
+  >
+      <failure message='No copyright message found.  You should have a line: "Copyright [year] &lt;Copyright Owner&gt;"'/>
+  </testcase>
+  <testcase
+    name="build/header_guard [5] (/home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:1)"
+    classname="polygon_base.cpplint"
+  >
+      <failure message="#ifndef header guard has wrong style, please use: POLYGON_BASE__REGULAR_POLYGON_HPP_"/>
+  </testcase>
+  <testcase
+    name="build/header_guard [5] (/home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:18)"
+    classname="polygon_base.cpplint"
+  >
+      <failure message='#endif line should be "#endif  // POLYGON_BASE__REGULAR_POLYGON_HPP_"'/>
+  </testcase>
+  <testcase
+    name="runtime/indentation_namespace [4] (/home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:6)"
+    classname="polygon_base.cpplint"
+  >
+      <failure message="Do not indent within a namespace"/>
+  </testcase>
+  <testcase
+    name="legal/copyright [5] (/home/phat/testpublicsher/src/polygon_base/src/area_node.cpp:0)"
+    classname="polygon_base.cpplint"
+  >
+      <failure message='No copyright message found.  You should have a line: "Copyright [year] &lt;Copyright Owner&gt;"'/>
+  </testcase>
+  <system-out>Checked files:
+* /home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp
+* /home/phat/testpublicsher/src/polygon_base/src/area_node.cpp</system-out>
+</testsuite>

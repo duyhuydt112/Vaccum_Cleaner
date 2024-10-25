@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict()}
+[0.000897] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.015617] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'cmake'}
+[0.016009] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '/home/phat/testpublicsher/src/cpp_pub', '-DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/cpp_pub'], 'cwd': '/home/phat/testpublicsher/build/cpp_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1784'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/phat/testpublicsher/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:37806'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1850,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1850'), ('INVOCATION_ID', '3f0d1df6172f49ca99dbd9ec7f470030'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2982ab8c_aa1d_4f35_bd0c_215aa337b871'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/cpp_pub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099997] (-) TimerEvent: {}
+[0.121974] (cpp_pub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.196481] (cpp_pub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.200140] (-) TimerEvent: {}
+[0.209053] (cpp_pub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.294450] (cpp_pub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.295464] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300215] (-) TimerEvent: {}
+[0.396768] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400300] (-) TimerEvent: {}
+[0.404197] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.404613] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.407209] (cpp_pub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500731] (-) TimerEvent: {}
+[0.501228] (cpp_pub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.502694] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600836] (-) TimerEvent: {}
+[0.613649] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.624223] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.624543] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.629825] (cpp_pub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.654797] (cpp_pub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.655021] (cpp_pub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700954] (-) TimerEvent: {}
+[0.801210] (-) TimerEvent: {}
+[0.827442] (cpp_pub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.871195] (cpp_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.877620] (cpp_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901302] (-) TimerEvent: {}
+[0.996974] (cpp_pub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.001419] (-) TimerEvent: {}
+[1.023490] (cpp_pub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.101641] (-) TimerEvent: {}
+[1.121323] (cpp_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.169983] (cpp_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.171680] (cpp_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.173089] (cpp_pub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201805] (-) TimerEvent: {}
+[1.279619] (cpp_pub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.280264] (cpp_pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.302185] (-) TimerEvent: {}
+[1.393303] (cpp_pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.393917] (cpp_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.402279] (-) TimerEvent: {}
+[1.476094] (cpp_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.476567] (cpp_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.502389] (-) TimerEvent: {}
+[1.576600] (cpp_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.577425] (cpp_pub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.602485] (-) TimerEvent: {}
+[1.702727] (-) TimerEvent: {}
+[1.709848] (cpp_pub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:21 (find_package):\n'}
+[1.710006] (cpp_pub) StderrLine: {'line': b'  By not providing "Findstd_msg.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.710084] (cpp_pub) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "std_msg", but\n'}
+[1.710151] (cpp_pub) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.710214] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.710276] (cpp_pub) StderrLine: {'line': b'  Could not find a package configuration file provided by "std_msg" with any\n'}
+[1.710337] (cpp_pub) StderrLine: {'line': b'  of the following names:\n'}
+[1.710397] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.710457] (cpp_pub) StderrLine: {'line': b'    std_msgConfig.cmake\n'}
+[1.710517] (cpp_pub) StderrLine: {'line': b'    std_msg-config.cmake\n'}
+[1.710576] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.710636] (cpp_pub) StderrLine: {'line': b'  Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set\n'}
+[1.710698] (cpp_pub) StderrLine: {'line': b'  "std_msg_DIR" to a directory containing one of the above files.  If\n'}
+[1.710757] (cpp_pub) StderrLine: {'line': b'  "std_msg" provides a separate development package or SDK, be sure it has\n'}
+[1.710816] (cpp_pub) StderrLine: {'line': b'  been installed.\n'}
+[1.710874] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.710931] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.711672] (cpp_pub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.711777] (cpp_pub) StdoutLine: {'line': b'See also "/home/phat/testpublicsher/build/cpp_pub/CMakeFiles/CMakeOutput.log".\n'}
+[1.711854] (cpp_pub) StdoutLine: {'line': b'See also "/home/phat/testpublicsher/build/cpp_pub/CMakeFiles/CMakeError.log".\n'}
+[1.718537] (cpp_pub) CommandEnded: {'returncode': 1}
+[1.754142] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 1}
+[1.754878] (-) EventReactorShutdown: {}

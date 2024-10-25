@@ -1,0 +1,50 @@
+[0.024s] Invoking command in '/home/phat/testpublicsher/build/testservice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/testservice -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/testservice
+[0.041s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.206s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.235s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.373s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.374s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.478s] -- Found tutorial_service: 0.0.0 (/home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake)
+[0.555s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.627s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.628s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.628s] -- Configured cppcheck include dirs: 
+[0.628s] -- Configured cppcheck exclude dirs and/or files: 
+[0.629s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.629s] -- Configured cpplint exclude dirs and/or files: 
+[0.629s] -- Added test 'lint_cmake' to check CMake code style
+[0.630s] -- Added test 'uncrustify' to check C / C++ code style
+[0.630s] -- Configured uncrustify additional arguments: 
+[0.631s] -- Added test 'xmllint' to check XML markup files
+[0.634s] -- Configuring done
+[0.634s] CMake Error at CMakeLists.txt:23 (add_executable):
+[0.634s]   Cannot find source file:
+[0.634s] 
+[0.634s]     ./src/client_sever.cpp
+[0.635s] 
+[0.635s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.635s]   .hpp .hxx .in .txx
+[0.635s] 
+[0.635s] 
+[0.635s] CMake Error at CMakeLists.txt:22 (add_executable):
+[0.635s]   Cannot find source file:
+[0.635s] 
+[0.635s]     ./src/service_sever.cpp
+[0.635s] 
+[0.635s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.636s]   .hpp .hxx .in .txx
+[0.636s] 
+[0.636s] 
+[0.636s] CMake Error at CMakeLists.txt:23 (add_executable):
+[0.636s]   No SOURCES given to target: client
+[0.636s] 
+[0.636s] 
+[0.636s] CMake Error at CMakeLists.txt:22 (add_executable):
+[0.636s]   No SOURCES given to target: service
+[0.636s] 
+[0.636s] 
+[0.636s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.641s] Invoked command in '/home/phat/testpublicsher/build/testservice' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/testservice -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/testservice

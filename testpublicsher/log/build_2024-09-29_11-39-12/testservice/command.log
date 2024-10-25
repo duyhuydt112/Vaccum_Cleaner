@@ -1,0 +1,4 @@
+Invoking command in '/home/phat/testpublicsher/build/testservice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/testservice -- -j12 -l12
+Invoked command in '/home/phat/testpublicsher/build/testservice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/testservice -- -j12 -l12
+Invoking command in '/home/phat/testpublicsher/build/testservice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/testservice
+Invoked command in '/home/phat/testpublicsher/build/testservice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/testservice

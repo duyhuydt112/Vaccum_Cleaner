@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="testservice.uncrustify"
+  tests="2"
+  failures="2"
+  errors="0"
+  time="0.014"
+>
+  <testcase
+    name="src/client_server.cpp"
+    classname="testservice.uncrustify"
+  >
+      <failure message="Diff with 9 lines"><![CDATA[--- src/client_server.cpp
++++ src/client_server.cpp.uncrustify
+@@ -13 +13,2 @@
+-    subscription_ = this->create_subscription<tutorial_service::msg::Num>(          // CHANGE
++    subscription_ = this->create_subscription<tutorial_service::msg::Num>(
++      // CHANGE
+@@ -31 +32 @@
+-}+}
+]]></failure>
+  </testcase>
+  <testcase
+    name="src/service_server.cpp"
+    classname="testservice.uncrustify"
+  >
+      <failure message="Diff with 5 lines"><![CDATA[--- src/service_server.cpp
++++ src/service_server.cpp.uncrustify
+@@ -39 +39 @@
+-}+}
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* src/client_server.cpp
+* src/service_server.cpp</system-out>
+</testsuite>

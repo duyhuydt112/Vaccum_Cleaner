@@ -1,0 +1,172 @@
+[0.012s] Invoking command in '/home/phat/testpublicsher/build/tutorial_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/tutorial_service -- -j12 -l12
+[0.078s] [ 10%] Built target tutorial_service__rosidl_generator_c
+[0.078s] [ 12%] Built target tutorial_service__cpp
+[0.104s] [ 31%] Built target tutorial_service__rosidl_typesupport_c
+[0.105s] [ 34%] Built target tutorial_service__rosidl_typesupport_introspection_cpp
+[0.105s] [ 44%] Built target tutorial_service__rosidl_typesupport_introspection_c
+[0.128s] [ 55%] Built target tutorial_service__rosidl_typesupport_cpp
+[0.129s] [ 65%] Built target tutorial_service__rosidl_typesupport_fastrtps_cpp
+[0.152s] [ 76%] Built target tutorial_service__rosidl_typesupport_fastrtps_c
+[0.174s] [ 76%] Built target tutorial_service
+[0.200s] [ 78%] Built target tutorial_service__py
+[0.239s] [ 87%] Built target tutorial_service__python
+[0.262s] [ 93%] Built target tutorial_service__rosidl_typesupport_introspection_c__pyext
+[0.262s] [ 95%] Built target tutorial_service__rosidl_typesupport_c__pyext
+[0.263s] [100%] Built target tutorial_service__rosidl_typesupport_fastrtps_c__pyext
+[0.274s] Invoked command in '/home/phat/testpublicsher/build/tutorial_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/tutorial_service -- -j12 -l12
+[0.382s] Invoking command in '/home/phat/testpublicsher/build/tutorial_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/tutorial_service
+[0.389s] -- Install configuration: ""
+[0.390s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/ament_index/resource_index/rosidl_interfaces/tutorial_service
+[0.390s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service
+[0.390s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg
+[0.391s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/sphere.h
+[0.391s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/rosidl_generator_c__visibility_control.h
+[0.391s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/num.h
+[0.391s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail
+[0.391s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__type_support.h
+[0.391s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__functions.c
+[0.392s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__struct.h
+[0.392s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__type_support.h
+[0.392s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__functions.c
+[0.392s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__struct.h
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__functions.h
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__functions.h
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/add_three_ints.h
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__type_support.h
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__functions.c
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__functions.h
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__struct.h
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/library_path.sh
+[0.393s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/library_path.dsv
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__rosidl_generator_c.so
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__rosidl_typesupport_fastrtps_c.so
+[0.394s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/dds_fastrtps
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/dds_fastrtps
+[0.395s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__rosidl_typesupport_fastrtps_cpp.so
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__type_support.c
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__rosidl_typesupport_introspection_c.h
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__type_support.c
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__type_support.c
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[0.396s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__rosidl_typesupport_introspection_c.so
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__rosidl_typesupport_c.so
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/sphere.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__traits.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__type_support.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__struct.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__type_support.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__builder.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__struct.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__builder.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__traits.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/num.hpp
+[0.397s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/add_three_ints.hpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__builder.hpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__struct.hpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__traits.hpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__type_support.hpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__type_support.cpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__type_support.cpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail
+[0.398s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.399s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/include/tutorial_service/srv/detail/add_three_ints__type_support.cpp
+[0.399s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__rosidl_typesupport_introspection_cpp.so
+[0.399s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__rosidl_typesupport_cpp.so
+[0.399s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/pythonpath.sh
+[0.399s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/pythonpath.dsv
+[0.399s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/__init__.py
+[0.425s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/srv
+[0.425s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/srv/_add_three_ints_s.c
+[0.425s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/srv/_add_three_ints.py
+[0.425s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/srv/__init__.py
+[0.425s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/msg
+[0.425s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/msg/_num.py
+[0.426s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/msg/_sphere.py
+[0.426s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/msg/_num_s.c
+[0.426s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/msg/__init__.py
+[0.426s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/msg/_sphere_s.c
+[0.426s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/tutorial_service_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.426s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/tutorial_service_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.427s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages/tutorial_service/tutorial_service_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/lib/libtutorial_service__python.so
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/srv/AddThreeInts.idl
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/msg/Num.idl
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/msg/Sphere.idl
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/srv/AddThreeInts.srv
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/srv/AddThreeInts_Request.msg
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/srv/AddThreeInts_Response.msg
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/msg/Num.msg
+[0.428s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/msg/Sphere.msg
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/ament_index/resource_index/package_run_dependencies/tutorial_service
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/ament_index/resource_index/parent_prefix_path/tutorial_service
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/ament_prefix_path.sh
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/ament_prefix_path.dsv
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/path.sh
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/environment/path.dsv
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/local_setup.bash
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/local_setup.sh
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/local_setup.zsh
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/local_setup.dsv
+[0.429s] -- Installing: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/package.dsv
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/ament_index/resource_index/packages/tutorial_service
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_generator_cExport.cmake
+[0.429s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_generator_cExport-noconfig.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_introspection_cExport.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_cExport.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_cExport-noconfig.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_generator_cppExport.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_introspection_cppExport.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.430s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_cppExport.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_service__rosidl_typesupport_cppExport-noconfig.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/rosidl_cmake-extras.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/ament_cmake_export_libraries-extras.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/ament_cmake_export_targets-extras.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_serviceConfig.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake/tutorial_serviceConfig-version.cmake
+[0.431s] -- Up-to-date: /home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/package.xml
+[0.433s] Invoked command in '/home/phat/testpublicsher/build/tutorial_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/tutorial_service

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241006-0349-Experimental"
+	Name="phat-Legion-5-15ACH6"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="phat-Legion-5-15ACH6"
+	OSRelease="5.15.0-122-generic"
+	OSVersion="#132~20.04.1-Ubuntu SMP Fri Aug 30 15:50:07 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="1392"
+	TotalPhysicalMemory="13822"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1300"
+	>
+	<Testing>
+		<StartDateTime>Oct 06 10:49 +07</StartDateTime>
+		<StartTestTime>1728186584</StartTestTime>
+		<TestList>
+			<Test>./copyright</Test>
+			<Test>./flake8</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./pep257</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.219198</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml
+CONTRIBUTING.md: file not found
+LICENSE: file not found
+launch/ball_tracker.launch.py: could not find copyright notice
+launch/camera.launch.py: could not find copyright notice
+launch/joystick.launch.py: could not find copyright notice
+launch/launch_robot.launch.py: could not find copyright notice
+launch/launch_sim.launch.py: could not find copyright notice
+launch/online_async_launch.py: could not find copyright notice
+launch/rplidar.launch.py: could not find copyright notice
+launch/rsp.launch.py: could not find copyright notice
+10 errors, checked 12 files
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>flake8</Name>
+			<Path>.</Path>
+			<FullName>./flake8</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.327134</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':
+ - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml
+
+./launch/launch_robot.launch.py:17:1: E303 too many blank lines (3)
+def generate_launch_description():
+^
+
+./launch/launch_robot.launch.py:20:5: E303 too many blank lines (2)
+    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
+    ^
+
+./launch/launch_robot.launch.py:20:100: E501 line too long (110 &gt; 99 characters)
+    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
+                                                                                                   ^
+
+./launch/launch_robot.launch.py:23:17: E225 missing whitespace around operator
+    package_name='articubot_one' #&lt;--- CHANGE ME
+                ^
+
+./launch/launch_robot.launch.py:23:33: E261 at least two spaces before inline comment
+    package_name='articubot_one' #&lt;--- CHANGE ME
+                                ^
+
+./launch/launch_robot.launch.py:23:34: E262 inline comment should start with '# '
+    package_name='articubot_one' #&lt;--- CHANGE ME
+                                 ^
+
+./launch/launch_robot.launch.py:27:62: E231 missing whitespace after ','
+                    get_package_share_directory(package_name),'launch','rsp.launch.py'
+                                                             ^
+
+./launch/launch_robot.launch.py:27:71: E231 missing whitespace after ','
+                    get_package_share_directory(package_name),'launch','rsp.launch.py'
+                                                                      ^
+
+./launch/launch_robot.launch.py:38:5: E303 too many blank lines (2)
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+    ^
+
+./launch/launch_robot.launch.py:38:78: E231 missing whitespace after ','
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+                                                                             ^
+
+./launch/launch_robot.launch.py:38:87: E231 missing whitespace after ','
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+                                                                                      ^
+
+./launch/launch_robot.launch.py:38:100: E501 line too long (104 &gt; 99 characters)
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+                                                                                                   ^
+
+./launch/launch_robot.launch.py:43:40: E231 missing whitespace after ','
+            remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+                                       ^
+
+./launch/launch_robot.launch.py:46:1: W293 blank line contains whitespace
+    
+^
+
+./launch/launch_robot.launch.py:49:5: E303 too many blank lines (4)
+    robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
+    ^
+
+./launch/launch_robot.launch.py:49:100: E501 line too long (104 &gt; 99 characters)
+    robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
+                                                                                                   ^
+
+./launch/launch_robot.launch.py:51:84: E231 missing whitespace after ','
+    controller_params_file = os.path.join(get_package_share_directory(package_name),'config','my_controllers.yaml')
+                                                                                   ^
+
+./launch/launch_robot.launch.py:51:93: E231 missing whitespace after ','
+    controller_params_file = os.path.join(get_package_share_directory(package_name),'config','my_controllers.yaml')
+                                                                                            ^
+
+./launch/launch_robot.launch.py:51:100: E501 line too long (115 &gt; 99 characters)
+    controller_params_file = os.path.join(get_package_share_directory(package_name),'config','my_controllers.yaml')
+                                                                                                   ^
+
+./launch/launch_robot.launch.py:89:5: E303 too many blank lines (2)
+    # Code for delaying a node (I haven't tested how effective it is)
+    ^
+
+./launch/launch_robot.launch.py:90:6: W291 trailing whitespace
+    # 
+     ^
+
+./launch/launch_robot.launch.py:107:5: E303 too many blank lines (3)
+    # Launch them all!
+    ^
+
+./launch/launch_sim.launch.py:14:1: E303 too many blank lines (3)
+def generate_launch_description():
+^
+
+./launch/launch_sim.launch.py:17:5: E303 too many blank lines (2)
+    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
+    ^
+
+./launch/launch_sim.launch.py:17:100: E501 line too long (110 &gt; 99 characters)
+    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
+                                                                                                   ^
+
+./launch/launch_sim.launch.py:20:17: E225 missing whitespace around operator
+    package_name='articubot_one' #&lt;--- CHANGE ME
+                ^
+
+./launch/launch_sim.launch.py:20:33: E261 at least two spaces before inline comment
+    package_name='articubot_one' #&lt;--- CHANGE ME
+                                ^
+
+./launch/launch_sim.launch.py:20:34: E262 inline comment should start with '# '
+    package_name='articubot_one' #&lt;--- CHANGE ME
+                                 ^
+
+./launch/launch_sim.launch.py:24:62: E231 missing whitespace after ','
+                    get_package_share_directory(package_name),'launch','rsp.launch.py'
+                                                             ^
+
+./launch/launch_sim.launch.py:24:71: E231 missing whitespace after ','
+                    get_package_share_directory(package_name),'launch','rsp.launch.py'
+                                                                      ^
+
+./launch/launch_sim.launch.py:30:62: E231 missing whitespace after ','
+                    get_package_share_directory(package_name),'launch','joystick.launch.py'
+                                                             ^
+
+./launch/launch_sim.launch.py:30:71: E231 missing whitespace after ','
+                    get_package_share_directory(package_name),'launch','joystick.launch.py'
+                                                                      ^
+
+./launch/launch_sim.launch.py:34:78: E231 missing whitespace after ','
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+                                                                             ^
+
+./launch/launch_sim.launch.py:34:87: E231 missing whitespace after ','
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+                                                                                      ^
+
+./launch/launch_sim.launch.py:34:100: E501 line too long (104 &gt; 99 characters)
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+                                                                                                   ^
+
+./launch/launch_sim.launch.py:39:40: E231 missing whitespace after ','
+            remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+                                       ^
+
+./launch/launch_sim.launch.py:42:80: E231 missing whitespace after ','
+    gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+                                                                               ^
+
+./launch/launch_sim.launch.py:42:89: E231 missing whitespace after ','
+    gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+                                                                                        ^
+
+./launch/launch_sim.launch.py:42:100: E501 line too long (110 &gt; 99 characters)
+    gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+                                                                                                   ^
+
+./launch/launch_sim.launch.py:48:21: E131 continuation line unaligned for hanging indent
+                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
+                    ^
+
+./launch/launch_sim.launch.py:48:100: E501 line too long (116 &gt; 99 characters)
+                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
+                                                                                                   ^
+
+./launch/launch_sim.launch.py:51:100: E501 line too long (126 &gt; 99 characters)
+    # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
+                                                                                                   ^
+
+./launch/launch_sim.launch.py:58:5: E303 too many blank lines (2)
+    diff_drive_spawner = Node(
+    ^
+
+./launch/launch_sim.launch.py:71:5: E303 too many blank lines (2)
+    # Code for delaying a node (I haven't tested how effective it is)
+    ^
+
+./launch/launch_sim.launch.py:72:6: W291 trailing whitespace
+    # 
+     ^
+
+./launch/launch_sim.launch.py:89:5: E303 too many blank lines (3)
+    # Launch them all!
+    ^
+
+./launch/joystick.launch.py:9:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/joystick.launch.py:12:75: E231 missing whitespace after ','
+    joy_params = os.path.join(get_package_share_directory('articubot_one'),'config','joystick.yaml')
+                                                                          ^
+
+./launch/joystick.launch.py:12:84: E231 missing whitespace after ','
+    joy_params = os.path.join(get_package_share_directory('articubot_one'),'config','joystick.yaml')
+                                                                                   ^
+
+./launch/joystick.launch.py:12:100: E501 line too long (100 &gt; 99 characters)
+    joy_params = os.path.join(get_package_share_directory('articubot_one'),'config','joystick.yaml')
+                                                                                                   ^
+
+./launch/joystick.launch.py:25:36: E231 missing whitespace after ','
+            remappings=[('/cmd_vel','/cmd_vel_joy')]
+                                   ^
+
+./launch/joystick.launch.py:37:5: E303 too many blank lines (2)
+    return LaunchDescription([
+    ^
+
+./launch/joystick.launch.py:44:24: W291 trailing whitespace
+        # twist_stamper       
+                       ^
+
+./launch/joystick.launch.py:45:7: W292 no newline at end of file
+    ])      ^
+
+./launch/ball_tracker.launch.py:13:20: E225 missing whitespace around operator
+    my_package_name='articubot_one'
+                   ^
+
+./launch/ball_tracker.launch.py:17:83: E231 missing whitespace after ','
+    tracker_params_sim = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_sim.yaml')
+                                                                                  ^
+
+./launch/ball_tracker.launch.py:17:92: E231 missing whitespace after ','
+    tracker_params_sim = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_sim.yaml')
+                                                                                           ^
+
+./launch/ball_tracker.launch.py:17:100: E501 line too long (123 &gt; 99 characters)
+    tracker_params_sim = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_sim.yaml')
+                                                                                                   ^
+
+./launch/ball_tracker.launch.py:18:85: E231 missing whitespace after ','
+    tracker_params_robot = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_robot.yaml')
+                                                                                    ^
+
+./launch/ball_tracker.launch.py:18:94: E231 missing whitespace after ','
+    tracker_params_robot = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_robot.yaml')
+                                                                                             ^
+
+./launch/ball_tracker.launch.py:18:100: E501 line too long (127 &gt; 99 characters)
+    tracker_params_robot = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_robot.yaml')
+                                                                                                   ^
+
+./launch/ball_tracker.launch.py:20:40: E231 missing whitespace after ','
+    params_path = PythonExpression(['"',tracker_params_sim, '" if "true" == "', sim_mode, '" else "', tracker_params_robot, '"'])
+                                       ^
+
+./launch/ball_tracker.launch.py:20:100: E501 line too long (129 &gt; 99 characters)
+    params_path = PythonExpression(['"',tracker_params_sim, '" if "true" == "', sim_mode, '" else "', tracker_params_robot, '"'])
+                                                                                                   ^
+
+./launch/ball_tracker.launch.py:24:100: E501 line too long (103 &gt; 99 characters)
+                    get_package_share_directory('ball_tracker'), 'launch', 'ball_tracker.launch.py')]),
+                                                                                                   ^
+
+./launch/ball_tracker.launch.py:25:21: E131 continuation line unaligned for hanging indent
+                    launch_arguments={'params_file': params_path,
+                    ^
+
+./launch/ball_tracker.launch.py:26:37: E128 continuation line under-indented for visual indent
+                                    'image_topic': '/camera/image_raw',
+                                    ^
+
+./launch/ball_tracker.launch.py:27:37: E128 continuation line under-indented for visual indent
+                                    'cmd_vel_topic': '/cmd_vel_tracker',
+                                    ^
+
+./launch/ball_tracker.launch.py:28:37: E128 continuation line under-indented for visual indent
+                                    'enable_3d_tracker': 'true'}.items())
+                                    ^
+
+./launch/camera.launch.py:1:1: F401 'os' imported but unused
+import os
+^
+
+./launch/camera.launch.py:6:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/camera.launch.py:10:5: E303 too many blank lines (3)
+    return LaunchDescription([
+    ^
+
+./launch/camera.launch.py:18:35: E231 missing whitespace after ','
+                'image_size': [640,480],
+                                  ^
+
+./launch/camera.launch.py:22:5: E122 continuation line missing indentation or outdented
+    )
+    ^
+
+./launch/rsp.launch.py:10:1: F401 'xacro' imported but unused
+import xacro
+^
+
+./launch/rsp.launch.py:21:39: E231 missing whitespace after ','
+    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')
+                                      ^
+
+./launch/rsp.launch.py:21:53: E231 missing whitespace after ','
+    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')
+                                                    ^
+
+./launch/rsp.launch.py:23:100: E501 line too long (132 &gt; 99 characters)
+    robot_description_config = Command(['xacro ', xacro_file, ' use_ros2_control:=', use_ros2_control, ' sim_mode:=', use_sim_time])
+                                                                                                   ^
+
+./launch/rsp.launch.py:24:1: W293 blank line contains whitespace
+    
+^
+
+./launch/rsp.launch.py:35:5: E303 too many blank lines (2)
+    # Launch!
+    ^
+
+./launch/rplidar.launch.py:1:1: F401 'os' imported but unused
+import os
+^
+
+./launch/rplidar.launch.py:5:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/rplidar.launch.py:14:100: E501 line too long (113 &gt; 99 characters)
+                'serial_port': '/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0',
+                                                                                                   ^
+
+1     E122 continuation line missing indentation or outdented
+3     E128 continuation line under-indented for visual indent
+2     E131 continuation line unaligned for hanging indent
+3     E225 missing whitespace around operator
+27    E231 missing whitespace after ','
+2     E261 at least two spaces before inline comment
+2     E262 inline comment should start with '# '
+3     E302 expected 2 blank lines, found 1
+14    E303 too many blank lines (3)
+16    E501 line too long (123 &gt; 99 characters)
+3     F401 'os' imported but unused
+3     W291 trailing whitespace
+1     W292 no newline at end of file
+2     W293 blank line contains whitespace
+
+10 files checked
+82 errors
+
+'E'-type errors: 73
+'F'-type errors: 3
+'W'-type errors: 6
+
+Checked files:
+
+* ./launch/launch_robot.launch.py
+* ./launch/online_async_launch.py
+* ./launch/launch_sim.launch.py
+* ./launch/joystick.launch.py
+* ./launch/localization_launch.py
+* ./launch/ball_tracker.launch.py
+* ./launch/camera.launch.py
+* ./launch/rsp.launch.py
+* ./launch/rplidar.launch.py
+* ./launch/navigation_launch.py
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>flake8</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.207668</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':
+ - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.264774</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':
+ - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml
+checking ./launch/ball_tracker.launch.py
+checking ./launch/camera.launch.py
+checking ./launch/joystick.launch.py
+checking ./launch/launch_robot.launch.py
+checking ./launch/launch_sim.launch.py
+checking ./launch/localization_launch.py
+checking ./launch/navigation_launch.py
+checking ./launch/online_async_launch.py
+checking ./launch/rplidar.launch.py
+checking ./launch/rsp.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Timeout</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>0</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>60.0801</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Oct 06 10:50 +07</EndDateTime>
+		<EndTestTime>1728186645</EndTestTime>
+		<ElapsedMinutes>1</ElapsedMinutes>
+	</Testing>
+</Site>

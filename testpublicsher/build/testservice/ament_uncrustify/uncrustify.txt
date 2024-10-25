@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':
+ - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/uncrustify.xunit.xml
+
+Code style divergence in file 'src/client_server.cpp':
+
+--- src/client_server.cpp
++++ src/client_server.cpp.uncrustify
+@@ -13 +13,2 @@
+-    subscription_ = this->create_subscription<tutorial_service::msg::Num>(          // CHANGE
++    subscription_ = this->create_subscription<tutorial_service::msg::Num>(
++      // CHANGE
+@@ -31 +32 @@
+-}
++}
+
+Code style divergence in file 'src/service_server.cpp':
+
+--- src/service_server.cpp
++++ src/service_server.cpp.uncrustify
+@@ -39 +39 @@
+-}
++}
+
+2 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/phat/testpublicsher/build/testservice/test_results/testservice/uncrustify.xunit.xml'

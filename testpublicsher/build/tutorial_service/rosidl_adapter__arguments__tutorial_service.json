@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_service",
+  "non_idl_tuples": [
+    "/home/phat/testpublicsher/src/tutorial_service:srv/AddThreeInts.srv",
+    "/home/phat/testpublicsher/src/tutorial_service:msg/Num.msg",
+    "/home/phat/testpublicsher/src/tutorial_service:msg/Sphere.msg"
+  ]
+}

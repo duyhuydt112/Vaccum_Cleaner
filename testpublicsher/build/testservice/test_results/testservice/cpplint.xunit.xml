@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="testservice.cpplint"
+  tests="4"
+  failures="4"
+  errors="0"
+  time="0.020"
+>
+  <testcase
+    name="legal/copyright [5] (/home/phat/testpublicsher/src/testservice/src/client_server.cpp:0)"
+    classname="testservice.cpplint"
+  >
+      <failure message='No copyright message found.  You should have a line: "Copyright [year] &lt;Copyright Owner&gt;"'/>
+  </testcase>
+  <testcase
+    name="whitespace/ending_newline [5] (/home/phat/testpublicsher/src/testservice/src/client_server.cpp:31)"
+    classname="testservice.cpplint"
+  >
+      <failure message="Could not find a newline character at the end of the file."/>
+  </testcase>
+  <testcase
+    name="legal/copyright [5] (/home/phat/testpublicsher/src/testservice/src/service_server.cpp:0)"
+    classname="testservice.cpplint"
+  >
+      <failure message='No copyright message found.  You should have a line: "Copyright [year] &lt;Copyright Owner&gt;"'/>
+  </testcase>
+  <testcase
+    name="whitespace/ending_newline [5] (/home/phat/testpublicsher/src/testservice/src/service_server.cpp:39)"
+    classname="testservice.cpplint"
+  >
+      <failure message="Could not find a newline character at the end of the file."/>
+  </testcase>
+  <system-out>Checked files:
+* /home/phat/testpublicsher/src/testservice/src/client_server.cpp
+* /home/phat/testpublicsher/src/testservice/src/service_server.cpp</system-out>
+</testsuite>

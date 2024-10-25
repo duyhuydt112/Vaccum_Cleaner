@@ -1,0 +1,2281 @@
+[0.000000] (-) TimerEvent: {}
+[0.000386] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict([('articubot_one', '/home/phat/testpublicsher/install/articubot_one')])}
+[0.000447] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict([('cpp_pub', '/home/phat/testpublicsher/install/cpp_pub')])}
+[0.000477] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict([('polygon_base', '/home/phat/testpublicsher/install/polygon_base')])}
+[0.000510] (test_gazebo) JobQueued: {'identifier': 'test_gazebo', 'dependencies': OrderedDict([('test_gazebo', '/home/phat/testpublicsher/install/test_gazebo')])}
+[0.000531] (tutorial_service) JobQueued: {'identifier': 'tutorial_service', 'dependencies': OrderedDict([('tutorial_service', '/home/phat/testpublicsher/install/tutorial_service')])}
+[0.000557] (testservice) JobQueued: {'identifier': 'testservice', 'dependencies': OrderedDict([('tutorial_service', '/home/phat/testpublicsher/install/tutorial_service'), ('testservice', '/home/phat/testpublicsher/install/testservice')])}
+[0.001104] (tutorial_service) JobStarted: {'identifier': 'tutorial_service'}
+[0.008222] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.011664] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.020905] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.025542] (test_gazebo) JobStarted: {'identifier': 'test_gazebo'}
+[0.066046] (polygon_base) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/phat/testpublicsher/build/polygon_base', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1753'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1819,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', 'a180e34132114891b540395a6a9f449b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e5f8c07_b643_4ebc_a073_ec07b7030cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/polygon_base:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/polygon_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/polygon_base')]), 'shell': False}
+[0.076598] (cpp_pub) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/phat/testpublicsher/build/cpp_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1753'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1819,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', 'a180e34132114891b540395a6a9f449b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e5f8c07_b643_4ebc_a073_ec07b7030cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/cpp_pub:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/cpp_pub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/cpp_pub')]), 'shell': False}
+[0.079674] (test_gazebo) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/phat/testpublicsher/build/test_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1753'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1819,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', 'a180e34132114891b540395a6a9f449b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e5f8c07_b643_4ebc_a073_ec07b7030cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/test_gazebo:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/test_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/test_gazebo')]), 'shell': False}
+[0.083644] (polygon_base) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/polygon_base/CTestConfiguration.ini\n'}
+[0.084177] (polygon_base) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/polygon_base/CTestConfiguration.ini\n'}
+[0.084272] (polygon_base) StdoutLine: {'line': b'   Site: phat-Legion-5-15ACH6\n'}
+[0.084375] (polygon_base) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.084443] (polygon_base) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.084511] (polygon_base) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.084596] (polygon_base) StdoutLine: {'line': b'Create new tag: 20241006-0343 - Experimental\n'}
+[0.084669] (polygon_base) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/polygon_base/CTestConfiguration.ini\n'}
+[0.084733] (polygon_base) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/polygon_base/CTestConfiguration.ini\n'}
+[0.084790] (polygon_base) StdoutLine: {'line': b'Test project /home/phat/testpublicsher/build/polygon_base\n'}
+[0.084846] (polygon_base) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.085022] (tutorial_service) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/phat/testpublicsher/build/tutorial_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1753'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phat/testpublicsher/install/tutorial_service/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1819,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', 'a180e34132114891b540395a6a9f449b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e5f8c07_b643_4ebc_a073_ec07b7030cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/tutorial_service:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/tutorial_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/tutorial_service')]), 'shell': False}
+[0.088098] (polygon_base) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.088242] (polygon_base) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.088344] (polygon_base) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.088444] (polygon_base) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.088542] (polygon_base) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.088637] (polygon_base) StdoutLine: {'line': b'test 1\n'}
+[0.088728] (polygon_base) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.088826] (polygon_base) StdoutLine: {'line': b'\n'}
+[0.088921] (polygon_base) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/copyright.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/phat/testpublicsher/build/polygon_base/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/copyright.xunit.xml"\n'}
+[0.089023] (polygon_base) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.089109] (cpp_pub) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/cpp_pub/CTestConfiguration.ini\n'}
+[0.090346] (cpp_pub) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/cpp_pub/CTestConfiguration.ini\n'}
+[0.090459] (cpp_pub) StdoutLine: {'line': b'   Site: phat-Legion-5-15ACH6\n'}
+[0.090556] (cpp_pub) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.090656] (cpp_pub) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.090752] (cpp_pub) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.090854] (cpp_pub) StdoutLine: {'line': b'Create new tag: 20241006-0343 - Experimental\n'}
+[0.091187] (cpp_pub) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/cpp_pub/CTestConfiguration.ini\n'}
+[0.091316] (cpp_pub) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/cpp_pub/CTestConfiguration.ini\n'}
+[0.091432] (cpp_pub) StdoutLine: {'line': b'Test project /home/phat/testpublicsher/build/cpp_pub\n'}
+[0.091860] (cpp_pub) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.091984] (cpp_pub) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.092106] (cpp_pub) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.092225] (cpp_pub) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.092346] (cpp_pub) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.092462] (cpp_pub) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.092589] (cpp_pub) StdoutLine: {'line': b'test 1\n'}
+[0.092715] (cpp_pub) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.092830] (cpp_pub) StdoutLine: {'line': b'\n'}
+[0.092953] (cpp_pub) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/copyright.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/copyright.xunit.xml"\n'}
+[0.093077] (cpp_pub) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.093273] (articubot_one) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/phat/testpublicsher/build/articubot_one', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1753'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1819,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', 'a180e34132114891b540395a6a9f449b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e5f8c07_b643_4ebc_a073_ec07b7030cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/articubot_one:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/articubot_one')]), 'shell': False}
+[0.094244] (test_gazebo) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini\n'}
+[0.094404] (test_gazebo) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini\n'}
+[0.094517] (test_gazebo) StdoutLine: {'line': b'   Site: phat-Legion-5-15ACH6\n'}
+[0.094625] (test_gazebo) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.094735] (test_gazebo) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.094853] (test_gazebo) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.094967] (test_gazebo) StdoutLine: {'line': b'Create new tag: 20241006-0343 - Experimental\n'}
+[0.095066] (test_gazebo) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini\n'}
+[0.095166] (test_gazebo) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini\n'}
+[0.095258] (test_gazebo) StdoutLine: {'line': b'Test project /home/phat/testpublicsher/build/test_gazebo\n'}
+[0.095355] (test_gazebo) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.095456] (test_gazebo) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.095555] (test_gazebo) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.095654] (test_gazebo) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.095847] (test_gazebo) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.095928] (test_gazebo) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.096008] (test_gazebo) StdoutLine: {'line': b'test 1\n'}
+[0.096103] (test_gazebo) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.096192] (test_gazebo) StdoutLine: {'line': b'\n'}
+[0.096276] (test_gazebo) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml" "--package-name" "test_gazebo" "--output-file" "/home/phat/testpublicsher/build/test_gazebo/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml"\n'}
+[0.096366] (test_gazebo) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.096463] (tutorial_service) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/tutorial_service/CTestConfiguration.ini\n'}
+[0.096577] (tutorial_service) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/tutorial_service/CTestConfiguration.ini\n'}
+[0.096672] (tutorial_service) StdoutLine: {'line': b'   Site: phat-Legion-5-15ACH6\n'}
+[0.096765] (tutorial_service) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.096856] (tutorial_service) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.096951] (tutorial_service) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.097044] (tutorial_service) StdoutLine: {'line': b'Create new tag: 20241006-0343 - Experimental\n'}
+[0.097136] (tutorial_service) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/tutorial_service/CTestConfiguration.ini\n'}
+[0.097225] (tutorial_service) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/tutorial_service/CTestConfiguration.ini\n'}
+[0.097319] (tutorial_service) StdoutLine: {'line': b'Test project /home/phat/testpublicsher/build/tutorial_service\n'}
+[0.097415] (tutorial_service) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.097501] (tutorial_service) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.097596] (tutorial_service) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.097688] (tutorial_service) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.097794] (tutorial_service) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.097896] (tutorial_service) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.097988] (tutorial_service) StdoutLine: {'line': b'test 1\n'}
+[0.098077] (tutorial_service) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.098170] (tutorial_service) StdoutLine: {'line': b'\n'}
+[0.098266] (tutorial_service) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/copyright.xunit.xml" "--package-name" "tutorial_service" "--output-file" "/home/phat/testpublicsher/build/tutorial_service/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/copyright.xunit.xml"\n'}
+[0.098365] (tutorial_service) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.098463] (articubot_one) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/articubot_one/CTestConfiguration.ini\n'}
+[0.098580] (articubot_one) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/articubot_one/CTestConfiguration.ini\n'}
+[0.098668] (articubot_one) StdoutLine: {'line': b'   Site: phat-Legion-5-15ACH6\n'}
+[0.098753] (articubot_one) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.098847] (articubot_one) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.098939] (articubot_one) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.099029] (articubot_one) StdoutLine: {'line': b'Create new tag: 20241006-0343 - Experimental\n'}
+[0.099122] (articubot_one) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/articubot_one/CTestConfiguration.ini\n'}
+[0.099217] (articubot_one) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/articubot_one/CTestConfiguration.ini\n'}
+[0.099323] (articubot_one) StdoutLine: {'line': b'Test project /home/phat/testpublicsher/build/articubot_one\n'}
+[0.099416] (articubot_one) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.099507] (articubot_one) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.099600] (articubot_one) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.099692] (articubot_one) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.099788] (articubot_one) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.099870] (articubot_one) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.099947] (-) TimerEvent: {}
+[0.100091] (articubot_one) StdoutLine: {'line': b'test 1\n'}
+[0.100182] (articubot_one) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.100266] (articubot_one) StdoutLine: {'line': b'\n'}
+[0.100352] (articubot_one) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml"\n'}
+[0.100455] (articubot_one) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.126137] (polygon_base) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/polygon_base':\n"}
+[0.126386] (polygon_base) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/copyright.xunit.xml\n'}
+[0.128496] (test_gazebo) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/test_gazebo':\n"}
+[0.128638] (test_gazebo) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml\n'}
+[0.131112] (cpp_pub) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[0.131272] (cpp_pub) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/copyright.xunit.xml\n'}
+[0.135049] (tutorial_service) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/tutorial_service':\n"}
+[0.135234] (tutorial_service) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/copyright.xunit.xml\n'}
+[0.137639] (articubot_one) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':\n"}
+[0.137863] (articubot_one) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml\n'}
+[0.200062] (-) TimerEvent: {}
+[0.281306] (test_gazebo) StdoutLine: {'line': b'1: No repository roots and files found\n'}
+[0.281498] (test_gazebo) StdoutLine: {'line': b'1: No problems found, checked 0 files\n'}
+[0.281813] (polygon_base) StdoutLine: {'line': b'1: include/polygon_base/regular_polygon.hpp: could not find copyright notice\n'}
+[0.281930] (polygon_base) StdoutLine: {'line': b'1: src/area_node.cpp: could not find copyright notice\n'}
+[0.282022] (polygon_base) StdoutLine: {'line': b'1: 2 errors, checked 2 files\n'}
+[0.284720] (cpp_pub) StdoutLine: {'line': b'1: install/_local_setup_util_ps1.py: copyright=Dirk Thomas (2016-2019), license=<unknown>\n'}
+[0.284892] (cpp_pub) StdoutLine: {'line': b'1: install/_local_setup_util_sh.py: copyright=Dirk Thomas (2016-2019), license=<unknown>\n'}
+[0.284981] (cpp_pub) StdoutLine: {'line': b'1: 2 errors, checked 4 files\n'}
+[0.295105] (polygon_base) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.295368] (polygon_base) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/copyright.xunit.xml'\n"}
+[0.295543] (test_gazebo) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.295645] (test_gazebo) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml'\n"}
+[0.298625] (cpp_pub) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.298817] (cpp_pub) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/copyright.xunit.xml'\n"}
+[0.300135] (-) TimerEvent: {}
+[0.304246] (polygon_base) StdoutLine: {'line': b'1/6 Test #1: copyright ........................***Failed    0.22 sec\n'}
+[0.304486] (polygon_base) StdoutLine: {'line': b'test 2\n'}
+[0.304579] (polygon_base) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.304648] (polygon_base) StdoutLine: {'line': b'\n'}
+[0.304711] (polygon_base) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/phat/testpublicsher/build/polygon_base/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml" "--include_dirs" "/home/phat/testpublicsher/src/polygon_base/include"\n'}
+[0.304781] (polygon_base) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.305549] (test_gazebo) StdoutLine: {'line': b'1/3 Test #1: copyright ........................   Passed    0.22 sec\n'}
+[0.305688] (test_gazebo) StdoutLine: {'line': b'test 2\n'}
+[0.305811] (test_gazebo) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.305893] (test_gazebo) StdoutLine: {'line': b'\n'}
+[0.305961] (test_gazebo) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml" "--package-name" "test_gazebo" "--output-file" "/home/phat/testpublicsher/build/test_gazebo/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml"\n'}
+[0.306031] (test_gazebo) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.306351] (cpp_pub) StdoutLine: {'line': b'1/8 Test #1: copyright ........................***Failed    0.22 sec\n'}
+[0.306468] (cpp_pub) StdoutLine: {'line': b'test 2\n'}
+[0.306563] (cpp_pub) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.306632] (cpp_pub) StdoutLine: {'line': b'\n'}
+[0.306707] (cpp_pub) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cppcheck.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cppcheck.xunit.xml"\n'}
+[0.306786] (cpp_pub) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.308289] (tutorial_service) StdoutLine: {'line': b'1: No repository roots and files found\n'}
+[0.308377] (tutorial_service) StdoutLine: {'line': b'1: No problems found, checked 0 files\n'}
+[0.310363] (articubot_one) StdoutLine: {'line': b'1: CONTRIBUTING.md: file not found\n'}
+[0.310477] (articubot_one) StdoutLine: {'line': b'1: LICENSE: file not found\n'}
+[0.310545] (articubot_one) StdoutLine: {'line': b'1: launch/ball_tracker.launch.py: could not find copyright notice\n'}
+[0.310611] (articubot_one) StdoutLine: {'line': b'1: launch/camera.launch.py: could not find copyright notice\n'}
+[0.310685] (articubot_one) StdoutLine: {'line': b'1: launch/joystick.launch.py: could not find copyright notice\n'}
+[0.310751] (articubot_one) StdoutLine: {'line': b'1: launch/launch_robot.launch.py: could not find copyright notice\n'}
+[0.310814] (articubot_one) StdoutLine: {'line': b'1: launch/launch_sim.launch.py: could not find copyright notice\n'}
+[0.310876] (articubot_one) StdoutLine: {'line': b'1: launch/online_async_launch.py: could not find copyright notice\n'}
+[0.310944] (articubot_one) StdoutLine: {'line': b'1: launch/rplidar.launch.py: could not find copyright notice\n'}
+[0.311013] (articubot_one) StdoutLine: {'line': b'1: launch/rsp.launch.py: could not find copyright notice\n'}
+[0.311077] (articubot_one) StdoutLine: {'line': b'1: 10 errors, checked 12 files\n'}
+[0.320856] (tutorial_service) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.321050] (tutorial_service) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/copyright.xunit.xml'\n"}
+[0.323069] (articubot_one) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.323302] (articubot_one) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml'\n"}
+[0.329180] (tutorial_service) StdoutLine: {'line': b'1/3 Test #1: copyright ........................   Passed    0.24 sec\n'}
+[0.329423] (tutorial_service) StdoutLine: {'line': b'test 2\n'}
+[0.329503] (tutorial_service) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.329570] (tutorial_service) StdoutLine: {'line': b'\n'}
+[0.329635] (tutorial_service) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/lint_cmake.xunit.xml" "--package-name" "tutorial_service" "--output-file" "/home/phat/testpublicsher/build/tutorial_service/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/lint_cmake.xunit.xml"\n'}
+[0.329705] (tutorial_service) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.332488] (articubot_one) StdoutLine: {'line': b'1/5 Test #1: copyright ........................***Failed    0.24 sec\n'}
+[0.332714] (articubot_one) StdoutLine: {'line': b'test 2\n'}
+[0.332795] (articubot_one) StdoutLine: {'line': b'    Start 2: flake8\n'}
+[0.332863] (articubot_one) StdoutLine: {'line': b'\n'}
+[0.332928] (articubot_one) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml"\n'}
+[0.332999] (articubot_one) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.346378] (polygon_base) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/polygon_base':\n"}
+[0.346567] (polygon_base) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml --include_dirs /home/phat/testpublicsher/src/polygon_base/include\n'}
+[0.347717] (cpp_pub) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[0.347815] (cpp_pub) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cppcheck.xunit.xml\n'}
+[0.349628] (test_gazebo) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/test_gazebo':\n"}
+[0.349785] (test_gazebo) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml\n'}
+[0.372601] (tutorial_service) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/tutorial_service':\n"}
+[0.372787] (tutorial_service) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/lint_cmake.xunit.xml\n'}
+[0.375102] (articubot_one) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':\n"}
+[0.375251] (articubot_one) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml\n'}
+[0.400264] (-) TimerEvent: {}
+[0.489046] (test_gazebo) StdoutLine: {'line': b'2: \n'}
+[0.489279] (test_gazebo) StdoutLine: {'line': b'2: No problems found\n'}
+[0.498487] (test_gazebo) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.498699] (test_gazebo) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml'\n"}
+[0.500344] (-) TimerEvent: {}
+[0.509973] (test_gazebo) StdoutLine: {'line': b'2/3 Test #2: lint_cmake .......................   Passed    0.20 sec\n'}
+[0.510273] (test_gazebo) StdoutLine: {'line': b'test 3\n'}
+[0.510441] (test_gazebo) StdoutLine: {'line': b'    Start 3: xmllint\n'}
+[0.510554] (test_gazebo) StdoutLine: {'line': b'\n'}
+[0.510649] (test_gazebo) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/xmllint.xunit.xml" "--package-name" "test_gazebo" "--output-file" "/home/phat/testpublicsher/build/test_gazebo/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/xmllint.xunit.xml"\n'}
+[0.510768] (test_gazebo) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.512049] (cpp_pub) StdoutLine: {'line': b'2: No problems found\n'}
+[0.512568] (polygon_base) StdoutLine: {'line': b'2: No problems found\n'}
+[0.517401] (tutorial_service) StdoutLine: {'line': b'2: \n'}
+[0.517586] (tutorial_service) StdoutLine: {'line': b'2: No problems found\n'}
+[0.528051] (cpp_pub) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.528284] (cpp_pub) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cppcheck.xunit.xml'\n"}
+[0.528782] (polygon_base) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.528926] (polygon_base) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml'\n"}
+[0.530975] (tutorial_service) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.531200] (tutorial_service) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/lint_cmake.xunit.xml'\n"}
+[0.537342] (polygon_base) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.23 sec\n'}
+[0.537584] (polygon_base) StdoutLine: {'line': b'test 3\n'}
+[0.537679] (polygon_base) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[0.537757] (polygon_base) StdoutLine: {'line': b'\n'}
+[0.537860] (polygon_base) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cpplint.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/phat/testpublicsher/build/polygon_base/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cpplint.xunit.xml"\n'}
+[0.537967] (polygon_base) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[0.540796] (cpp_pub) StdoutLine: {'line': b'2/8 Test #2: cppcheck .........................   Passed    0.23 sec\n'}
+[0.541019] (cpp_pub) StdoutLine: {'line': b'test 3\n'}
+[0.541103] (cpp_pub) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[0.541172] (cpp_pub) StdoutLine: {'line': b'\n'}
+[0.541247] (cpp_pub) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cpplint.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cpplint.xunit.xml"\n'}
+[0.541319] (cpp_pub) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[0.541828] (tutorial_service) StdoutLine: {'line': b'2/3 Test #2: lint_cmake .......................   Passed    0.21 sec\n'}
+[0.542040] (tutorial_service) StdoutLine: {'line': b'test 3\n'}
+[0.542170] (tutorial_service) StdoutLine: {'line': b'    Start 3: xmllint\n'}
+[0.542287] (tutorial_service) StdoutLine: {'line': b'\n'}
+[0.542401] (tutorial_service) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/xmllint.xunit.xml" "--package-name" "tutorial_service" "--output-file" "/home/phat/testpublicsher/build/tutorial_service/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/xmllint.xunit.xml"\n'}
+[0.542534] (tutorial_service) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.558400] (test_gazebo) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/test_gazebo':\n"}
+[0.558583] (test_gazebo) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/xmllint.xunit.xml\n'}
+[0.578589] (polygon_base) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/polygon_base':\n"}
+[0.578803] (polygon_base) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cpplint.xunit.xml\n'}
+[0.584218] (cpp_pub) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[0.584417] (cpp_pub) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cpplint.xunit.xml\n'}
+[0.584661] (tutorial_service) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/tutorial_service':\n"}
+[0.584791] (tutorial_service) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/xmllint.xunit.xml\n'}
+[0.600457] (-) TimerEvent: {}
+[0.654558] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.655032] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:17:1: E303 too many blank lines (3)\n'}
+[0.655171] (articubot_one) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.655288] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.655572] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.655932] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:20:5: E303 too many blank lines (2)\n'}
+[0.656082] (articubot_one) StdoutLine: {'line': b'2:     # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled\n'}
+[0.656201] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.656310] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.656415] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:20:100: E501 line too long (110 > 99 characters)\n'}
+[0.656521] (articubot_one) StdoutLine: {'line': b'2:     # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled\n'}
+[0.656627] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.656739] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.656842] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:23:17: E225 missing whitespace around operator\n'}
+[0.656943] (articubot_one) StdoutLine: {'line': b"2:     package_name='articubot_one' #<--- CHANGE ME\n"}
+[0.657049] (articubot_one) StdoutLine: {'line': b'2:                 ^\n'}
+[0.657154] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.657258] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:23:33: E261 at least two spaces before inline comment\n'}
+[0.657363] (articubot_one) StdoutLine: {'line': b"2:     package_name='articubot_one' #<--- CHANGE ME\n"}
+[0.657809] (articubot_one) StdoutLine: {'line': b'2:                                 ^\n'}
+[0.657920] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.658028] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:23:34: E262 inline comment should start with '# '\n"}
+[0.658135] (articubot_one) StdoutLine: {'line': b"2:     package_name='articubot_one' #<--- CHANGE ME\n"}
+[0.658241] (articubot_one) StdoutLine: {'line': b'2:                                  ^\n'}
+[0.658345] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.658452] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:27:62: E231 missing whitespace after ','\n"}
+[0.658559] (articubot_one) StdoutLine: {'line': b"2:                     get_package_share_directory(package_name),'launch','rsp.launch.py'\n"}
+[0.658656] (articubot_one) StdoutLine: {'line': b'2:                                                              ^\n'}
+[0.658763] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.658870] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:27:71: E231 missing whitespace after ','\n"}
+[0.658977] (articubot_one) StdoutLine: {'line': b"2:                     get_package_share_directory(package_name),'launch','rsp.launch.py'\n"}
+[0.659083] (articubot_one) StdoutLine: {'line': b'2:                                                                       ^\n'}
+[0.659186] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.659292] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:38:5: E303 too many blank lines (2)\n'}
+[0.659396] (articubot_one) StdoutLine: {'line': b"2:     twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')\n"}
+[0.659505] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.659611] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.659715] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:38:78: E231 missing whitespace after ','\n"}
+[0.659819] (articubot_one) StdoutLine: {'line': b"2:     twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')\n"}
+[0.659923] (articubot_one) StdoutLine: {'line': b'2:                                                                              ^\n'}
+[0.660026] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.660130] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:38:87: E231 missing whitespace after ','\n"}
+[0.660236] (articubot_one) StdoutLine: {'line': b"2:     twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')\n"}
+[0.660341] (articubot_one) StdoutLine: {'line': b'2:                                                                                       ^\n'}
+[0.660840] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.660941] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:38:100: E501 line too long (104 > 99 characters)\n'}
+[0.661041] (articubot_one) StdoutLine: {'line': b"2:     twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')\n"}
+[0.661142] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.661241] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.661333] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:43:40: E231 missing whitespace after ','\n"}
+[0.661430] (articubot_one) StdoutLine: {'line': b"2:             remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]\n"}
+[0.661529] (articubot_one) StdoutLine: {'line': b'2:                                        ^\n'}
+[0.661626] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.661723] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:46:1: W293 blank line contains whitespace\n'}
+[0.661857] (articubot_one) StdoutLine: {'line': b'2:     \n'}
+[0.661959] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.662059] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.662156] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:49:5: E303 too many blank lines (4)\n'}
+[0.662256] (articubot_one) StdoutLine: {'line': b"2:     robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])\n"}
+[0.662356] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.662455] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.662552] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:49:100: E501 line too long (104 > 99 characters)\n'}
+[0.662648] (articubot_one) StdoutLine: {'line': b"2:     robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])\n"}
+[0.662748] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.662844] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.662942] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:51:84: E231 missing whitespace after ','\n"}
+[0.663041] (articubot_one) StdoutLine: {'line': b"2:     controller_params_file = os.path.join(get_package_share_directory(package_name),'config','my_controllers.yaml')\n"}
+[0.663139] (articubot_one) StdoutLine: {'line': b'2:                                                                                    ^\n'}
+[0.663247] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.663347] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_robot.launch.py:51:93: E231 missing whitespace after ','\n"}
+[0.663445] (articubot_one) StdoutLine: {'line': b"2:     controller_params_file = os.path.join(get_package_share_directory(package_name),'config','my_controllers.yaml')\n"}
+[0.663542] (articubot_one) StdoutLine: {'line': b'2:                                                                                             ^\n'}
+[0.663640] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.663738] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:51:100: E501 line too long (115 > 99 characters)\n'}
+[0.663836] (articubot_one) StdoutLine: {'line': b"2:     controller_params_file = os.path.join(get_package_share_directory(package_name),'config','my_controllers.yaml')\n"}
+[0.663935] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.664035] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.664134] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:89:5: E303 too many blank lines (2)\n'}
+[0.664234] (articubot_one) StdoutLine: {'line': b"2:     # Code for delaying a node (I haven't tested how effective it is)\n"}
+[0.664332] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.664440] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.664538] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:90:6: W291 trailing whitespace\n'}
+[0.664638] (articubot_one) StdoutLine: {'line': b'2:     # \n'}
+[0.664734] (articubot_one) StdoutLine: {'line': b'2:      ^\n'}
+[0.664832] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.664930] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_robot.launch.py:107:5: E303 too many blank lines (3)\n'}
+[0.665027] (articubot_one) StdoutLine: {'line': b'2:     # Launch them all!\n'}
+[0.665126] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.665224] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.665320] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:14:1: E303 too many blank lines (3)\n'}
+[0.665420] (articubot_one) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.665517] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.665618] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.665718] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:17:5: E303 too many blank lines (2)\n'}
+[0.665840] (articubot_one) StdoutLine: {'line': b'2:     # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled\n'}
+[0.665965] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.666066] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.666165] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:17:100: E501 line too long (110 > 99 characters)\n'}
+[0.666267] (articubot_one) StdoutLine: {'line': b'2:     # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled\n'}
+[0.666368] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.666468] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.666564] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:20:17: E225 missing whitespace around operator\n'}
+[0.666663] (articubot_one) StdoutLine: {'line': b"2:     package_name='articubot_one' #<--- CHANGE ME\n"}
+[0.666758] (articubot_one) StdoutLine: {'line': b'2:                 ^\n'}
+[0.666856] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.666951] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:20:33: E261 at least two spaces before inline comment\n'}
+[0.667051] (articubot_one) StdoutLine: {'line': b"2:     package_name='articubot_one' #<--- CHANGE ME\n"}
+[0.667149] (articubot_one) StdoutLine: {'line': b'2:                                 ^\n'}
+[0.667241] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.667341] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:20:34: E262 inline comment should start with '# '\n"}
+[0.667440] (articubot_one) StdoutLine: {'line': b"2:     package_name='articubot_one' #<--- CHANGE ME\n"}
+[0.667537] (articubot_one) StdoutLine: {'line': b'2:                                  ^\n'}
+[0.667635] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.667729] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:24:62: E231 missing whitespace after ','\n"}
+[0.667821] (articubot_one) StdoutLine: {'line': b"2:                     get_package_share_directory(package_name),'launch','rsp.launch.py'\n"}
+[0.667909] (articubot_one) StdoutLine: {'line': b'2:                                                              ^\n'}
+[0.667995] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.668081] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:24:71: E231 missing whitespace after ','\n"}
+[0.668166] (articubot_one) StdoutLine: {'line': b"2:                     get_package_share_directory(package_name),'launch','rsp.launch.py'\n"}
+[0.668256] (articubot_one) StdoutLine: {'line': b'2:                                                                       ^\n'}
+[0.668353] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.668448] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:30:62: E231 missing whitespace after ','\n"}
+[0.668551] (articubot_one) StdoutLine: {'line': b"2:                     get_package_share_directory(package_name),'launch','joystick.launch.py'\n"}
+[0.668642] (articubot_one) StdoutLine: {'line': b'2:                                                              ^\n'}
+[0.668734] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.668826] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:30:71: E231 missing whitespace after ','\n"}
+[0.668921] (articubot_one) StdoutLine: {'line': b"2:                     get_package_share_directory(package_name),'launch','joystick.launch.py'\n"}
+[0.669013] (articubot_one) StdoutLine: {'line': b'2:                                                                       ^\n'}
+[0.669109] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.669209] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:34:78: E231 missing whitespace after ','\n"}
+[0.669306] (articubot_one) StdoutLine: {'line': b"2:     twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')\n"}
+[0.669403] (articubot_one) StdoutLine: {'line': b'2:                                                                              ^\n'}
+[0.669498] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.669594] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:34:87: E231 missing whitespace after ','\n"}
+[0.669690] (articubot_one) StdoutLine: {'line': b"2:     twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')\n"}
+[0.669839] (articubot_one) StdoutLine: {'line': b'2:                                                                                       ^\n'}
+[0.669945] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.670037] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:34:100: E501 line too long (104 > 99 characters)\n'}
+[0.670129] (articubot_one) StdoutLine: {'line': b"2:     twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')\n"}
+[0.670221] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.670314] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.670405] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:39:40: E231 missing whitespace after ','\n"}
+[0.670497] (articubot_one) StdoutLine: {'line': b"2:             remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]\n"}
+[0.670588] (articubot_one) StdoutLine: {'line': b'2:                                        ^\n'}
+[0.670681] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.670771] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:42:80: E231 missing whitespace after ','\n"}
+[0.670863] (articubot_one) StdoutLine: {'line': b"2:     gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')\n"}
+[0.670956] (articubot_one) StdoutLine: {'line': b'2:                                                                                ^\n'}
+[0.671050] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.671141] (articubot_one) StdoutLine: {'line': b"2: ./launch/launch_sim.launch.py:42:89: E231 missing whitespace after ','\n"}
+[0.671238] (articubot_one) StdoutLine: {'line': b"2:     gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')\n"}
+[0.671335] (articubot_one) StdoutLine: {'line': b'2:                                                                                         ^\n'}
+[0.671431] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.671526] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:42:100: E501 line too long (110 > 99 characters)\n'}
+[0.671623] (articubot_one) StdoutLine: {'line': b"2:     gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')\n"}
+[0.671719] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.671824] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.671921] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:48:21: E131 continuation line unaligned for hanging indent\n'}
+[0.672018] (articubot_one) StdoutLine: {'line': b"2:                     launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()\n"}
+[0.672114] (articubot_one) StdoutLine: {'line': b'2:                     ^\n'}
+[0.672210] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.672302] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:48:100: E501 line too long (116 > 99 characters)\n'}
+[0.672398] (articubot_one) StdoutLine: {'line': b"2:                     launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()\n"}
+[0.672511] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.672608] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.672703] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:51:100: E501 line too long (126 > 99 characters)\n'}
+[0.672800] (articubot_one) StdoutLine: {'line': b"2:     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.\n"}
+[0.672896] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.672990] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.673086] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:58:5: E303 too many blank lines (2)\n'}
+[0.673180] (articubot_one) StdoutLine: {'line': b'2:     diff_drive_spawner = Node(\n'}
+[0.673276] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.673371] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.673467] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:71:5: E303 too many blank lines (2)\n'}
+[0.673561] (articubot_one) StdoutLine: {'line': b"2:     # Code for delaying a node (I haven't tested how effective it is)\n"}
+[0.673655] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.673749] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.673859] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:72:6: W291 trailing whitespace\n'}
+[0.673954] (articubot_one) StdoutLine: {'line': b'2:     # \n'}
+[0.674050] (articubot_one) StdoutLine: {'line': b'2:      ^\n'}
+[0.674144] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.674237] (articubot_one) StdoutLine: {'line': b'2: ./launch/launch_sim.launch.py:89:5: E303 too many blank lines (3)\n'}
+[0.674330] (articubot_one) StdoutLine: {'line': b'2:     # Launch them all!\n'}
+[0.674425] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.674520] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.674615] (articubot_one) StdoutLine: {'line': b'2: ./launch/joystick.launch.py:9:1: E302 expected 2 blank lines, found 1\n'}
+[0.674709] (articubot_one) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.674804] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.674897] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.674991] (articubot_one) StdoutLine: {'line': b"2: ./launch/joystick.launch.py:12:75: E231 missing whitespace after ','\n"}
+[0.675085] (articubot_one) StdoutLine: {'line': b"2:     joy_params = os.path.join(get_package_share_directory('articubot_one'),'config','joystick.yaml')\n"}
+[0.675181] (articubot_one) StdoutLine: {'line': b'2:                                                                           ^\n'}
+[0.675273] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.675367] (articubot_one) StdoutLine: {'line': b"2: ./launch/joystick.launch.py:12:84: E231 missing whitespace after ','\n"}
+[0.675460] (articubot_one) StdoutLine: {'line': b"2:     joy_params = os.path.join(get_package_share_directory('articubot_one'),'config','joystick.yaml')\n"}
+[0.675566] (articubot_one) StdoutLine: {'line': b'2:                                                                                    ^\n'}
+[0.675661] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.675763] (articubot_one) StdoutLine: {'line': b'2: ./launch/joystick.launch.py:12:100: E501 line too long (100 > 99 characters)\n'}
+[0.675862] (articubot_one) StdoutLine: {'line': b"2:     joy_params = os.path.join(get_package_share_directory('articubot_one'),'config','joystick.yaml')\n"}
+[0.675957] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.676058] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.676152] (articubot_one) StdoutLine: {'line': b"2: ./launch/joystick.launch.py:25:36: E231 missing whitespace after ','\n"}
+[0.676264] (articubot_one) StdoutLine: {'line': b"2:             remappings=[('/cmd_vel','/cmd_vel_joy')]\n"}
+[0.676376] (articubot_one) StdoutLine: {'line': b'2:                                    ^\n'}
+[0.676477] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.676576] (articubot_one) StdoutLine: {'line': b'2: ./launch/joystick.launch.py:37:5: E303 too many blank lines (2)\n'}
+[0.676677] (articubot_one) StdoutLine: {'line': b'2:     return LaunchDescription([\n'}
+[0.676777] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.676877] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.676977] (articubot_one) StdoutLine: {'line': b'2: ./launch/joystick.launch.py:44:24: W291 trailing whitespace\n'}
+[0.677076] (articubot_one) StdoutLine: {'line': b'2:         # twist_stamper       \n'}
+[0.677176] (articubot_one) StdoutLine: {'line': b'2:                        ^\n'}
+[0.677274] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.677372] (articubot_one) StdoutLine: {'line': b'2: ./launch/joystick.launch.py:45:7: W292 no newline at end of file\n'}
+[0.677470] (articubot_one) StdoutLine: {'line': b'2:     ])      ^\n'}
+[0.677570] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.677668] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:13:20: E225 missing whitespace around operator\n'}
+[0.677779] (articubot_one) StdoutLine: {'line': b"2:     my_package_name='articubot_one'\n"}
+[0.677896] (articubot_one) StdoutLine: {'line': b'2:                    ^\n'}
+[0.677997] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.678097] (articubot_one) StdoutLine: {'line': b"2: ./launch/ball_tracker.launch.py:17:83: E231 missing whitespace after ','\n"}
+[0.678198] (articubot_one) StdoutLine: {'line': b"2:     tracker_params_sim = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_sim.yaml')\n"}
+[0.678298] (articubot_one) StdoutLine: {'line': b'2:                                                                                   ^\n'}
+[0.678400] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.678498] (articubot_one) StdoutLine: {'line': b"2: ./launch/ball_tracker.launch.py:17:92: E231 missing whitespace after ','\n"}
+[0.678597] (articubot_one) StdoutLine: {'line': b"2:     tracker_params_sim = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_sim.yaml')\n"}
+[0.678699] (articubot_one) StdoutLine: {'line': b'2:                                                                                            ^\n'}
+[0.678801] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.678902] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:17:100: E501 line too long (123 > 99 characters)\n'}
+[0.679003] (articubot_one) StdoutLine: {'line': b"2:     tracker_params_sim = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_sim.yaml')\n"}
+[0.679102] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.679201] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.679301] (articubot_one) StdoutLine: {'line': b"2: ./launch/ball_tracker.launch.py:18:85: E231 missing whitespace after ','\n"}
+[0.679457] (articubot_one) StdoutLine: {'line': b"2:     tracker_params_robot = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_robot.yaml')\n"}
+[0.679555] (articubot_one) StdoutLine: {'line': b'2:                                                                                     ^\n'}
+[0.679650] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.679746] (articubot_one) StdoutLine: {'line': b"2: ./launch/ball_tracker.launch.py:18:94: E231 missing whitespace after ','\n"}
+[0.679840] (articubot_one) StdoutLine: {'line': b"2:     tracker_params_robot = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_robot.yaml')\n"}
+[0.679936] (articubot_one) StdoutLine: {'line': b'2:                                                                                              ^\n'}
+[0.680032] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.680125] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:18:100: E501 line too long (127 > 99 characters)\n'}
+[0.680236] (articubot_one) StdoutLine: {'line': b"2:     tracker_params_robot = os.path.join(get_package_share_directory(my_package_name),'config','ball_tracker_params_robot.yaml')\n"}
+[0.680331] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.680428] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.680521] (articubot_one) StdoutLine: {'line': b"2: ./launch/ball_tracker.launch.py:20:40: E231 missing whitespace after ','\n"}
+[0.680616] (articubot_one) StdoutLine: {'line': b'2:     params_path = PythonExpression([\'"\',tracker_params_sim, \'" if "true" == "\', sim_mode, \'" else "\', tracker_params_robot, \'"\'])\n'}
+[0.680711] (articubot_one) StdoutLine: {'line': b'2:                                        ^\n'}
+[0.680804] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.680898] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:20:100: E501 line too long (129 > 99 characters)\n'}
+[0.680993] (articubot_one) StdoutLine: {'line': b'2:     params_path = PythonExpression([\'"\',tracker_params_sim, \'" if "true" == "\', sim_mode, \'" else "\', tracker_params_robot, \'"\'])\n'}
+[0.681090] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.681185] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.681279] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:24:100: E501 line too long (103 > 99 characters)\n'}
+[0.681374] (articubot_one) StdoutLine: {'line': b"2:                     get_package_share_directory('ball_tracker'), 'launch', 'ball_tracker.launch.py')]),\n"}
+[0.681467] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.681570] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.681666] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:25:21: E131 continuation line unaligned for hanging indent\n'}
+[0.681772] (articubot_one) StdoutLine: {'line': b"2:                     launch_arguments={'params_file': params_path,\n"}
+[0.681862] (articubot_one) StdoutLine: {'line': b'2:                     ^\n'}
+[0.681949] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.682041] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:26:37: E128 continuation line under-indented for visual indent\n'}
+[0.682134] (articubot_one) StdoutLine: {'line': b"2:                                     'image_topic': '/camera/image_raw',\n"}
+[0.682229] (articubot_one) StdoutLine: {'line': b'2:                                     ^\n'}
+[0.682323] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.682418] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:27:37: E128 continuation line under-indented for visual indent\n'}
+[0.682512] (articubot_one) StdoutLine: {'line': b"2:                                     'cmd_vel_topic': '/cmd_vel_tracker',\n"}
+[0.682615] (articubot_one) StdoutLine: {'line': b'2:                                     ^\n'}
+[0.682709] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.682803] (articubot_one) StdoutLine: {'line': b'2: ./launch/ball_tracker.launch.py:28:37: E128 continuation line under-indented for visual indent\n'}
+[0.682896] (articubot_one) StdoutLine: {'line': b"2:                                     'enable_3d_tracker': 'true'}.items())\n"}
+[0.682991] (articubot_one) StdoutLine: {'line': b'2:                                     ^\n'}
+[0.683083] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.683176] (articubot_one) StdoutLine: {'line': b"2: ./launch/camera.launch.py:1:1: F401 'os' imported but unused\n"}
+[0.683270] (articubot_one) StdoutLine: {'line': b'2: import os\n'}
+[0.683364] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.683456] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.683549] (articubot_one) StdoutLine: {'line': b'2: ./launch/camera.launch.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[0.683644] (articubot_one) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.683736] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.683829] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.683923] (articubot_one) StdoutLine: {'line': b'2: ./launch/camera.launch.py:10:5: E303 too many blank lines (3)\n'}
+[0.684018] (articubot_one) StdoutLine: {'line': b'2:     return LaunchDescription([\n'}
+[0.684111] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.684205] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.684298] (articubot_one) StdoutLine: {'line': b"2: ./launch/camera.launch.py:18:35: E231 missing whitespace after ','\n"}
+[0.684392] (articubot_one) StdoutLine: {'line': b"2:                 'image_size': [640,480],\n"}
+[0.684486] (articubot_one) StdoutLine: {'line': b'2:                                   ^\n'}
+[0.684579] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.684671] (articubot_one) StdoutLine: {'line': b'2: ./launch/camera.launch.py:22:5: E122 continuation line missing indentation or outdented\n'}
+[0.684765] (articubot_one) StdoutLine: {'line': b'2:     )\n'}
+[0.684858] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.684950] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.685041] (articubot_one) StdoutLine: {'line': b"2: ./launch/rsp.launch.py:10:1: F401 'xacro' imported but unused\n"}
+[0.685133] (articubot_one) StdoutLine: {'line': b'2: import xacro\n'}
+[0.685233] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.685332] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.685431] (articubot_one) StdoutLine: {'line': b"2: ./launch/rsp.launch.py:21:39: E231 missing whitespace after ','\n"}
+[0.685530] (articubot_one) StdoutLine: {'line': b"2:     xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')\n"}
+[0.685630] (articubot_one) StdoutLine: {'line': b'2:                                       ^\n'}
+[0.685743] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.685933] (articubot_one) StdoutLine: {'line': b"2: ./launch/rsp.launch.py:21:53: E231 missing whitespace after ','\n"}
+[0.686029] (articubot_one) StdoutLine: {'line': b"2:     xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')\n"}
+[0.686124] (articubot_one) StdoutLine: {'line': b'2:                                                     ^\n'}
+[0.686219] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.686312] (articubot_one) StdoutLine: {'line': b'2: ./launch/rsp.launch.py:23:100: E501 line too long (132 > 99 characters)\n'}
+[0.686422] (articubot_one) StdoutLine: {'line': b"2:     robot_description_config = Command(['xacro ', xacro_file, ' use_ros2_control:=', use_ros2_control, ' sim_mode:=', use_sim_time])\n"}
+[0.686517] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.686611] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.686704] (articubot_one) StdoutLine: {'line': b'2: ./launch/rsp.launch.py:24:1: W293 blank line contains whitespace\n'}
+[0.686799] (articubot_one) StdoutLine: {'line': b'2:     \n'}
+[0.686902] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.686995] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.687089] (articubot_one) StdoutLine: {'line': b'2: ./launch/rsp.launch.py:35:5: E303 too many blank lines (2)\n'}
+[0.687182] (articubot_one) StdoutLine: {'line': b'2:     # Launch!\n'}
+[0.687276] (articubot_one) StdoutLine: {'line': b'2:     ^\n'}
+[0.687369] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.687464] (articubot_one) StdoutLine: {'line': b"2: ./launch/rplidar.launch.py:1:1: F401 'os' imported but unused\n"}
+[0.687557] (articubot_one) StdoutLine: {'line': b'2: import os\n'}
+[0.687650] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.687737] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.687811] (articubot_one) StdoutLine: {'line': b'2: ./launch/rplidar.launch.py:5:1: E302 expected 2 blank lines, found 1\n'}
+[0.687890] (articubot_one) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.687969] (articubot_one) StdoutLine: {'line': b'2: ^\n'}
+[0.688052] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.688145] (articubot_one) StdoutLine: {'line': b'2: ./launch/rplidar.launch.py:14:100: E501 line too long (113 > 99 characters)\n'}
+[0.688227] (articubot_one) StdoutLine: {'line': b"2:                 'serial_port': '/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0',\n"}
+[0.688315] (articubot_one) StdoutLine: {'line': b'2:                                                                                                    ^\n'}
+[0.688428] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.688522] (articubot_one) StdoutLine: {'line': b'2: 1     E122 continuation line missing indentation or outdented\n'}
+[0.688614] (articubot_one) StdoutLine: {'line': b'2: 3     E128 continuation line under-indented for visual indent\n'}
+[0.688707] (articubot_one) StdoutLine: {'line': b'2: 2     E131 continuation line unaligned for hanging indent\n'}
+[0.688799] (articubot_one) StdoutLine: {'line': b'2: 3     E225 missing whitespace around operator\n'}
+[0.688890] (articubot_one) StdoutLine: {'line': b"2: 27    E231 missing whitespace after ','\n"}
+[0.688983] (articubot_one) StdoutLine: {'line': b'2: 2     E261 at least two spaces before inline comment\n'}
+[0.689075] (articubot_one) StdoutLine: {'line': b"2: 2     E262 inline comment should start with '# '\n"}
+[0.689173] (articubot_one) StdoutLine: {'line': b'2: 3     E302 expected 2 blank lines, found 1\n'}
+[0.689265] (articubot_one) StdoutLine: {'line': b'2: 14    E303 too many blank lines (3)\n'}
+[0.689357] (articubot_one) StdoutLine: {'line': b'2: 16    E501 line too long (123 > 99 characters)\n'}
+[0.689450] (articubot_one) StdoutLine: {'line': b"2: 3     F401 'os' imported but unused\n"}
+[0.689541] (articubot_one) StdoutLine: {'line': b'2: 3     W291 trailing whitespace\n'}
+[0.689632] (articubot_one) StdoutLine: {'line': b'2: 1     W292 no newline at end of file\n'}
+[0.689722] (articubot_one) StdoutLine: {'line': b'2: 2     W293 blank line contains whitespace\n'}
+[0.689850] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.689945] (articubot_one) StdoutLine: {'line': b'2: 10 files checked\n'}
+[0.690037] (articubot_one) StdoutLine: {'line': b'2: 82 errors\n'}
+[0.690129] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.690221] (articubot_one) StdoutLine: {'line': b"2: 'E'-type errors: 73\n"}
+[0.690312] (articubot_one) StdoutLine: {'line': b"2: 'F'-type errors: 3\n"}
+[0.690395] (articubot_one) StdoutLine: {'line': b"2: 'W'-type errors: 6\n"}
+[0.690471] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.690547] (articubot_one) StdoutLine: {'line': b'2: Checked files:\n'}
+[0.690622] (articubot_one) StdoutLine: {'line': b'2: \n'}
+[0.690709] (articubot_one) StdoutLine: {'line': b'2: * ./launch/launch_robot.launch.py\n'}
+[0.690806] (articubot_one) StdoutLine: {'line': b'2: * ./launch/online_async_launch.py\n'}
+[0.690903] (articubot_one) StdoutLine: {'line': b'2: * ./launch/launch_sim.launch.py\n'}
+[0.691005] (articubot_one) StdoutLine: {'line': b'2: * ./launch/joystick.launch.py\n'}
+[0.691115] (articubot_one) StdoutLine: {'line': b'2: * ./launch/localization_launch.py\n'}
+[0.691215] (articubot_one) StdoutLine: {'line': b'2: * ./launch/ball_tracker.launch.py\n'}
+[0.691313] (articubot_one) StdoutLine: {'line': b'2: * ./launch/camera.launch.py\n'}
+[0.691412] (articubot_one) StdoutLine: {'line': b'2: * ./launch/rsp.launch.py\n'}
+[0.691512] (articubot_one) StdoutLine: {'line': b'2: * ./launch/rplidar.launch.py\n'}
+[0.691611] (articubot_one) StdoutLine: {'line': b'2: * ./launch/navigation_launch.py\n'}
+[0.691708] (articubot_one) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
+[0.691807] (articubot_one) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/flake8.xunit.xml'\n"}
+[0.691906] (articubot_one) StdoutLine: {'line': b'2/5 Test #2: flake8 ...........................***Failed    0.35 sec\n'}
+[0.692007] (articubot_one) StdoutLine: {'line': b'test 3\n'}
+[0.692104] (articubot_one) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.692201] (articubot_one) StdoutLine: {'line': b'\n'}
+[0.692300] (articubot_one) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml"\n'}
+[0.692410] (articubot_one) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.700549] (-) TimerEvent: {}
+[0.728402] (articubot_one) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':\n"}
+[0.728606] (articubot_one) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml\n'}
+[0.754780] (polygon_base) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[0.754990] (polygon_base) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:1:  #ifndef header guard has wrong style, please use: POLYGON_BASE__REGULAR_POLYGON_HPP_  [build/header_guard] [5]\n'}
+[0.755084] (polygon_base) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:18:  #endif line should be "#endif  // POLYGON_BASE__REGULAR_POLYGON_HPP_"  [build/header_guard] [5]\n'}
+[0.755188] (polygon_base) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp:6:  Do not indent within a namespace  [runtime/indentation_namespace] [4]\n'}
+[0.755287] (polygon_base) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/polygon_base/src/area_node.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[0.755385] (polygon_base) StdoutLine: {'line': b"3: Category 'build/header_guard' errors found: 2\n"}
+[0.755482] (polygon_base) StdoutLine: {'line': b"3: Category 'legal/copyright' errors found: 2\n"}
+[0.755580] (polygon_base) StdoutLine: {'line': b"3: Category 'runtime/indentation_namespace' errors found: 1\n"}
+[0.755676] (polygon_base) StdoutLine: {'line': b'3: Total errors found: 5\n'}
+[0.755774] (polygon_base) StdoutLine: {'line': b"3: Using '--root=/home/phat/testpublicsher/src/polygon_base/include' argument\n"}
+[0.755870] (polygon_base) StdoutLine: {'line': b'3: \n'}
+[0.755977] (polygon_base) StdoutLine: {'line': b'3: Done processing /home/phat/testpublicsher/src/polygon_base/include/polygon_base/regular_polygon.hpp\n'}
+[0.756064] (polygon_base) StdoutLine: {'line': b'3: \n'}
+[0.756155] (polygon_base) StdoutLine: {'line': b"3: Using '--root=/home/phat/testpublicsher/src/polygon_base/src' argument\n"}
+[0.756241] (polygon_base) StdoutLine: {'line': b'3: \n'}
+[0.756332] (polygon_base) StdoutLine: {'line': b'3: Done processing /home/phat/testpublicsher/src/polygon_base/src/area_node.cpp\n'}
+[0.756425] (polygon_base) StdoutLine: {'line': b'3: \n'}
+[0.762397] (cpp_pub) StdoutLine: {'line': b"3: Using '--root=/home/phat/testpublicsher/src/cpp_pub/src' argument\n"}
+[0.762548] (cpp_pub) StdoutLine: {'line': b'3: \n'}
+[0.762624] (cpp_pub) StdoutLine: {'line': b'3: Done processing /home/phat/testpublicsher/src/cpp_pub/src/publisher_member_function.cpp\n'}
+[0.762690] (cpp_pub) StdoutLine: {'line': b'3: \n'}
+[0.762753] (cpp_pub) StdoutLine: {'line': b'3: Done processing /home/phat/testpublicsher/src/cpp_pub/src/subscriber_member_function.cpp\n'}
+[0.762816] (cpp_pub) StdoutLine: {'line': b'3: \n'}
+[0.762878] (cpp_pub) StdoutLine: {'line': b'3: No problems found\n'}
+[0.764045] (polygon_base) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[0.764256] (polygon_base) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/cpplint.xunit.xml'\n"}
+[0.772494] (polygon_base) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................***Failed    0.23 sec\n'}
+[0.772696] (polygon_base) StdoutLine: {'line': b'test 4\n'}
+[0.772887] (polygon_base) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[0.772990] (polygon_base) StdoutLine: {'line': b'\n'}
+[0.773078] (polygon_base) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/phat/testpublicsher/build/polygon_base/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml"\n'}
+[0.773164] (polygon_base) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.774649] (cpp_pub) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.774787] (cpp_pub) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/cpplint.xunit.xml'\n"}
+[0.782744] (cpp_pub) StdoutLine: {'line': b'3/8 Test #3: cpplint ..........................   Passed    0.24 sec\n'}
+[0.782978] (cpp_pub) StdoutLine: {'line': b'test 4\n'}
+[0.783061] (cpp_pub) StdoutLine: {'line': b'    Start 4: flake8\n'}
+[0.783132] (cpp_pub) StdoutLine: {'line': b'\n'}
+[0.783199] (cpp_pub) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/flake8.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/flake8.xunit.xml"\n'}
+[0.783280] (cpp_pub) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.800648] (-) TimerEvent: {}
+[0.811584] (polygon_base) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/polygon_base':\n"}
+[0.811745] (polygon_base) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml\n'}
+[0.823439] (cpp_pub) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[0.823591] (cpp_pub) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/flake8.xunit.xml\n'}
+[0.870577] (articubot_one) StdoutLine: {'line': b'3: \n'}
+[0.870748] (articubot_one) StdoutLine: {'line': b'3: No problems found\n'}
+[0.878973] (articubot_one) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.879155] (articubot_one) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml'\n"}
+[0.886932] (articubot_one) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.20 sec\n'}
+[0.887121] (articubot_one) StdoutLine: {'line': b'test 4\n'}
+[0.887196] (articubot_one) StdoutLine: {'line': b'    Start 4: pep257\n'}
+[0.887260] (articubot_one) StdoutLine: {'line': b'\n'}
+[0.887322] (articubot_one) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml"\n'}
+[0.887391] (articubot_one) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.900752] (-) TimerEvent: {}
+[0.926704] (articubot_one) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':\n"}
+[0.926911] (articubot_one) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml\n'}
+[0.953245] (polygon_base) StdoutLine: {'line': b'4: \n'}
+[0.953419] (polygon_base) StdoutLine: {'line': b'4: No problems found\n'}
+[0.963703] (polygon_base) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[0.963909] (polygon_base) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml'\n"}
+[0.971743] (polygon_base) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.20 sec\n'}
+[0.972019] (polygon_base) StdoutLine: {'line': b'test 5\n'}
+[0.972114] (polygon_base) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[0.972202] (polygon_base) StdoutLine: {'line': b'\n'}
+[0.972309] (polygon_base) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/phat/testpublicsher/build/polygon_base/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml"\n'}
+[0.972418] (polygon_base) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.000885] (-) TimerEvent: {}
+[1.013253] (polygon_base) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/polygon_base':\n"}
+[1.013419] (polygon_base) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml\n'}
+[1.100986] (-) TimerEvent: {}
+[1.112141] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.112337] (cpp_pub) StdoutLine: {'line': b'4: ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)\n'}
+[1.112436] (cpp_pub) StdoutLine: {'line': b'4: FORMAT_STR_INVOKE_SCRIPT = \'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"\'\n'}
+[1.112527] (cpp_pub) StdoutLine: {'line': b'4:                                                                                                    ^\n'}
+[1.112614] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.112698] (cpp_pub) StdoutLine: {'line': b'4: ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)\n'}
+[1.112782] (cpp_pub) StdoutLine: {'line': b'4: FORMAT_STR_REMOVE_LEADING_SEPARATOR = \'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi\'\n'}
+[1.112878] (cpp_pub) StdoutLine: {'line': b'4:                                                                                                    ^\n'}
+[1.112965] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.113049] (cpp_pub) StdoutLine: {'line': b'4: ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)\n'}
+[1.113134] (cpp_pub) StdoutLine: {'line': b'4: FORMAT_STR_REMOVE_TRAILING_SEPARATOR = \'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi\'\n'}
+[1.113218] (cpp_pub) StdoutLine: {'line': b'4:                                                                                                    ^\n'}
+[1.113302] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.113386] (cpp_pub) StdoutLine: {'line': b'4: 3     E501 line too long (109 > 99 characters)\n'}
+[1.113470] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.113553] (cpp_pub) StdoutLine: {'line': b'4: 2 files checked\n'}
+[1.113639] (cpp_pub) StdoutLine: {'line': b'4: 3 errors\n'}
+[1.113724] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.113854] (cpp_pub) StdoutLine: {'line': b"4: 'E'-type errors: 3\n"}
+[1.113949] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.114034] (cpp_pub) StdoutLine: {'line': b'4: Checked files:\n'}
+[1.114115] (cpp_pub) StdoutLine: {'line': b'4: \n'}
+[1.114199] (cpp_pub) StdoutLine: {'line': b'4: * ./install/_local_setup_util_sh.py\n'}
+[1.114282] (cpp_pub) StdoutLine: {'line': b'4: * ./install/_local_setup_util_ps1.py\n'}
+[1.121781] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/ball_tracker.launch.py\n'}
+[1.121964] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/camera.launch.py\n'}
+[1.122059] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/joystick.launch.py\n'}
+[1.122209] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/launch_robot.launch.py\n'}
+[1.122294] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/launch_sim.launch.py\n'}
+[1.122372] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/localization_launch.py\n'}
+[1.122450] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/navigation_launch.py\n'}
+[1.122528] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/online_async_launch.py\n'}
+[1.122605] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/rplidar.launch.py\n'}
+[1.122681] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/rsp.launch.py\n'}
+[1.122758] (articubot_one) StdoutLine: {'line': b'4: No problems found\n'}
+[1.132724] (cpp_pub) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[1.132922] (cpp_pub) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/flake8.xunit.xml'\n"}
+[1.136351] (articubot_one) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.136579] (articubot_one) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/pep257.xunit.xml'\n"}
+[1.141163] (cpp_pub) StdoutLine: {'line': b'4/8 Test #4: flake8 ...........................***Failed    0.36 sec\n'}
+[1.141373] (cpp_pub) StdoutLine: {'line': b'test 5\n'}
+[1.141464] (cpp_pub) StdoutLine: {'line': b'    Start 5: lint_cmake\n'}
+[1.141556] (cpp_pub) StdoutLine: {'line': b'\n'}
+[1.141639] (cpp_pub) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/lint_cmake.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/lint_cmake.xunit.xml"\n'}
+[1.141726] (cpp_pub) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.143988] (articubot_one) StdoutLine: {'line': b'4/5 Test #4: pep257 ...........................   Passed    0.26 sec\n'}
+[1.144208] (articubot_one) StdoutLine: {'line': b'test 5\n'}
+[1.144309] (articubot_one) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[1.144372] (articubot_one) StdoutLine: {'line': b'\n'}
+[1.144430] (articubot_one) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/phat/testpublicsher/build/articubot_one/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml"\n'}
+[1.144498] (articubot_one) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.170530] (polygon_base) StdoutLine: {'line': b"5: Code style divergence in file 'include/polygon_base/regular_polygon.hpp':\n"}
+[1.170735] (polygon_base) StdoutLine: {'line': b'5: \n'}
+[1.170810] (polygon_base) StdoutLine: {'line': b'5: --- include/polygon_base/regular_polygon.hpp\n'}
+[1.170877] (polygon_base) StdoutLine: {'line': b'5: +++ include/polygon_base/regular_polygon.hpp.uncrustify\n'}
+[1.170939] (polygon_base) StdoutLine: {'line': b'5: @@ -6,6 +6,6 @@\n'}
+[1.171001] (polygon_base) StdoutLine: {'line': b'5: -  class RegularPolygon\n'}
+[1.171063] (polygon_base) StdoutLine: {'line': b'5: -  {\n'}
+[1.171124] (polygon_base) StdoutLine: {'line': b'5: -    public:\n'}
+[1.171186] (polygon_base) StdoutLine: {'line': b'5: -      virtual void initialize(double side_length) = 0;\n'}
+[1.171248] (polygon_base) StdoutLine: {'line': b'5: -      virtual double area() = 0;\n'}
+[1.171308] (polygon_base) StdoutLine: {'line': b'5: -      virtual ~RegularPolygon(){}\n'}
+[1.171369] (polygon_base) StdoutLine: {'line': b'5: +class RegularPolygon\n'}
+[1.171429] (polygon_base) StdoutLine: {'line': b'5: +{\n'}
+[1.171488] (polygon_base) StdoutLine: {'line': b'5: +public:\n'}
+[1.171547] (polygon_base) StdoutLine: {'line': b'5: +  virtual void initialize(double side_length) = 0;\n'}
+[1.171608] (polygon_base) StdoutLine: {'line': b'5: +  virtual double area() = 0;\n'}
+[1.171666] (polygon_base) StdoutLine: {'line': b'5: +  virtual ~RegularPolygon() {}\n'}
+[1.171725] (polygon_base) StdoutLine: {'line': b'5: @@ -13,3 +13,3 @@\n'}
+[1.171786] (polygon_base) StdoutLine: {'line': b'5: -    protected:\n'}
+[1.171844] (polygon_base) StdoutLine: {'line': b'5: -      RegularPolygon(){}\n'}
+[1.171903] (polygon_base) StdoutLine: {'line': b'5: -  };\n'}
+[1.171963] (polygon_base) StdoutLine: {'line': b'5: +protected:\n'}
+[1.172023] (polygon_base) StdoutLine: {'line': b'5: +  RegularPolygon() {}\n'}
+[1.172081] (polygon_base) StdoutLine: {'line': b'5: +};\n'}
+[1.172139] (polygon_base) StdoutLine: {'line': b'5: \n'}
+[1.172198] (polygon_base) StdoutLine: {'line': b'5: 1 files with code style divergence\n'}
+[1.172255] (polygon_base) StdoutLine: {'line': b"5: No code style divergence in file 'src/area_node.cpp'\n"}
+[1.172328] (polygon_base) StdoutLine: {'line': b'5: \n'}
+[1.180677] (cpp_pub) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[1.180861] (cpp_pub) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/lint_cmake.xunit.xml\n'}
+[1.182743] (polygon_base) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[1.182949] (polygon_base) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml'\n"}
+[1.184969] (articubot_one) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':\n"}
+[1.185094] (articubot_one) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml\n'}
+[1.193035] (polygon_base) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................***Failed    0.22 sec\n'}
+[1.193198] (polygon_base) StdoutLine: {'line': b'test 6\n'}
+[1.193279] (polygon_base) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[1.193375] (polygon_base) StdoutLine: {'line': b'\n'}
+[1.193443] (polygon_base) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/xmllint.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/phat/testpublicsher/build/polygon_base/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/xmllint.xunit.xml"\n'}
+[1.193513] (polygon_base) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[1.201092] (-) TimerEvent: {}
+[1.233801] (polygon_base) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/polygon_base':\n"}
+[1.233981] (polygon_base) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/polygon_base/test_results/polygon_base/xmllint.xunit.xml\n'}
+[1.301206] (-) TimerEvent: {}
+[1.321298] (cpp_pub) StdoutLine: {'line': b'5: \n'}
+[1.321470] (cpp_pub) StdoutLine: {'line': b'5: No problems found\n'}
+[1.331791] (cpp_pub) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.332021] (cpp_pub) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/lint_cmake.xunit.xml'\n"}
+[1.340855] (cpp_pub) StdoutLine: {'line': b'5/8 Test #5: lint_cmake .......................   Passed    0.20 sec\n'}
+[1.341090] (cpp_pub) StdoutLine: {'line': b'test 6\n'}
+[1.341191] (cpp_pub) StdoutLine: {'line': b'    Start 6: pep257\n'}
+[1.341264] (cpp_pub) StdoutLine: {'line': b'\n'}
+[1.341331] (cpp_pub) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/pep257.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/pep257.xunit.xml"\n'}
+[1.341404] (cpp_pub) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[1.380954] (cpp_pub) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[1.381123] (cpp_pub) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/pep257.xunit.xml\n'}
+[1.401359] (-) TimerEvent: {}
+[1.502103] (-) TimerEvent: {}
+[1.589008] (cpp_pub) StdoutLine: {'line': b'6: checking ./install/_local_setup_util_ps1.py\n'}
+[1.589377] (cpp_pub) StdoutLine: {'line': b'6: checking ./install/_local_setup_util_sh.py\n'}
+[1.589592] (cpp_pub) StdoutLine: {'line': b'6: No problems found\n'}
+[1.602236] (-) TimerEvent: {}
+[1.606240] (cpp_pub) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[1.606400] (cpp_pub) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/pep257.xunit.xml'\n"}
+[1.618184] (cpp_pub) StdoutLine: {'line': b'6/8 Test #6: pep257 ...........................   Passed    0.28 sec\n'}
+[1.618321] (cpp_pub) StdoutLine: {'line': b'test 7\n'}
+[1.618393] (cpp_pub) StdoutLine: {'line': b'    Start 7: uncrustify\n'}
+[1.618467] (cpp_pub) StdoutLine: {'line': b'\n'}
+[1.618528] (cpp_pub) StdoutLine: {'line': b'7: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/uncrustify.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/uncrustify.xunit.xml"\n'}
+[1.618605] (cpp_pub) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[1.661603] (cpp_pub) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[1.661770] (cpp_pub) StdoutLine: {'line': b'7:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/uncrustify.xunit.xml\n'}
+[1.702350] (-) TimerEvent: {}
+[1.802581] (-) TimerEvent: {}
+[1.816330] (cpp_pub) StdoutLine: {'line': b"7: No code style divergence in file 'src/publisher_member_function.cpp'\n"}
+[1.816635] (cpp_pub) StdoutLine: {'line': b'7: \n'}
+[1.816825] (cpp_pub) StdoutLine: {'line': b"7: No code style divergence in file 'src/subscriber_member_function.cpp'\n"}
+[1.817000] (cpp_pub) StdoutLine: {'line': b'7: \n'}
+[1.817174] (cpp_pub) StdoutLine: {'line': b'7: No problems found\n'}
+[1.829184] (cpp_pub) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[1.829393] (cpp_pub) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/uncrustify.xunit.xml'\n"}
+[1.841207] (cpp_pub) StdoutLine: {'line': b'7/8 Test #7: uncrustify .......................   Passed    0.22 sec\n'}
+[1.841451] (cpp_pub) StdoutLine: {'line': b'test 8\n'}
+[1.841564] (cpp_pub) StdoutLine: {'line': b'    Start 8: xmllint\n'}
+[1.841638] (cpp_pub) StdoutLine: {'line': b'\n'}
+[1.841703] (cpp_pub) StdoutLine: {'line': b'8: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/xmllint.xunit.xml" "--package-name" "cpp_pub" "--output-file" "/home/phat/testpublicsher/build/cpp_pub/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/xmllint.xunit.xml"\n'}
+[1.841782] (cpp_pub) StdoutLine: {'line': b'8: Test timeout computed to be: 60\n'}
+[1.887116] (cpp_pub) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/cpp_pub':\n"}
+[1.887269] (cpp_pub) StdoutLine: {'line': b'8:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/cpp_pub/test_results/cpp_pub/xmllint.xunit.xml\n'}
+[1.902686] (-) TimerEvent: {}
+[2.002929] (-) TimerEvent: {}
+[2.103270] (-) TimerEvent: {}
+[2.203736] (-) TimerEvent: {}
+[2.304171] (-) TimerEvent: {}
+[2.404593] (-) TimerEvent: {}
+[2.505017] (-) TimerEvent: {}
+[2.605679] (-) TimerEvent: {}
+[2.706337] (-) TimerEvent: {}
+[2.807209] (-) TimerEvent: {}
+[2.907823] (-) TimerEvent: {}
+[3.008609] (-) TimerEvent: {}
+[3.109208] (-) TimerEvent: {}
+[3.209742] (-) TimerEvent: {}
+[3.310505] (-) TimerEvent: {}
+[3.411087] (-) TimerEvent: {}
+[3.511624] (-) TimerEvent: {}
+[3.612117] (-) TimerEvent: {}
+[3.712686] (-) TimerEvent: {}
+[3.813535] (-) TimerEvent: {}
+[3.914192] (-) TimerEvent: {}
+[4.014716] (-) TimerEvent: {}
+[4.115271] (-) TimerEvent: {}
+[4.215780] (-) TimerEvent: {}
+[4.316218] (-) TimerEvent: {}
+[4.416900] (-) TimerEvent: {}
+[4.517334] (-) TimerEvent: {}
+[4.617807] (-) TimerEvent: {}
+[4.718367] (-) TimerEvent: {}
+[4.818861] (-) TimerEvent: {}
+[4.919293] (-) TimerEvent: {}
+[5.019726] (-) TimerEvent: {}
+[5.120141] (-) TimerEvent: {}
+[5.220527] (-) TimerEvent: {}
+[5.320920] (-) TimerEvent: {}
+[5.421321] (-) TimerEvent: {}
+[5.521724] (-) TimerEvent: {}
+[5.622149] (-) TimerEvent: {}
+[5.722775] (-) TimerEvent: {}
+[5.823517] (-) TimerEvent: {}
+[5.924087] (-) TimerEvent: {}
+[6.024660] (-) TimerEvent: {}
+[6.125404] (-) TimerEvent: {}
+[6.226121] (-) TimerEvent: {}
+[6.326686] (-) TimerEvent: {}
+[6.427263] (-) TimerEvent: {}
+[6.527856] (-) TimerEvent: {}
+[6.628283] (-) TimerEvent: {}
+[6.728703] (-) TimerEvent: {}
+[6.829138] (-) TimerEvent: {}
+[6.929897] (-) TimerEvent: {}
+[7.030517] (-) TimerEvent: {}
+[7.131256] (-) TimerEvent: {}
+[7.232011] (-) TimerEvent: {}
+[7.332584] (-) TimerEvent: {}
+[7.433183] (-) TimerEvent: {}
+[7.533601] (-) TimerEvent: {}
+[7.634115] (-) TimerEvent: {}
+[7.734957] (-) TimerEvent: {}
+[7.835570] (-) TimerEvent: {}
+[7.936102] (-) TimerEvent: {}
+[8.036542] (-) TimerEvent: {}
+[8.137204] (-) TimerEvent: {}
+[8.237958] (-) TimerEvent: {}
+[8.338462] (-) TimerEvent: {}
+[8.438985] (-) TimerEvent: {}
+[8.539541] (-) TimerEvent: {}
+[8.640056] (-) TimerEvent: {}
+[8.740675] (-) TimerEvent: {}
+[8.841428] (-) TimerEvent: {}
+[8.942035] (-) TimerEvent: {}
+[9.042835] (-) TimerEvent: {}
+[9.143653] (-) TimerEvent: {}
+[9.244376] (-) TimerEvent: {}
+[9.345209] (-) TimerEvent: {}
+[9.445944] (-) TimerEvent: {}
+[9.546727] (-) TimerEvent: {}
+[9.647403] (-) TimerEvent: {}
+[9.748001] (-) TimerEvent: {}
+[9.848834] (-) TimerEvent: {}
+[9.949380] (-) TimerEvent: {}
+[10.049936] (-) TimerEvent: {}
+[10.150460] (-) TimerEvent: {}
+[10.251168] (-) TimerEvent: {}
+[10.352212] (-) TimerEvent: {}
+[10.452819] (-) TimerEvent: {}
+[10.553603] (-) TimerEvent: {}
+[10.654166] (-) TimerEvent: {}
+[10.754643] (-) TimerEvent: {}
+[10.855031] (-) TimerEvent: {}
+[10.955370] (-) TimerEvent: {}
+[11.055702] (-) TimerEvent: {}
+[11.156038] (-) TimerEvent: {}
+[11.256385] (-) TimerEvent: {}
+[11.356750] (-) TimerEvent: {}
+[11.457134] (-) TimerEvent: {}
+[11.557995] (-) TimerEvent: {}
+[11.658542] (-) TimerEvent: {}
+[11.759104] (-) TimerEvent: {}
+[11.859699] (-) TimerEvent: {}
+[11.960463] (-) TimerEvent: {}
+[12.061021] (-) TimerEvent: {}
+[12.161603] (-) TimerEvent: {}
+[12.262260] (-) TimerEvent: {}
+[12.363182] (-) TimerEvent: {}
+[12.463858] (-) TimerEvent: {}
+[12.564676] (-) TimerEvent: {}
+[12.665547] (-) TimerEvent: {}
+[12.766181] (-) TimerEvent: {}
+[12.866748] (-) TimerEvent: {}
+[12.967316] (-) TimerEvent: {}
+[13.067680] (-) TimerEvent: {}
+[13.168051] (-) TimerEvent: {}
+[13.268382] (-) TimerEvent: {}
+[13.368862] (-) TimerEvent: {}
+[13.469450] (-) TimerEvent: {}
+[13.570043] (-) TimerEvent: {}
+[13.670479] (-) TimerEvent: {}
+[13.770906] (-) TimerEvent: {}
+[13.871403] (-) TimerEvent: {}
+[13.971845] (-) TimerEvent: {}
+[14.072285] (-) TimerEvent: {}
+[14.172730] (-) TimerEvent: {}
+[14.273394] (-) TimerEvent: {}
+[14.374145] (-) TimerEvent: {}
+[14.474876] (-) TimerEvent: {}
+[14.575449] (-) TimerEvent: {}
+[14.676311] (-) TimerEvent: {}
+[14.777068] (-) TimerEvent: {}
+[14.878233] (-) TimerEvent: {}
+[14.978955] (-) TimerEvent: {}
+[15.079550] (-) TimerEvent: {}
+[15.180078] (-) TimerEvent: {}
+[15.280761] (-) TimerEvent: {}
+[15.381325] (-) TimerEvent: {}
+[15.482107] (-) TimerEvent: {}
+[15.582667] (-) TimerEvent: {}
+[15.683394] (-) TimerEvent: {}
+[15.784150] (-) TimerEvent: {}
+[15.884681] (-) TimerEvent: {}
+[15.985417] (-) TimerEvent: {}
+[16.086146] (-) TimerEvent: {}
+[16.186836] (-) TimerEvent: {}
+[16.287458] (-) TimerEvent: {}
+[16.388490] (-) TimerEvent: {}
+[16.489269] (-) TimerEvent: {}
+[16.590042] (-) TimerEvent: {}
+[16.690775] (-) TimerEvent: {}
+[16.791793] (-) TimerEvent: {}
+[16.892519] (-) TimerEvent: {}
+[16.993141] (-) TimerEvent: {}
+[17.093971] (-) TimerEvent: {}
+[17.194730] (-) TimerEvent: {}
+[17.295337] (-) TimerEvent: {}
+[17.395875] (-) TimerEvent: {}
+[17.496283] (-) TimerEvent: {}
+[17.596797] (-) TimerEvent: {}
+[17.697628] (-) TimerEvent: {}
+[17.798313] (-) TimerEvent: {}
+[17.898930] (-) TimerEvent: {}
+[17.999353] (-) TimerEvent: {}
+[18.099756] (-) TimerEvent: {}
+[18.200163] (-) TimerEvent: {}
+[18.300602] (-) TimerEvent: {}
+[18.401021] (-) TimerEvent: {}
+[18.501531] (-) TimerEvent: {}
+[18.602132] (-) TimerEvent: {}
+[18.702695] (-) TimerEvent: {}
+[18.803217] (-) TimerEvent: {}
+[18.903918] (-) TimerEvent: {}
+[19.004516] (-) TimerEvent: {}
+[19.105285] (-) TimerEvent: {}
+[19.205905] (-) TimerEvent: {}
+[19.306345] (-) TimerEvent: {}
+[19.406977] (-) TimerEvent: {}
+[19.507720] (-) TimerEvent: {}
+[19.608528] (-) TimerEvent: {}
+[19.709033] (-) TimerEvent: {}
+[19.809500] (-) TimerEvent: {}
+[19.909835] (-) TimerEvent: {}
+[20.010284] (-) TimerEvent: {}
+[20.111076] (-) TimerEvent: {}
+[20.211990] (-) TimerEvent: {}
+[20.312599] (-) TimerEvent: {}
+[20.413431] (-) TimerEvent: {}
+[20.514374] (-) TimerEvent: {}
+[20.615019] (-) TimerEvent: {}
+[20.715661] (-) TimerEvent: {}
+[20.816328] (-) TimerEvent: {}
+[20.917026] (-) TimerEvent: {}
+[21.017634] (-) TimerEvent: {}
+[21.118264] (-) TimerEvent: {}
+[21.218829] (-) TimerEvent: {}
+[21.319617] (-) TimerEvent: {}
+[21.420379] (-) TimerEvent: {}
+[21.521155] (-) TimerEvent: {}
+[21.621694] (-) TimerEvent: {}
+[21.722550] (-) TimerEvent: {}
+[21.823160] (-) TimerEvent: {}
+[21.924044] (-) TimerEvent: {}
+[22.024823] (-) TimerEvent: {}
+[22.125423] (-) TimerEvent: {}
+[22.226082] (-) TimerEvent: {}
+[22.326659] (-) TimerEvent: {}
+[22.427183] (-) TimerEvent: {}
+[22.527626] (-) TimerEvent: {}
+[22.628171] (-) TimerEvent: {}
+[22.728912] (-) TimerEvent: {}
+[22.829482] (-) TimerEvent: {}
+[22.930109] (-) TimerEvent: {}
+[23.030702] (-) TimerEvent: {}
+[23.131282] (-) TimerEvent: {}
+[23.231780] (-) TimerEvent: {}
+[23.332192] (-) TimerEvent: {}
+[23.432623] (-) TimerEvent: {}
+[23.533058] (-) TimerEvent: {}
+[23.633462] (-) TimerEvent: {}
+[23.733895] (-) TimerEvent: {}
+[23.834329] (-) TimerEvent: {}
+[23.935003] (-) TimerEvent: {}
+[24.035593] (-) TimerEvent: {}
+[24.136331] (-) TimerEvent: {}
+[24.236916] (-) TimerEvent: {}
+[24.337500] (-) TimerEvent: {}
+[24.438055] (-) TimerEvent: {}
+[24.538663] (-) TimerEvent: {}
+[24.639219] (-) TimerEvent: {}
+[24.739726] (-) TimerEvent: {}
+[24.840169] (-) TimerEvent: {}
+[24.940601] (-) TimerEvent: {}
+[25.040995] (-) TimerEvent: {}
+[25.141392] (-) TimerEvent: {}
+[25.242171] (-) TimerEvent: {}
+[25.342925] (-) TimerEvent: {}
+[25.443519] (-) TimerEvent: {}
+[25.544283] (-) TimerEvent: {}
+[25.644842] (-) TimerEvent: {}
+[25.745388] (-) TimerEvent: {}
+[25.845955] (-) TimerEvent: {}
+[25.946841] (-) TimerEvent: {}
+[26.047394] (-) TimerEvent: {}
+[26.148190] (-) TimerEvent: {}
+[26.248959] (-) TimerEvent: {}
+[26.349573] (-) TimerEvent: {}
+[26.450494] (-) TimerEvent: {}
+[26.551238] (-) TimerEvent: {}
+[26.651883] (-) TimerEvent: {}
+[26.752657] (-) TimerEvent: {}
+[26.853212] (-) TimerEvent: {}
+[26.953915] (-) TimerEvent: {}
+[27.054713] (-) TimerEvent: {}
+[27.155472] (-) TimerEvent: {}
+[27.256252] (-) TimerEvent: {}
+[27.356981] (-) TimerEvent: {}
+[27.457575] (-) TimerEvent: {}
+[27.558246] (-) TimerEvent: {}
+[27.658865] (-) TimerEvent: {}
+[27.759429] (-) TimerEvent: {}
+[27.859941] (-) TimerEvent: {}
+[27.960389] (-) TimerEvent: {}
+[28.060734] (-) TimerEvent: {}
+[28.161038] (-) TimerEvent: {}
+[28.261374] (-) TimerEvent: {}
+[28.362099] (-) TimerEvent: {}
+[28.462856] (-) TimerEvent: {}
+[28.563457] (-) TimerEvent: {}
+[28.664035] (-) TimerEvent: {}
+[28.764591] (-) TimerEvent: {}
+[28.865167] (-) TimerEvent: {}
+[28.965692] (-) TimerEvent: {}
+[29.066319] (-) TimerEvent: {}
+[29.166907] (-) TimerEvent: {}
+[29.267579] (-) TimerEvent: {}
+[29.368423] (-) TimerEvent: {}
+[29.469445] (-) TimerEvent: {}
+[29.570013] (-) TimerEvent: {}
+[29.670526] (-) TimerEvent: {}
+[29.771043] (-) TimerEvent: {}
+[29.871753] (-) TimerEvent: {}
+[29.972317] (-) TimerEvent: {}
+[30.073233] (-) TimerEvent: {}
+[30.173634] (-) TimerEvent: {}
+[30.274104] (-) TimerEvent: {}
+[30.374529] (-) TimerEvent: {}
+[30.474929] (-) TimerEvent: {}
+[30.575368] (-) TimerEvent: {}
+[30.675852] (-) TimerEvent: {}
+[30.776236] (-) TimerEvent: {}
+[30.877010] (-) TimerEvent: {}
+[30.977551] (-) TimerEvent: {}
+[31.078101] (-) TimerEvent: {}
+[31.178610] (-) TimerEvent: {}
+[31.279039] (-) TimerEvent: {}
+[31.379471] (-) TimerEvent: {}
+[31.479897] (-) TimerEvent: {}
+[31.580334] (-) TimerEvent: {}
+[31.680748] (-) TimerEvent: {}
+[31.781271] (-) TimerEvent: {}
+[31.881703] (-) TimerEvent: {}
+[31.982079] (-) TimerEvent: {}
+[32.082829] (-) TimerEvent: {}
+[32.183547] (-) TimerEvent: {}
+[32.284286] (-) TimerEvent: {}
+[32.384878] (-) TimerEvent: {}
+[32.485566] (-) TimerEvent: {}
+[32.586204] (-) TimerEvent: {}
+[32.686771] (-) TimerEvent: {}
+[32.787373] (-) TimerEvent: {}
+[32.888199] (-) TimerEvent: {}
+[32.988960] (-) TimerEvent: {}
+[33.089487] (-) TimerEvent: {}
+[33.190038] (-) TimerEvent: {}
+[33.290725] (-) TimerEvent: {}
+[33.391351] (-) TimerEvent: {}
+[33.491877] (-) TimerEvent: {}
+[33.592372] (-) TimerEvent: {}
+[33.692864] (-) TimerEvent: {}
+[33.793259] (-) TimerEvent: {}
+[33.893661] (-) TimerEvent: {}
+[33.994187] (-) TimerEvent: {}
+[34.094930] (-) TimerEvent: {}
+[34.195500] (-) TimerEvent: {}
+[34.296060] (-) TimerEvent: {}
+[34.397020] (-) TimerEvent: {}
+[34.497621] (-) TimerEvent: {}
+[34.598244] (-) TimerEvent: {}
+[34.698729] (-) TimerEvent: {}
+[34.799517] (-) TimerEvent: {}
+[34.900082] (-) TimerEvent: {}
+[35.000748] (-) TimerEvent: {}
+[35.101274] (-) TimerEvent: {}
+[35.201784] (-) TimerEvent: {}
+[35.302201] (-) TimerEvent: {}
+[35.402577] (-) TimerEvent: {}
+[35.503175] (-) TimerEvent: {}
+[35.603718] (-) TimerEvent: {}
+[35.704175] (-) TimerEvent: {}
+[35.804499] (-) TimerEvent: {}
+[35.904904] (-) TimerEvent: {}
+[36.005352] (-) TimerEvent: {}
+[36.105844] (-) TimerEvent: {}
+[36.206652] (-) TimerEvent: {}
+[36.307230] (-) TimerEvent: {}
+[36.407970] (-) TimerEvent: {}
+[36.508529] (-) TimerEvent: {}
+[36.609026] (-) TimerEvent: {}
+[36.709716] (-) TimerEvent: {}
+[36.810514] (-) TimerEvent: {}
+[36.911224] (-) TimerEvent: {}
+[37.011825] (-) TimerEvent: {}
+[37.112556] (-) TimerEvent: {}
+[37.213415] (-) TimerEvent: {}
+[37.314181] (-) TimerEvent: {}
+[37.414678] (-) TimerEvent: {}
+[37.515127] (-) TimerEvent: {}
+[37.615594] (-) TimerEvent: {}
+[37.716320] (-) TimerEvent: {}
+[37.816911] (-) TimerEvent: {}
+[37.917447] (-) TimerEvent: {}
+[38.018171] (-) TimerEvent: {}
+[38.118784] (-) TimerEvent: {}
+[38.219362] (-) TimerEvent: {}
+[38.319805] (-) TimerEvent: {}
+[38.420231] (-) TimerEvent: {}
+[38.520719] (-) TimerEvent: {}
+[38.621397] (-) TimerEvent: {}
+[38.721985] (-) TimerEvent: {}
+[38.822801] (-) TimerEvent: {}
+[38.923434] (-) TimerEvent: {}
+[39.023990] (-) TimerEvent: {}
+[39.124428] (-) TimerEvent: {}
+[39.224874] (-) TimerEvent: {}
+[39.325317] (-) TimerEvent: {}
+[39.425852] (-) TimerEvent: {}
+[39.526460] (-) TimerEvent: {}
+[39.626905] (-) TimerEvent: {}
+[39.727346] (-) TimerEvent: {}
+[39.827781] (-) TimerEvent: {}
+[39.928224] (-) TimerEvent: {}
+[40.028674] (-) TimerEvent: {}
+[40.129228] (-) TimerEvent: {}
+[40.229784] (-) TimerEvent: {}
+[40.330223] (-) TimerEvent: {}
+[40.430656] (-) TimerEvent: {}
+[40.531087] (-) TimerEvent: {}
+[40.631503] (-) TimerEvent: {}
+[40.731945] (-) TimerEvent: {}
+[40.832376] (-) TimerEvent: {}
+[40.932815] (-) TimerEvent: {}
+[41.033254] (-) TimerEvent: {}
+[41.133747] (-) TimerEvent: {}
+[41.234395] (-) TimerEvent: {}
+[41.334962] (-) TimerEvent: {}
+[41.435614] (-) TimerEvent: {}
+[41.536208] (-) TimerEvent: {}
+[41.636823] (-) TimerEvent: {}
+[41.737594] (-) TimerEvent: {}
+[41.838255] (-) TimerEvent: {}
+[41.939032] (-) TimerEvent: {}
+[42.039991] (-) TimerEvent: {}
+[42.140542] (-) TimerEvent: {}
+[42.241078] (-) TimerEvent: {}
+[42.341526] (-) TimerEvent: {}
+[42.441978] (-) TimerEvent: {}
+[42.542387] (-) TimerEvent: {}
+[42.642826] (-) TimerEvent: {}
+[42.743255] (-) TimerEvent: {}
+[42.843781] (-) TimerEvent: {}
+[42.944325] (-) TimerEvent: {}
+[43.044909] (-) TimerEvent: {}
+[43.145440] (-) TimerEvent: {}
+[43.246111] (-) TimerEvent: {}
+[43.346876] (-) TimerEvent: {}
+[43.447504] (-) TimerEvent: {}
+[43.548097] (-) TimerEvent: {}
+[43.648663] (-) TimerEvent: {}
+[43.749199] (-) TimerEvent: {}
+[43.849641] (-) TimerEvent: {}
+[43.950106] (-) TimerEvent: {}
+[44.050531] (-) TimerEvent: {}
+[44.150935] (-) TimerEvent: {}
+[44.251376] (-) TimerEvent: {}
+[44.351818] (-) TimerEvent: {}
+[44.452483] (-) TimerEvent: {}
+[44.553129] (-) TimerEvent: {}
+[44.653895] (-) TimerEvent: {}
+[44.754505] (-) TimerEvent: {}
+[44.855300] (-) TimerEvent: {}
+[44.956065] (-) TimerEvent: {}
+[45.056836] (-) TimerEvent: {}
+[45.157500] (-) TimerEvent: {}
+[45.258157] (-) TimerEvent: {}
+[45.359022] (-) TimerEvent: {}
+[45.459884] (-) TimerEvent: {}
+[45.560464] (-) TimerEvent: {}
+[45.661014] (-) TimerEvent: {}
+[45.761796] (-) TimerEvent: {}
+[45.862476] (-) TimerEvent: {}
+[45.963266] (-) TimerEvent: {}
+[46.064034] (-) TimerEvent: {}
+[46.164649] (-) TimerEvent: {}
+[46.265483] (-) TimerEvent: {}
+[46.366162] (-) TimerEvent: {}
+[46.467057] (-) TimerEvent: {}
+[46.567954] (-) TimerEvent: {}
+[46.668787] (-) TimerEvent: {}
+[46.769652] (-) TimerEvent: {}
+[46.870332] (-) TimerEvent: {}
+[46.971065] (-) TimerEvent: {}
+[47.071640] (-) TimerEvent: {}
+[47.172145] (-) TimerEvent: {}
+[47.272629] (-) TimerEvent: {}
+[47.373045] (-) TimerEvent: {}
+[47.473428] (-) TimerEvent: {}
+[47.573900] (-) TimerEvent: {}
+[47.674391] (-) TimerEvent: {}
+[47.774909] (-) TimerEvent: {}
+[47.875380] (-) TimerEvent: {}
+[47.976138] (-) TimerEvent: {}
+[48.076694] (-) TimerEvent: {}
+[48.177191] (-) TimerEvent: {}
+[48.277755] (-) TimerEvent: {}
+[48.378350] (-) TimerEvent: {}
+[48.478966] (-) TimerEvent: {}
+[48.579548] (-) TimerEvent: {}
+[48.680087] (-) TimerEvent: {}
+[48.780507] (-) TimerEvent: {}
+[48.880866] (-) TimerEvent: {}
+[48.981277] (-) TimerEvent: {}
+[49.081795] (-) TimerEvent: {}
+[49.182271] (-) TimerEvent: {}
+[49.282846] (-) TimerEvent: {}
+[49.383727] (-) TimerEvent: {}
+[49.484492] (-) TimerEvent: {}
+[49.585330] (-) TimerEvent: {}
+[49.685912] (-) TimerEvent: {}
+[49.786469] (-) TimerEvent: {}
+[49.887009] (-) TimerEvent: {}
+[49.987486] (-) TimerEvent: {}
+[50.088123] (-) TimerEvent: {}
+[50.189008] (-) TimerEvent: {}
+[50.289709] (-) TimerEvent: {}
+[50.390192] (-) TimerEvent: {}
+[50.490640] (-) TimerEvent: {}
+[50.591081] (-) TimerEvent: {}
+[50.691960] (-) TimerEvent: {}
+[50.792487] (-) TimerEvent: {}
+[50.892930] (-) TimerEvent: {}
+[50.993370] (-) TimerEvent: {}
+[51.094066] (-) TimerEvent: {}
+[51.194841] (-) TimerEvent: {}
+[51.295440] (-) TimerEvent: {}
+[51.396242] (-) TimerEvent: {}
+[51.496786] (-) TimerEvent: {}
+[51.597547] (-) TimerEvent: {}
+[51.698208] (-) TimerEvent: {}
+[51.798977] (-) TimerEvent: {}
+[51.899777] (-) TimerEvent: {}
+[52.000543] (-) TimerEvent: {}
+[52.101311] (-) TimerEvent: {}
+[52.201910] (-) TimerEvent: {}
+[52.302803] (-) TimerEvent: {}
+[52.403455] (-) TimerEvent: {}
+[52.504557] (-) TimerEvent: {}
+[52.605320] (-) TimerEvent: {}
+[52.705934] (-) TimerEvent: {}
+[52.806765] (-) TimerEvent: {}
+[52.907537] (-) TimerEvent: {}
+[53.008421] (-) TimerEvent: {}
+[53.109298] (-) TimerEvent: {}
+[53.210084] (-) TimerEvent: {}
+[53.310883] (-) TimerEvent: {}
+[53.411744] (-) TimerEvent: {}
+[53.512496] (-) TimerEvent: {}
+[53.613050] (-) TimerEvent: {}
+[53.713675] (-) TimerEvent: {}
+[53.814315] (-) TimerEvent: {}
+[53.914757] (-) TimerEvent: {}
+[54.015425] (-) TimerEvent: {}
+[54.116303] (-) TimerEvent: {}
+[54.217278] (-) TimerEvent: {}
+[54.317879] (-) TimerEvent: {}
+[54.418686] (-) TimerEvent: {}
+[54.519273] (-) TimerEvent: {}
+[54.619819] (-) TimerEvent: {}
+[54.720374] (-) TimerEvent: {}
+[54.820943] (-) TimerEvent: {}
+[54.921712] (-) TimerEvent: {}
+[55.022606] (-) TimerEvent: {}
+[55.123176] (-) TimerEvent: {}
+[55.223697] (-) TimerEvent: {}
+[55.324143] (-) TimerEvent: {}
+[55.424799] (-) TimerEvent: {}
+[55.525691] (-) TimerEvent: {}
+[55.626298] (-) TimerEvent: {}
+[55.726801] (-) TimerEvent: {}
+[55.827247] (-) TimerEvent: {}
+[55.927740] (-) TimerEvent: {}
+[56.028158] (-) TimerEvent: {}
+[56.128560] (-) TimerEvent: {}
+[56.228977] (-) TimerEvent: {}
+[56.329379] (-) TimerEvent: {}
+[56.429817] (-) TimerEvent: {}
+[56.530220] (-) TimerEvent: {}
+[56.630651] (-) TimerEvent: {}
+[56.731096] (-) TimerEvent: {}
+[56.831525] (-) TimerEvent: {}
+[56.931919] (-) TimerEvent: {}
+[57.032558] (-) TimerEvent: {}
+[57.133336] (-) TimerEvent: {}
+[57.233923] (-) TimerEvent: {}
+[57.334973] (-) TimerEvent: {}
+[57.435788] (-) TimerEvent: {}
+[57.536738] (-) TimerEvent: {}
+[57.637397] (-) TimerEvent: {}
+[57.738111] (-) TimerEvent: {}
+[57.838853] (-) TimerEvent: {}
+[57.939571] (-) TimerEvent: {}
+[58.040232] (-) TimerEvent: {}
+[58.140837] (-) TimerEvent: {}
+[58.241592] (-) TimerEvent: {}
+[58.342626] (-) TimerEvent: {}
+[58.443282] (-) TimerEvent: {}
+[58.543836] (-) TimerEvent: {}
+[58.644400] (-) TimerEvent: {}
+[58.745160] (-) TimerEvent: {}
+[58.845698] (-) TimerEvent: {}
+[58.946312] (-) TimerEvent: {}
+[59.047084] (-) TimerEvent: {}
+[59.147666] (-) TimerEvent: {}
+[59.248203] (-) TimerEvent: {}
+[59.348621] (-) TimerEvent: {}
+[59.449173] (-) TimerEvent: {}
+[59.549947] (-) TimerEvent: {}
+[59.650778] (-) TimerEvent: {}
+[59.751660] (-) TimerEvent: {}
+[59.852266] (-) TimerEvent: {}
+[59.953323] (-) TimerEvent: {}
+[60.053919] (-) TimerEvent: {}
+[60.154471] (-) TimerEvent: {}
+[60.255322] (-) TimerEvent: {}
+[60.356132] (-) TimerEvent: {}
+[60.456921] (-) TimerEvent: {}
+[60.557577] (-) TimerEvent: {}
+[60.589648] (test_gazebo) StdoutLine: {'line': b'3/3 Test #3: xmllint ..........................***Timeout  60.08 sec\n'}
+[60.596392] (test_gazebo) StdoutLine: {'line': b'\n'}
+[60.596726] (test_gazebo) StdoutLine: {'line': b'67% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 3\n'}
+[60.596929] (test_gazebo) StdoutLine: {'line': b'\n'}
+[60.597100] (test_gazebo) StdoutLine: {'line': b'Label Time Summary:\n'}
+[60.597262] (test_gazebo) StdoutLine: {'line': b'copyright     =   0.22 sec*proc (1 test)\n'}
+[60.597413] (test_gazebo) StdoutLine: {'line': b'lint_cmake    =   0.20 sec*proc (1 test)\n'}
+[60.597576] (test_gazebo) StdoutLine: {'line': b'linter        =  60.50 sec*proc (3 tests)\n'}
+[60.597725] (test_gazebo) StdoutLine: {'line': b'xmllint       =  60.08 sec*proc (1 test)\n'}
+[60.597952] (test_gazebo) StdoutLine: {'line': b'\n'}
+[60.598115] (test_gazebo) StdoutLine: {'line': b'Total Test time (real) =  60.51 sec\n'}
+[60.598263] (test_gazebo) StdoutLine: {'line': b'\n'}
+[60.598408] (test_gazebo) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[60.598554] (test_gazebo) StdoutLine: {'line': b'\t\x1b[0;31m  3 - xmllint (Timeout)\x1b[0;0m\n'}
+[60.615877] (test_gazebo) StderrLine: {'line': b'Errors while running CTest\n'}
+[60.617431] (tutorial_service) StdoutLine: {'line': b'3/3 Test #3: xmllint ..........................***Timeout  60.08 sec\n'}
+[60.618397] (tutorial_service) StdoutLine: {'line': b'\n'}
+[60.618788] (tutorial_service) StdoutLine: {'line': b'67% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 3\n'}
+[60.618867] (tutorial_service) StdoutLine: {'line': b'\n'}
+[60.618939] (tutorial_service) StdoutLine: {'line': b'Label Time Summary:\n'}
+[60.619179] (tutorial_service) StdoutLine: {'line': b'copyright     =   0.24 sec*proc (1 test)\n'}
+[60.619245] (tutorial_service) StdoutLine: {'line': b'lint_cmake    =   0.21 sec*proc (1 test)\n'}
+[60.619307] (tutorial_service) StdoutLine: {'line': b'linter        =  60.52 sec*proc (3 tests)\n'}
+[60.619381] (tutorial_service) StdoutLine: {'line': b'xmllint       =  60.08 sec*proc (1 test)\n'}
+[60.619442] (tutorial_service) StdoutLine: {'line': b'\n'}
+[60.619502] (tutorial_service) StdoutLine: {'line': b'Total Test time (real) =  60.53 sec\n'}
+[60.619561] (tutorial_service) StdoutLine: {'line': b'\n'}
+[60.619619] (tutorial_service) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[60.619677] (tutorial_service) StdoutLine: {'line': b'\t\x1b[0;31m  3 - xmllint (Timeout)\x1b[0;0m\n'}
+[60.619738] (test_gazebo) CommandEnded: {'returncode': 8}
+[60.620050] (test_gazebo) TestFailure: {'identifier': 'test_gazebo'}
+[60.620082] (test_gazebo) JobEnded: {'identifier': 'test_gazebo', 'rc': 0}
+[60.646700] (tutorial_service) StderrLine: {'line': b'Errors while running CTest\n'}
+[60.650620] (tutorial_service) CommandEnded: {'returncode': 8}
+[60.651673] (tutorial_service) TestFailure: {'identifier': 'tutorial_service'}
+[60.651703] (tutorial_service) JobEnded: {'identifier': 'tutorial_service', 'rc': 0}
+[60.652265] (testservice) JobStarted: {'identifier': 'testservice'}
+[60.657687] (-) TimerEvent: {}
+[60.684637] (testservice) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/phat/testpublicsher/build/testservice', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1753'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phat/testpublicsher/install/tutorial_service/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1819,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', 'a180e34132114891b540395a6a9f449b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e5f8c07_b643_4ebc_a073_ec07b7030cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/testservice'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service')]), 'shell': False}
+[60.700766] (testservice) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/testservice/CTestConfiguration.ini\n'}
+[60.700910] (testservice) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/testservice/CTestConfiguration.ini\n'}
+[60.701019] (testservice) StdoutLine: {'line': b'   Site: phat-Legion-5-15ACH6\n'}
+[60.701108] (testservice) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[60.701180] (testservice) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[60.701247] (testservice) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[60.701338] (testservice) StdoutLine: {'line': b'Create new tag: 20241006-0344 - Experimental\n'}
+[60.701439] (testservice) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/testservice/CTestConfiguration.ini\n'}
+[60.701526] (testservice) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/testservice/CTestConfiguration.ini\n'}
+[60.701595] (testservice) StdoutLine: {'line': b'Test project /home/phat/testpublicsher/build/testservice\n'}
+[60.701671] (testservice) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[60.701737] (testservice) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[60.701872] (testservice) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[60.701939] (testservice) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[60.701999] (testservice) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[60.702056] (testservice) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[60.702113] (testservice) StdoutLine: {'line': b'test 1\n'}
+[60.702170] (testservice) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[60.702227] (testservice) StdoutLine: {'line': b'\n'}
+[60.702286] (testservice) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/testservice/test_results/testservice/copyright.xunit.xml" "--package-name" "testservice" "--output-file" "/home/phat/testpublicsher/build/testservice/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/testservice/test_results/testservice/copyright.xunit.xml"\n'}
+[60.702354] (testservice) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[60.755484] (testservice) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':\n"}
+[60.755676] (testservice) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/copyright.xunit.xml\n'}
+[60.757845] (-) TimerEvent: {}
+[60.858333] (-) TimerEvent: {}
+[60.905811] (testservice) StdoutLine: {'line': b'1: src/client_server.cpp: could not find copyright notice\n'}
+[60.906231] (testservice) StdoutLine: {'line': b'1: src/service_server.cpp: could not find copyright notice\n'}
+[60.906447] (testservice) StdoutLine: {'line': b'1: 2 errors, checked 2 files\n'}
+[60.919522] (testservice) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[60.919707] (testservice) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/testservice/test_results/testservice/copyright.xunit.xml'\n"}
+[60.926310] (testservice) StdoutLine: {'line': b'1/6 Test #1: copyright ........................***Failed    0.22 sec\n'}
+[60.926549] (testservice) StdoutLine: {'line': b'test 2\n'}
+[60.926655] (testservice) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[60.926730] (testservice) StdoutLine: {'line': b'\n'}
+[60.926798] (testservice) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/testservice/test_results/testservice/cppcheck.xunit.xml" "--package-name" "testservice" "--output-file" "/home/phat/testpublicsher/build/testservice/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/phat/testpublicsher/build/testservice/test_results/testservice/cppcheck.xunit.xml"\n'}
+[60.926891] (testservice) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[60.958434] (-) TimerEvent: {}
+[60.972772] (testservice) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':\n"}
+[60.972928] (testservice) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/cppcheck.xunit.xml\n'}
+[61.058560] (-) TimerEvent: {}
+[61.144517] (testservice) StdoutLine: {'line': b'2: No problems found\n'}
+[61.158721] (-) TimerEvent: {}
+[61.166180] (testservice) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[61.166389] (testservice) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/testservice/test_results/testservice/cppcheck.xunit.xml'\n"}
+[61.179794] (testservice) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.25 sec\n'}
+[61.179981] (testservice) StdoutLine: {'line': b'test 3\n'}
+[61.180055] (testservice) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[61.180122] (testservice) StdoutLine: {'line': b'\n'}
+[61.180191] (testservice) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/testservice/test_results/testservice/cpplint.xunit.xml" "--package-name" "testservice" "--output-file" "/home/phat/testpublicsher/build/testservice/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/phat/testpublicsher/build/testservice/test_results/testservice/cpplint.xunit.xml"\n'}
+[61.180269] (testservice) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[61.219822] (articubot_one) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................***Timeout  60.08 sec\n'}
+[61.220087] (articubot_one) StdoutLine: {'line': b'\n'}
+[61.220200] (articubot_one) StdoutLine: {'line': b'40% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 5\n'}
+[61.220288] (articubot_one) StdoutLine: {'line': b'\n'}
+[61.220447] (articubot_one) StdoutLine: {'line': b'Label Time Summary:\n'}
+[61.220529] (articubot_one) StdoutLine: {'line': b'copyright     =   0.24 sec*proc (1 test)\n'}
+[61.220608] (articubot_one) StdoutLine: {'line': b'flake8        =   0.35 sec*proc (1 test)\n'}
+[61.220684] (articubot_one) StdoutLine: {'line': b'lint_cmake    =   0.20 sec*proc (1 test)\n'}
+[61.220757] (articubot_one) StdoutLine: {'line': b'linter        =  61.12 sec*proc (5 tests)\n'}
+[61.220830] (articubot_one) StdoutLine: {'line': b'pep257        =   0.26 sec*proc (1 test)\n'}
+[61.220899] (articubot_one) StdoutLine: {'line': b'xmllint       =  60.08 sec*proc (1 test)\n'}
+[61.220974] (articubot_one) StdoutLine: {'line': b'\n'}
+[61.221050] (articubot_one) StdoutLine: {'line': b'Total Test time (real) =  61.12 sec\n'}
+[61.221123] (articubot_one) StdoutLine: {'line': b'\n'}
+[61.221177] (articubot_one) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[61.221229] (articubot_one) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[61.221281] (articubot_one) StdoutLine: {'line': b'\t\x1b[0;31m  2 - flake8 (Failed)\x1b[0;0m\n'}
+[61.221331] (articubot_one) StdoutLine: {'line': b'\t\x1b[0;31m  5 - xmllint (Timeout)\x1b[0;0m\n'}
+[61.227727] (testservice) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':\n"}
+[61.227841] (testservice) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/cpplint.xunit.xml\n'}
+[61.244181] (articubot_one) StderrLine: {'line': b'Errors while running CTest\n'}
+[61.246242] (articubot_one) CommandEnded: {'returncode': 8}
+[61.246576] (articubot_one) TestFailure: {'identifier': 'articubot_one'}
+[61.246612] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[61.258806] (-) TimerEvent: {}
+[61.266531] (polygon_base) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................***Timeout  60.07 sec\n'}
+[61.266859] (polygon_base) StdoutLine: {'line': b'\n'}
+[61.266962] (polygon_base) StdoutLine: {'line': b'33% tests passed\x1b[0;0m, \x1b[0;31m4 tests failed\x1b[0;0m out of 6\n'}
+[61.267036] (polygon_base) StdoutLine: {'line': b'\n'}
+[61.267103] (polygon_base) StdoutLine: {'line': b'Label Time Summary:\n'}
+[61.267167] (polygon_base) StdoutLine: {'line': b'copyright     =   0.22 sec*proc (1 test)\n'}
+[61.267229] (polygon_base) StdoutLine: {'line': b'cppcheck      =   0.23 sec*proc (1 test)\n'}
+[61.267290] (polygon_base) StdoutLine: {'line': b'cpplint       =   0.23 sec*proc (1 test)\n'}
+[61.267349] (polygon_base) StdoutLine: {'line': b'lint_cmake    =   0.20 sec*proc (1 test)\n'}
+[61.267408] (polygon_base) StdoutLine: {'line': b'linter        =  61.18 sec*proc (6 tests)\n'}
+[61.267467] (polygon_base) StdoutLine: {'line': b'uncrustify    =   0.22 sec*proc (1 test)\n'}
+[61.267526] (polygon_base) StdoutLine: {'line': b'xmllint       =  60.07 sec*proc (1 test)\n'}
+[61.267584] (polygon_base) StdoutLine: {'line': b'\n'}
+[61.267642] (polygon_base) StdoutLine: {'line': b'Total Test time (real) =  61.19 sec\n'}
+[61.267702] (polygon_base) StdoutLine: {'line': b'\n'}
+[61.267759] (polygon_base) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[61.267817] (polygon_base) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[61.267874] (polygon_base) StdoutLine: {'line': b'\t\x1b[0;31m  3 - cpplint (Failed)\x1b[0;0m\n'}
+[61.267931] (polygon_base) StdoutLine: {'line': b'\t\x1b[0;31m  5 - uncrustify (Failed)\x1b[0;0m\n'}
+[61.267990] (polygon_base) StdoutLine: {'line': b'\t\x1b[0;31m  6 - xmllint (Timeout)\x1b[0;0m\n'}
+[61.268443] (polygon_base) StderrLine: {'line': b'Errors while running CTest\n'}
+[61.270125] (polygon_base) CommandEnded: {'returncode': 8}
+[61.270462] (polygon_base) TestFailure: {'identifier': 'polygon_base'}
+[61.270489] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 0}
+[61.358925] (-) TimerEvent: {}
+[61.390464] (testservice) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/testservice/src/client_server.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[61.390640] (testservice) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/testservice/src/client_server.cpp:31:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]\n'}
+[61.390720] (testservice) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/testservice/src/service_server.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[61.390804] (testservice) StdoutLine: {'line': b'3: /home/phat/testpublicsher/src/testservice/src/service_server.cpp:39:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]\n'}
+[61.390868] (testservice) StdoutLine: {'line': b"3: Category 'legal/copyright' errors found: 2\n"}
+[61.390930] (testservice) StdoutLine: {'line': b"3: Category 'whitespace/ending_newline' errors found: 2\n"}
+[61.390992] (testservice) StdoutLine: {'line': b'3: Total errors found: 4\n'}
+[61.391052] (testservice) StdoutLine: {'line': b"3: Using '--root=/home/phat/testpublicsher/src/testservice/src' argument\n"}
+[61.391112] (testservice) StdoutLine: {'line': b'3: \n'}
+[61.391171] (testservice) StdoutLine: {'line': b'3: Done processing /home/phat/testpublicsher/src/testservice/src/client_server.cpp\n'}
+[61.391248] (testservice) StdoutLine: {'line': b'3: \n'}
+[61.391322] (testservice) StdoutLine: {'line': b'3: Done processing /home/phat/testpublicsher/src/testservice/src/service_server.cpp\n'}
+[61.391381] (testservice) StdoutLine: {'line': b'3: \n'}
+[61.399153] (testservice) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[61.399338] (testservice) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/phat/testpublicsher/build/testservice/test_results/testservice/cpplint.xunit.xml'\n"}
+[61.415351] (testservice) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................***Failed    0.24 sec\n'}
+[61.415502] (testservice) StdoutLine: {'line': b'test 4\n'}
+[61.415574] (testservice) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[61.415639] (testservice) StdoutLine: {'line': b'\n'}
+[61.415700] (testservice) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/testservice/test_results/testservice/lint_cmake.xunit.xml" "--package-name" "testservice" "--output-file" "/home/phat/testpublicsher/build/testservice/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/testservice/test_results/testservice/lint_cmake.xunit.xml"\n'}
+[61.415766] (testservice) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[61.459114] (-) TimerEvent: {}
+[61.461915] (testservice) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':\n"}
+[61.462245] (testservice) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/lint_cmake.xunit.xml\n'}
+[61.559238] (-) TimerEvent: {}
+[61.600567] (testservice) StdoutLine: {'line': b'4: \n'}
+[61.600736] (testservice) StdoutLine: {'line': b'4: No problems found\n'}
+[61.607910] (testservice) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[61.608166] (testservice) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/phat/testpublicsher/build/testservice/test_results/testservice/lint_cmake.xunit.xml'\n"}
+[61.614890] (testservice) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.20 sec\n'}
+[61.615101] (testservice) StdoutLine: {'line': b'test 5\n'}
+[61.615186] (testservice) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[61.615254] (testservice) StdoutLine: {'line': b'\n'}
+[61.615318] (testservice) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/testservice/test_results/testservice/uncrustify.xunit.xml" "--package-name" "testservice" "--output-file" "/home/phat/testpublicsher/build/testservice/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/phat/testpublicsher/build/testservice/test_results/testservice/uncrustify.xunit.xml"\n'}
+[61.615387] (testservice) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[61.653579] (testservice) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':\n"}
+[61.653739] (testservice) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/uncrustify.xunit.xml\n'}
+[61.659384] (-) TimerEvent: {}
+[61.760082] (-) TimerEvent: {}
+[61.809479] (testservice) StdoutLine: {'line': b"5: Code style divergence in file 'src/client_server.cpp':\n"}
+[61.809830] (testservice) StdoutLine: {'line': b'5: \n'}
+[61.810035] (testservice) StdoutLine: {'line': b'5: --- src/client_server.cpp\n'}
+[61.810198] (testservice) StdoutLine: {'line': b'5: +++ src/client_server.cpp.uncrustify\n'}
+[61.810345] (testservice) StdoutLine: {'line': b'5: @@ -13 +13,2 @@\n'}
+[61.810440] (testservice) StdoutLine: {'line': b'5: -    subscription_ = this->create_subscription<tutorial_service::msg::Num>(          // CHANGE\n'}
+[61.810492] (testservice) StdoutLine: {'line': b'5: +    subscription_ = this->create_subscription<tutorial_service::msg::Num>(\n'}
+[61.810542] (testservice) StdoutLine: {'line': b'5: +      // CHANGE\n'}
+[61.810592] (testservice) StdoutLine: {'line': b'5: @@ -31 +32 @@\n'}
+[61.810645] (testservice) StdoutLine: {'line': b'5: -}\n'}
+[61.810695] (testservice) StdoutLine: {'line': b'5: +}\n'}
+[61.810752] (testservice) StdoutLine: {'line': b'5: \n'}
+[61.810800] (testservice) StdoutLine: {'line': b"5: Code style divergence in file 'src/service_server.cpp':\n"}
+[61.810848] (testservice) StdoutLine: {'line': b'5: \n'}
+[61.810895] (testservice) StdoutLine: {'line': b'5: --- src/service_server.cpp\n'}
+[61.810942] (testservice) StdoutLine: {'line': b'5: +++ src/service_server.cpp.uncrustify\n'}
+[61.810991] (testservice) StdoutLine: {'line': b'5: @@ -39 +39 @@\n'}
+[61.811038] (testservice) StdoutLine: {'line': b'5: -}\n'}
+[61.811084] (testservice) StdoutLine: {'line': b'5: +}\n'}
+[61.811131] (testservice) StdoutLine: {'line': b'5: \n'}
+[61.811177] (testservice) StdoutLine: {'line': b'5: 2 files with code style divergence\n'}
+[61.823784] (testservice) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[61.823936] (testservice) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/phat/testpublicsher/build/testservice/test_results/testservice/uncrustify.xunit.xml'\n"}
+[61.836645] (testservice) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................***Failed    0.22 sec\n'}
+[61.836836] (testservice) StdoutLine: {'line': b'test 6\n'}
+[61.836917] (testservice) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[61.836991] (testservice) StdoutLine: {'line': b'\n'}
+[61.837053] (testservice) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/testservice/test_results/testservice/xmllint.xunit.xml" "--package-name" "testservice" "--output-file" "/home/phat/testpublicsher/build/testservice/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/testservice/test_results/testservice/xmllint.xunit.xml"\n'}
+[61.837121] (testservice) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[61.860481] (-) TimerEvent: {}
+[61.881311] (testservice) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/testservice':\n"}
+[61.881475] (testservice) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/testservice/test_results/testservice/xmllint.xunit.xml\n'}
+[61.913468] (cpp_pub) StdoutLine: {'line': b'8/8 Test #8: xmllint ..........................***Timeout  60.07 sec\n'}
+[61.913817] (cpp_pub) StdoutLine: {'line': b'\n'}
+[61.913910] (cpp_pub) StdoutLine: {'line': b'63% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 8\n'}
+[61.913984] (cpp_pub) StdoutLine: {'line': b'\n'}
+[61.914051] (cpp_pub) StdoutLine: {'line': b'Label Time Summary:\n'}
+[61.914116] (cpp_pub) StdoutLine: {'line': b'copyright     =   0.22 sec*proc (1 test)\n'}
+[61.914181] (cpp_pub) StdoutLine: {'line': b'cppcheck      =   0.23 sec*proc (1 test)\n'}
+[61.914245] (cpp_pub) StdoutLine: {'line': b'cpplint       =   0.24 sec*proc (1 test)\n'}
+[61.914308] (cpp_pub) StdoutLine: {'line': b'flake8        =   0.36 sec*proc (1 test)\n'}
+[61.914369] (cpp_pub) StdoutLine: {'line': b'lint_cmake    =   0.20 sec*proc (1 test)\n'}
+[61.914428] (cpp_pub) StdoutLine: {'line': b'linter        =  61.83 sec*proc (8 tests)\n'}
+[61.914487] (cpp_pub) StdoutLine: {'line': b'pep257        =   0.28 sec*proc (1 test)\n'}
+[61.914546] (cpp_pub) StdoutLine: {'line': b'uncrustify    =   0.22 sec*proc (1 test)\n'}
+[61.914607] (cpp_pub) StdoutLine: {'line': b'xmllint       =  60.07 sec*proc (1 test)\n'}
+[61.914672] (cpp_pub) StdoutLine: {'line': b'\n'}
+[61.914733] (cpp_pub) StdoutLine: {'line': b'Total Test time (real) =  61.83 sec\n'}
+[61.914792] (cpp_pub) StdoutLine: {'line': b'\n'}
+[61.914851] (cpp_pub) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[61.914910] (cpp_pub) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[61.914969] (cpp_pub) StdoutLine: {'line': b'\t\x1b[0;31m  4 - flake8 (Failed)\x1b[0;0m\n'}
+[61.915030] (cpp_pub) StdoutLine: {'line': b'\t\x1b[0;31m  8 - xmllint (Timeout)\x1b[0;0m\n'}
+[61.915607] (cpp_pub) StderrLine: {'line': b'Errors while running CTest\n'}
+[61.917363] (cpp_pub) CommandEnded: {'returncode': 8}
+[61.917718] (cpp_pub) TestFailure: {'identifier': 'cpp_pub'}
+[61.917747] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 0}
+[61.960594] (-) TimerEvent: {}
+[62.060896] (-) TimerEvent: {}
+[62.161354] (-) TimerEvent: {}
+[62.261796] (-) TimerEvent: {}
+[62.362263] (-) TimerEvent: {}
+[62.462987] (-) TimerEvent: {}
+[62.563564] (-) TimerEvent: {}
+[62.664102] (-) TimerEvent: {}
+[62.764520] (-) TimerEvent: {}
+[62.865018] (-) TimerEvent: {}
+[62.965743] (-) TimerEvent: {}
+[63.066340] (-) TimerEvent: {}
+[63.167118] (-) TimerEvent: {}
+[63.267841] (-) TimerEvent: {}
+[63.368403] (-) TimerEvent: {}
+[63.468915] (-) TimerEvent: {}
+[63.569320] (-) TimerEvent: {}
+[63.669717] (-) TimerEvent: {}
+[63.770205] (-) TimerEvent: {}
+[63.870612] (-) TimerEvent: {}
+[63.970997] (-) TimerEvent: {}
+[64.071468] (-) TimerEvent: {}
+[64.172196] (-) TimerEvent: {}
+[64.272784] (-) TimerEvent: {}
+[64.373504] (-) TimerEvent: {}
+[64.474067] (-) TimerEvent: {}
+[64.574779] (-) TimerEvent: {}
+[64.675558] (-) TimerEvent: {}
+[64.776122] (-) TimerEvent: {}
+[64.876750] (-) TimerEvent: {}
+[64.977514] (-) TimerEvent: {}
+[65.078147] (-) TimerEvent: {}
+[65.178694] (-) TimerEvent: {}
+[65.279303] (-) TimerEvent: {}
+[65.380014] (-) TimerEvent: {}
+[65.480720] (-) TimerEvent: {}
+[65.581247] (-) TimerEvent: {}
+[65.681978] (-) TimerEvent: {}
+[65.782815] (-) TimerEvent: {}
+[65.883584] (-) TimerEvent: {}
+[65.984321] (-) TimerEvent: {}
+[66.085067] (-) TimerEvent: {}
+[66.185879] (-) TimerEvent: {}
+[66.286738] (-) TimerEvent: {}
+[66.387273] (-) TimerEvent: {}
+[66.487815] (-) TimerEvent: {}
+[66.588302] (-) TimerEvent: {}
+[66.688748] (-) TimerEvent: {}
+[66.789444] (-) TimerEvent: {}
+[66.889997] (-) TimerEvent: {}
+[66.990800] (-) TimerEvent: {}
+[67.091427] (-) TimerEvent: {}
+[67.192138] (-) TimerEvent: {}
+[67.292890] (-) TimerEvent: {}
+[67.393468] (-) TimerEvent: {}
+[67.494057] (-) TimerEvent: {}
+[67.594538] (-) TimerEvent: {}
+[67.695073] (-) TimerEvent: {}
+[67.795566] (-) TimerEvent: {}
+[67.895953] (-) TimerEvent: {}
+[67.996740] (-) TimerEvent: {}
+[68.097305] (-) TimerEvent: {}
+[68.197872] (-) TimerEvent: {}
+[68.298282] (-) TimerEvent: {}
+[68.398690] (-) TimerEvent: {}
+[68.499138] (-) TimerEvent: {}
+[68.599724] (-) TimerEvent: {}
+[68.700166] (-) TimerEvent: {}
+[68.800975] (-) TimerEvent: {}
+[68.901534] (-) TimerEvent: {}
+[69.002149] (-) TimerEvent: {}
+[69.102692] (-) TimerEvent: {}
+[69.203428] (-) TimerEvent: {}
+[69.304134] (-) TimerEvent: {}
+[69.404802] (-) TimerEvent: {}
+[69.505309] (-) TimerEvent: {}
+[69.606071] (-) TimerEvent: {}
+[69.706768] (-) TimerEvent: {}
+[69.807516] (-) TimerEvent: {}
+[69.908228] (-) TimerEvent: {}
+[70.008857] (-) TimerEvent: {}
+[70.109578] (-) TimerEvent: {}
+[70.210159] (-) TimerEvent: {}
+[70.310678] (-) TimerEvent: {}
+[70.411134] (-) TimerEvent: {}
+[70.511560] (-) TimerEvent: {}
+[70.612052] (-) TimerEvent: {}
+[70.712750] (-) TimerEvent: {}
+[70.813449] (-) TimerEvent: {}
+[70.914013] (-) TimerEvent: {}
+[71.014505] (-) TimerEvent: {}
+[71.115418] (-) TimerEvent: {}
+[71.216270] (-) TimerEvent: {}
+[71.316825] (-) TimerEvent: {}
+[71.417670] (-) TimerEvent: {}
+[71.518225] (-) TimerEvent: {}
+[71.619105] (-) TimerEvent: {}
+[71.719947] (-) TimerEvent: {}
+[71.820699] (-) TimerEvent: {}
+[71.921458] (-) TimerEvent: {}
+[72.022138] (-) TimerEvent: {}
+[72.122650] (-) TimerEvent: {}
+[72.223152] (-) TimerEvent: {}
+[72.323902] (-) TimerEvent: {}
+[72.424423] (-) TimerEvent: {}
+[72.524909] (-) TimerEvent: {}
+[72.625297] (-) TimerEvent: {}
+[72.725664] (-) TimerEvent: {}
+[72.826065] (-) TimerEvent: {}
+[72.926459] (-) TimerEvent: {}
+[73.027003] (-) TimerEvent: {}
+[73.127544] (-) TimerEvent: {}
+[73.228284] (-) TimerEvent: {}
+[73.329099] (-) TimerEvent: {}
+[73.430189] (-) TimerEvent: {}
+[73.530775] (-) TimerEvent: {}
+[73.631301] (-) TimerEvent: {}
+[73.731971] (-) TimerEvent: {}
+[73.832514] (-) TimerEvent: {}
+[73.933055] (-) TimerEvent: {}
+[74.033583] (-) TimerEvent: {}
+[74.134213] (-) TimerEvent: {}
+[74.234765] (-) TimerEvent: {}
+[74.335208] (-) TimerEvent: {}
+[74.435713] (-) TimerEvent: {}
+[74.536228] (-) TimerEvent: {}
+[74.636750] (-) TimerEvent: {}
+[74.737141] (-) TimerEvent: {}
+[74.837504] (-) TimerEvent: {}
+[74.937874] (-) TimerEvent: {}
+[75.038250] (-) TimerEvent: {}
+[75.138616] (-) TimerEvent: {}
+[75.238972] (-) TimerEvent: {}
+[75.339351] (-) TimerEvent: {}
+[75.439758] (-) TimerEvent: {}
+[75.540138] (-) TimerEvent: {}
+[75.640454] (-) TimerEvent: {}
+[75.740831] (-) TimerEvent: {}
+[75.841226] (-) TimerEvent: {}
+[75.941619] (-) TimerEvent: {}
+[76.042016] (-) TimerEvent: {}
+[76.142455] (-) TimerEvent: {}
+[76.242992] (-) TimerEvent: {}
+[76.343475] (-) TimerEvent: {}
+[76.443948] (-) TimerEvent: {}
+[76.544653] (-) TimerEvent: {}
+[76.645220] (-) TimerEvent: {}
+[76.745968] (-) TimerEvent: {}
+[76.846463] (-) TimerEvent: {}
+[76.947157] (-) TimerEvent: {}
+[77.047702] (-) TimerEvent: {}
+[77.148428] (-) TimerEvent: {}
+[77.249144] (-) TimerEvent: {}
+[77.349892] (-) TimerEvent: {}
+[77.450443] (-) TimerEvent: {}
+[77.551197] (-) TimerEvent: {}
+[77.651737] (-) TimerEvent: {}
+[77.752224] (-) TimerEvent: {}
+[77.852614] (-) TimerEvent: {}
+[77.952980] (-) TimerEvent: {}
+[78.053365] (-) TimerEvent: {}
+[78.154949] (-) TimerEvent: {}
+[78.255524] (-) TimerEvent: {}
+[78.356245] (-) TimerEvent: {}
+[78.456782] (-) TimerEvent: {}
+[78.557275] (-) TimerEvent: {}
+[78.657794] (-) TimerEvent: {}
+[78.758385] (-) TimerEvent: {}
+[78.858954] (-) TimerEvent: {}
+[78.959738] (-) TimerEvent: {}
+[79.060445] (-) TimerEvent: {}
+[79.160994] (-) TimerEvent: {}
+[79.261679] (-) TimerEvent: {}
+[79.362246] (-) TimerEvent: {}
+[79.462769] (-) TimerEvent: {}
+[79.563085] (-) TimerEvent: {}
+[79.663686] (-) TimerEvent: {}
+[79.764249] (-) TimerEvent: {}
+[79.864806] (-) TimerEvent: {}
+[79.965592] (-) TimerEvent: {}
+[80.066224] (-) TimerEvent: {}
+[80.167040] (-) TimerEvent: {}
+[80.267766] (-) TimerEvent: {}
+[80.368316] (-) TimerEvent: {}
+[80.469056] (-) TimerEvent: {}
+[80.569750] (-) TimerEvent: {}
+[80.670554] (-) TimerEvent: {}
+[80.771276] (-) TimerEvent: {}
+[80.872014] (-) TimerEvent: {}
+[80.972759] (-) TimerEvent: {}
+[81.073428] (-) TimerEvent: {}
+[81.173998] (-) TimerEvent: {}
+[81.274727] (-) TimerEvent: {}
+[81.375501] (-) TimerEvent: {}
+[81.476227] (-) TimerEvent: {}
+[81.576942] (-) TimerEvent: {}
+[81.677505] (-) TimerEvent: {}
+[81.778059] (-) TimerEvent: {}
+[81.878774] (-) TimerEvent: {}
+[81.979319] (-) TimerEvent: {}
+[82.079805] (-) TimerEvent: {}
+[82.180205] (-) TimerEvent: {}
+[82.280979] (-) TimerEvent: {}
+[82.381866] (-) TimerEvent: {}
+[82.482609] (-) TimerEvent: {}
+[82.583322] (-) TimerEvent: {}
+[82.683847] (-) TimerEvent: {}
+[82.784553] (-) TimerEvent: {}
+[82.885254] (-) TimerEvent: {}
+[82.985793] (-) TimerEvent: {}
+[83.086333] (-) TimerEvent: {}
+[83.187035] (-) TimerEvent: {}
+[83.287562] (-) TimerEvent: {}
+[83.388227] (-) TimerEvent: {}
+[83.489237] (-) TimerEvent: {}
+[83.589784] (-) TimerEvent: {}
+[83.690276] (-) TimerEvent: {}
+[83.790784] (-) TimerEvent: {}
+[83.891514] (-) TimerEvent: {}
+[83.992083] (-) TimerEvent: {}
+[84.092734] (-) TimerEvent: {}
+[84.193542] (-) TimerEvent: {}
+[84.294066] (-) TimerEvent: {}
+[84.394599] (-) TimerEvent: {}
+[84.495235] (-) TimerEvent: {}
+[84.595977] (-) TimerEvent: {}
+[84.696741] (-) TimerEvent: {}
+[84.797318] (-) TimerEvent: {}
+[84.897917] (-) TimerEvent: {}
+[84.998979] (-) TimerEvent: {}
+[85.099799] (-) TimerEvent: {}
+[85.200493] (-) TimerEvent: {}
+[85.301179] (-) TimerEvent: {}
+[85.401912] (-) TimerEvent: {}
+[85.502654] (-) TimerEvent: {}
+[85.603358] (-) TimerEvent: {}
+[85.704069] (-) TimerEvent: {}
+[85.804566] (-) TimerEvent: {}
+[85.905221] (-) TimerEvent: {}
+[86.005717] (-) TimerEvent: {}
+[86.106182] (-) TimerEvent: {}
+[86.206539] (-) TimerEvent: {}
+[86.306932] (-) TimerEvent: {}
+[86.407329] (-) TimerEvent: {}
+[86.507731] (-) TimerEvent: {}
+[86.608131] (-) TimerEvent: {}
+[86.708532] (-) TimerEvent: {}
+[86.808934] (-) TimerEvent: {}
+[86.909377] (-) TimerEvent: {}
+[87.010374] (-) TimerEvent: {}
+[87.111083] (-) TimerEvent: {}
+[87.211652] (-) TimerEvent: {}
+[87.312410] (-) TimerEvent: {}
+[87.413202] (-) TimerEvent: {}
+[87.513730] (-) TimerEvent: {}
+[87.614239] (-) TimerEvent: {}
+[87.714652] (-) TimerEvent: {}
+[87.815349] (-) TimerEvent: {}
+[87.916125] (-) TimerEvent: {}
+[88.016792] (-) TimerEvent: {}
+[88.117511] (-) TimerEvent: {}
+[88.218070] (-) TimerEvent: {}
+[88.318602] (-) TimerEvent: {}
+[88.419068] (-) TimerEvent: {}
+[88.519442] (-) TimerEvent: {}
+[88.619978] (-) TimerEvent: {}
+[88.720553] (-) TimerEvent: {}
+[88.821045] (-) TimerEvent: {}
+[88.921449] (-) TimerEvent: {}
+[89.021854] (-) TimerEvent: {}
+[89.122256] (-) TimerEvent: {}
+[89.222904] (-) TimerEvent: {}
+[89.323542] (-) TimerEvent: {}
+[89.424382] (-) TimerEvent: {}
+[89.525220] (-) TimerEvent: {}
+[89.625989] (-) TimerEvent: {}
+[89.726807] (-) TimerEvent: {}
+[89.827451] (-) TimerEvent: {}
+[89.928219] (-) TimerEvent: {}
+[90.028770] (-) TimerEvent: {}
+[90.129294] (-) TimerEvent: {}
+[90.229758] (-) TimerEvent: {}
+[90.330185] (-) TimerEvent: {}
+[90.430580] (-) TimerEvent: {}
+[90.530930] (-) TimerEvent: {}
+[90.631325] (-) TimerEvent: {}
+[90.731723] (-) TimerEvent: {}
+[90.832103] (-) TimerEvent: {}
+[90.932477] (-) TimerEvent: {}
+[91.032861] (-) TimerEvent: {}
+[91.133308] (-) TimerEvent: {}
+[91.233985] (-) TimerEvent: {}
+[91.334697] (-) TimerEvent: {}
+[91.435389] (-) TimerEvent: {}
+[91.536094] (-) TimerEvent: {}
+[91.636781] (-) TimerEvent: {}
+[91.737746] (-) TimerEvent: {}
+[91.838555] (-) TimerEvent: {}
+[91.939129] (-) TimerEvent: {}
+[92.040190] (-) TimerEvent: {}
+[92.140878] (-) TimerEvent: {}
+[92.241551] (-) TimerEvent: {}
+[92.342115] (-) TimerEvent: {}
+[92.442810] (-) TimerEvent: {}
+[92.543522] (-) TimerEvent: {}
+[92.643967] (-) TimerEvent: {}
+[92.744363] (-) TimerEvent: {}
+[92.844781] (-) TimerEvent: {}
+[92.945523] (-) TimerEvent: {}
+[93.046113] (-) TimerEvent: {}
+[93.146625] (-) TimerEvent: {}
+[93.247316] (-) TimerEvent: {}
+[93.348258] (-) TimerEvent: {}
+[93.449045] (-) TimerEvent: {}
+[93.549578] (-) TimerEvent: {}
+[93.650161] (-) TimerEvent: {}
+[93.750849] (-) TimerEvent: {}
+[93.851454] (-) TimerEvent: {}
+[93.952021] (-) TimerEvent: {}
+[94.052569] (-) TimerEvent: {}
+[94.153183] (-) TimerEvent: {}
+[94.253910] (-) TimerEvent: {}
+[94.354463] (-) TimerEvent: {}
+[94.454960] (-) TimerEvent: {}
+[94.555336] (-) TimerEvent: {}
+[94.655752] (-) TimerEvent: {}
+[94.756186] (-) TimerEvent: {}
+[94.856804] (-) TimerEvent: {}
+[94.957264] (-) TimerEvent: {}
+[95.058043] (-) TimerEvent: {}
+[95.158887] (-) TimerEvent: {}
+[95.259369] (-) TimerEvent: {}
+[95.359852] (-) TimerEvent: {}
+[95.460171] (-) TimerEvent: {}
+[95.560845] (-) TimerEvent: {}
+[95.661344] (-) TimerEvent: {}
+[95.762037] (-) TimerEvent: {}
+[95.862827] (-) TimerEvent: {}
+[95.963540] (-) TimerEvent: {}
+[96.064255] (-) TimerEvent: {}
+[96.164828] (-) TimerEvent: {}
+[96.265629] (-) TimerEvent: {}
+[96.366168] (-) TimerEvent: {}
+[96.466617] (-) TimerEvent: {}
+[96.566986] (-) TimerEvent: {}
+[96.667425] (-) TimerEvent: {}
+[96.768187] (-) TimerEvent: {}
+[96.868728] (-) TimerEvent: {}
+[96.969543] (-) TimerEvent: {}
+[97.070103] (-) TimerEvent: {}
+[97.170787] (-) TimerEvent: {}
+[97.271275] (-) TimerEvent: {}
+[97.371801] (-) TimerEvent: {}
+[97.472364] (-) TimerEvent: {}
+[97.572848] (-) TimerEvent: {}
+[97.673602] (-) TimerEvent: {}
+[97.774123] (-) TimerEvent: {}
+[97.874613] (-) TimerEvent: {}
+[97.975084] (-) TimerEvent: {}
+[98.075525] (-) TimerEvent: {}
+[98.176244] (-) TimerEvent: {}
+[98.277143] (-) TimerEvent: {}
+[98.377912] (-) TimerEvent: {}
+[98.478460] (-) TimerEvent: {}
+[98.579078] (-) TimerEvent: {}
+[98.679584] (-) TimerEvent: {}
+[98.780129] (-) TimerEvent: {}
+[98.880540] (-) TimerEvent: {}
+[98.980929] (-) TimerEvent: {}
+[99.081292] (-) TimerEvent: {}
+[99.181702] (-) TimerEvent: {}
+[99.282283] (-) TimerEvent: {}
+[99.382796] (-) TimerEvent: {}
+[99.483285] (-) TimerEvent: {}
+[99.584019] (-) TimerEvent: {}
+[99.684599] (-) TimerEvent: {}
+[99.785145] (-) TimerEvent: {}
+[99.885760] (-) TimerEvent: {}
+[99.986357] (-) TimerEvent: {}
+[100.086934] (-) TimerEvent: {}
+[100.187337] (-) TimerEvent: {}
+[100.287763] (-) TimerEvent: {}
+[100.388176] (-) TimerEvent: {}
+[100.488873] (-) TimerEvent: {}
+[100.589377] (-) TimerEvent: {}
+[100.689850] (-) TimerEvent: {}
+[100.790339] (-) TimerEvent: {}
+[100.891009] (-) TimerEvent: {}
+[100.991847] (-) TimerEvent: {}
+[101.092543] (-) TimerEvent: {}
+[101.193302] (-) TimerEvent: {}
+[101.293887] (-) TimerEvent: {}
+[101.394364] (-) TimerEvent: {}
+[101.494845] (-) TimerEvent: {}
+[101.595352] (-) TimerEvent: {}
+[101.695872] (-) TimerEvent: {}
+[101.796374] (-) TimerEvent: {}
+[101.896780] (-) TimerEvent: {}
+[101.997161] (-) TimerEvent: {}
+[102.097551] (-) TimerEvent: {}
+[102.198012] (-) TimerEvent: {}
+[102.298375] (-) TimerEvent: {}
+[102.398743] (-) TimerEvent: {}
+[102.499113] (-) TimerEvent: {}
+[102.599488] (-) TimerEvent: {}
+[102.699898] (-) TimerEvent: {}
+[102.800232] (-) TimerEvent: {}
+[102.900552] (-) TimerEvent: {}
+[103.000923] (-) TimerEvent: {}
+[103.101307] (-) TimerEvent: {}
+[103.201708] (-) TimerEvent: {}
+[103.302358] (-) TimerEvent: {}
+[103.402749] (-) TimerEvent: {}
+[103.503395] (-) TimerEvent: {}
+[103.603767] (-) TimerEvent: {}
+[103.704214] (-) TimerEvent: {}
+[103.804721] (-) TimerEvent: {}
+[103.905192] (-) TimerEvent: {}
+[104.005968] (-) TimerEvent: {}
+[104.106683] (-) TimerEvent: {}
+[104.207276] (-) TimerEvent: {}
+[104.307782] (-) TimerEvent: {}
+[104.408269] (-) TimerEvent: {}
+[104.508666] (-) TimerEvent: {}
+[104.609061] (-) TimerEvent: {}
+[104.709457] (-) TimerEvent: {}
+[104.809856] (-) TimerEvent: {}
+[104.910267] (-) TimerEvent: {}
+[105.010752] (-) TimerEvent: {}
+[105.111533] (-) TimerEvent: {}
+[105.212219] (-) TimerEvent: {}
+[105.312786] (-) TimerEvent: {}
+[105.413487] (-) TimerEvent: {}
+[105.514070] (-) TimerEvent: {}
+[105.614578] (-) TimerEvent: {}
+[105.715307] (-) TimerEvent: {}
+[105.815810] (-) TimerEvent: {}
+[105.916268] (-) TimerEvent: {}
+[106.016647] (-) TimerEvent: {}
+[106.117047] (-) TimerEvent: {}
+[106.217433] (-) TimerEvent: {}
+[106.317828] (-) TimerEvent: {}
+[106.418268] (-) TimerEvent: {}
+[106.518789] (-) TimerEvent: {}
+[106.619247] (-) TimerEvent: {}
+[106.719625] (-) TimerEvent: {}
+[106.820101] (-) TimerEvent: {}
+[106.920666] (-) TimerEvent: {}
+[107.021413] (-) TimerEvent: {}
+[107.122062] (-) TimerEvent: {}
+[107.222872] (-) TimerEvent: {}
+[107.323603] (-) TimerEvent: {}
+[107.424340] (-) TimerEvent: {}
+[107.525188] (-) TimerEvent: {}
+[107.625933] (-) TimerEvent: {}
+[107.726522] (-) TimerEvent: {}
+[107.827057] (-) TimerEvent: {}
+[107.927462] (-) TimerEvent: {}
+[108.027862] (-) TimerEvent: {}
+[108.128498] (-) TimerEvent: {}
+[108.229059] (-) TimerEvent: {}
+[108.329608] (-) TimerEvent: {}
+[108.430038] (-) TimerEvent: {}
+[108.530668] (-) TimerEvent: {}
+[108.631137] (-) TimerEvent: {}
+[108.731510] (-) TimerEvent: {}
+[108.831984] (-) TimerEvent: {}
+[108.932357] (-) TimerEvent: {}
+[109.032720] (-) TimerEvent: {}
+[109.133086] (-) TimerEvent: {}
+[109.233445] (-) TimerEvent: {}
+[109.333829] (-) TimerEvent: {}
+[109.434185] (-) TimerEvent: {}
+[109.534580] (-) TimerEvent: {}
+[109.635031] (-) TimerEvent: {}
+[109.735586] (-) TimerEvent: {}
+[109.836059] (-) TimerEvent: {}
+[109.936429] (-) TimerEvent: {}
+[110.036820] (-) TimerEvent: {}
+[110.137439] (-) TimerEvent: {}
+[110.238296] (-) TimerEvent: {}
+[110.338983] (-) TimerEvent: {}
+[110.439678] (-) TimerEvent: {}
+[110.540398] (-) TimerEvent: {}
+[110.641134] (-) TimerEvent: {}
+[110.741879] (-) TimerEvent: {}
+[110.842636] (-) TimerEvent: {}
+[110.943379] (-) TimerEvent: {}
+[111.044129] (-) TimerEvent: {}
+[111.144684] (-) TimerEvent: {}
+[111.245257] (-) TimerEvent: {}
+[111.346022] (-) TimerEvent: {}
+[111.446574] (-) TimerEvent: {}
+[111.547452] (-) TimerEvent: {}
+[111.648017] (-) TimerEvent: {}
+[111.748590] (-) TimerEvent: {}
+[111.849123] (-) TimerEvent: {}
+[111.949672] (-) TimerEvent: {}
+[112.050262] (-) TimerEvent: {}
+[112.150984] (-) TimerEvent: {}
+[112.251533] (-) TimerEvent: {}
+[112.351982] (-) TimerEvent: {}
+[112.452595] (-) TimerEvent: {}
+[112.553468] (-) TimerEvent: {}
+[112.654043] (-) TimerEvent: {}
+[112.754881] (-) TimerEvent: {}
+[112.855612] (-) TimerEvent: {}
+[112.956155] (-) TimerEvent: {}
+[113.056840] (-) TimerEvent: {}
+[113.157574] (-) TimerEvent: {}
+[113.258183] (-) TimerEvent: {}
+[113.358757] (-) TimerEvent: {}
+[113.459328] (-) TimerEvent: {}
+[113.559803] (-) TimerEvent: {}
+[113.660512] (-) TimerEvent: {}
+[113.761040] (-) TimerEvent: {}
+[113.861496] (-) TimerEvent: {}
+[113.961891] (-) TimerEvent: {}
+[114.062321] (-) TimerEvent: {}
+[114.162723] (-) TimerEvent: {}
+[114.263119] (-) TimerEvent: {}
+[114.363546] (-) TimerEvent: {}
+[114.464073] (-) TimerEvent: {}
+[114.564636] (-) TimerEvent: {}
+[114.665162] (-) TimerEvent: {}
+[114.765543] (-) TimerEvent: {}
+[114.865956] (-) TimerEvent: {}
+[114.966328] (-) TimerEvent: {}
+[115.066760] (-) TimerEvent: {}
+[115.167324] (-) TimerEvent: {}
+[115.268014] (-) TimerEvent: {}
+[115.368551] (-) TimerEvent: {}
+[115.469091] (-) TimerEvent: {}
+[115.569501] (-) TimerEvent: {}
+[115.669910] (-) TimerEvent: {}
+[115.770354] (-) TimerEvent: {}
+[115.870765] (-) TimerEvent: {}
+[115.971196] (-) TimerEvent: {}
+[116.071645] (-) TimerEvent: {}
+[116.172253] (-) TimerEvent: {}
+[116.272791] (-) TimerEvent: {}
+[116.373553] (-) TimerEvent: {}
+[116.474111] (-) TimerEvent: {}
+[116.574888] (-) TimerEvent: {}
+[116.675743] (-) TimerEvent: {}
+[116.776468] (-) TimerEvent: {}
+[116.877617] (-) TimerEvent: {}
+[116.978563] (-) TimerEvent: {}
+[117.079237] (-) TimerEvent: {}
+[117.179958] (-) TimerEvent: {}
+[117.280504] (-) TimerEvent: {}
+[117.381002] (-) TimerEvent: {}
+[117.481387] (-) TimerEvent: {}
+[117.581814] (-) TimerEvent: {}
+[117.682206] (-) TimerEvent: {}
+[117.782610] (-) TimerEvent: {}
+[117.883002] (-) TimerEvent: {}
+[117.983415] (-) TimerEvent: {}
+[118.083824] (-) TimerEvent: {}
+[118.184235] (-) TimerEvent: {}
+[118.284646] (-) TimerEvent: {}
+[118.385240] (-) TimerEvent: {}
+[118.486175] (-) TimerEvent: {}
+[118.586944] (-) TimerEvent: {}
+[118.687540] (-) TimerEvent: {}
+[118.788287] (-) TimerEvent: {}
+[118.889058] (-) TimerEvent: {}
+[118.989972] (-) TimerEvent: {}
+[119.090720] (-) TimerEvent: {}
+[119.191304] (-) TimerEvent: {}
+[119.291888] (-) TimerEvent: {}
+[119.392445] (-) TimerEvent: {}
+[119.492910] (-) TimerEvent: {}
+[119.593456] (-) TimerEvent: {}
+[119.694036] (-) TimerEvent: {}
+[119.794441] (-) TimerEvent: {}
+[119.894867] (-) TimerEvent: {}
+[119.995413] (-) TimerEvent: {}
+[120.095941] (-) TimerEvent: {}
+[120.196329] (-) TimerEvent: {}
+[120.296716] (-) TimerEvent: {}
+[120.397133] (-) TimerEvent: {}
+[120.497540] (-) TimerEvent: {}
+[120.597927] (-) TimerEvent: {}
+[120.698332] (-) TimerEvent: {}
+[120.798734] (-) TimerEvent: {}
+[120.899474] (-) TimerEvent: {}
+[121.000244] (-) TimerEvent: {}
+[121.100809] (-) TimerEvent: {}
+[121.201323] (-) TimerEvent: {}
+[121.301757] (-) TimerEvent: {}
+[121.402151] (-) TimerEvent: {}
+[121.502552] (-) TimerEvent: {}
+[121.602943] (-) TimerEvent: {}
+[121.703333] (-) TimerEvent: {}
+[121.803695] (-) TimerEvent: {}
+[121.900839] (testservice) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................***Timeout  60.06 sec\n'}
+[121.901085] (testservice) StdoutLine: {'line': b'\n'}
+[121.901183] (testservice) StdoutLine: {'line': b'33% tests passed\x1b[0;0m, \x1b[0;31m4 tests failed\x1b[0;0m out of 6\n'}
+[121.901292] (testservice) StdoutLine: {'line': b'\n'}
+[121.901354] (testservice) StdoutLine: {'line': b'Label Time Summary:\n'}
+[121.901426] (testservice) StdoutLine: {'line': b'copyright     =   0.22 sec*proc (1 test)\n'}
+[121.901486] (testservice) StdoutLine: {'line': b'cppcheck      =   0.25 sec*proc (1 test)\n'}
+[121.901545] (testservice) StdoutLine: {'line': b'cpplint       =   0.24 sec*proc (1 test)\n'}
+[121.901604] (testservice) StdoutLine: {'line': b'lint_cmake    =   0.20 sec*proc (1 test)\n'}
+[121.901662] (testservice) StdoutLine: {'line': b'linter        =  61.20 sec*proc (6 tests)\n'}
+[121.901721] (testservice) StdoutLine: {'line': b'uncrustify    =   0.22 sec*proc (1 test)\n'}
+[121.901790] (testservice) StdoutLine: {'line': b'xmllint       =  60.06 sec*proc (1 test)\n'}
+[121.901886] (testservice) StdoutLine: {'line': b'\n'}
+[121.901945] (testservice) StdoutLine: {'line': b'Total Test time (real) =  61.20 sec\n'}
+[121.902004] (testservice) StdoutLine: {'line': b'\n'}
+[121.902061] (testservice) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[121.902119] (testservice) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[121.902176] (testservice) StdoutLine: {'line': b'\t\x1b[0;31m  3 - cpplint (Failed)\x1b[0;0m\n'}
+[121.902233] (testservice) StdoutLine: {'line': b'\t\x1b[0;31m  5 - uncrustify (Failed)\x1b[0;0m\n'}
+[121.902301] (testservice) StdoutLine: {'line': b'\t\x1b[0;31m  6 - xmllint (Timeout)\x1b[0;0m\n'}
+[121.903806] (-) TimerEvent: {}
+[121.923140] (testservice) StderrLine: {'line': b'Errors while running CTest\n'}
+[121.928160] (testservice) CommandEnded: {'returncode': 8}
+[121.929885] (testservice) TestFailure: {'identifier': 'testservice'}
+[121.930003] (testservice) JobEnded: {'identifier': 'testservice', 'rc': 0}
+[121.931358] (-) EventReactorShutdown: {}

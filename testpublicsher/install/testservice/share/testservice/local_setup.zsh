@@ -1,0 +1,1 @@
+/home/phat/testpublicsher/build/testservice/ament_cmake_environment_hooks/local_setup.zsh

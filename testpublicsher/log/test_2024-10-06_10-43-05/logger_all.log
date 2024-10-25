@@ -1,0 +1,335 @@
+[0.172s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test']
+[0.172s] DEBUG:colcon:Parsed command line arguments: Namespace(abort_on_error=False, allow_overriding=[], base_paths=['.'], build_base='build', ctest_args=None, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7f6df94a44f0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('test',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, pytest_args=None, pytest_with_coverage=False, python_testing=None, retest_until_fail=0, retest_until_pass=0, return_code_on_test_failure=False, test_result_base=None, unittest_args=None, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7f6df94a44f0>, verb_name='test', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6df93fc730>)
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.288s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/phat/testpublicsher'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pub' with type 'ros.ament_cmake' and name 'cpp_pub'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_gazebo' with type 'ros.ament_cmake' and name 'test_gazebo'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testservice' with type 'ros.ament_cmake' and name 'testservice'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_service' with type 'ros.ament_cmake' and name 'tutorial_service'
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'ctest_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'python_testing' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'pytest_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'pytest_with_coverage' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'unittest_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'retest_until_pass' from command line to '0'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'retest_until_fail' from command line to '0'
+[0.312s] DEBUG:colcon.colcon_core.verb.test:Testing package 'articubot_one' with the following arguments: {'build_base': '/home/phat/testpublicsher/build/articubot_one', 'ctest_args': None, 'install_base': '/home/phat/testpublicsher/install/articubot_one', 'path': '/home/phat/testpublicsher/src/articubot_one', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' test argument 'ctest_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' test argument 'python_testing' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' test argument 'pytest_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' test argument 'pytest_with_coverage' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' test argument 'unittest_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' test argument 'retest_until_pass' from command line to '0'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' test argument 'retest_until_fail' from command line to '0'
+[0.312s] DEBUG:colcon.colcon_core.verb.test:Testing package 'cpp_pub' with the following arguments: {'build_base': '/home/phat/testpublicsher/build/cpp_pub', 'ctest_args': None, 'install_base': '/home/phat/testpublicsher/install/cpp_pub', 'path': '/home/phat/testpublicsher/src/cpp_pub', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' test argument 'ctest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' test argument 'python_testing' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' test argument 'pytest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' test argument 'pytest_with_coverage' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' test argument 'unittest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' test argument 'retest_until_pass' from command line to '0'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' test argument 'retest_until_fail' from command line to '0'
+[0.313s] DEBUG:colcon.colcon_core.verb.test:Testing package 'polygon_base' with the following arguments: {'build_base': '/home/phat/testpublicsher/build/polygon_base', 'ctest_args': None, 'install_base': '/home/phat/testpublicsher/install/polygon_base', 'path': '/home/phat/testpublicsher/src/polygon_base', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' test argument 'ctest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' test argument 'python_testing' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' test argument 'pytest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' test argument 'pytest_with_coverage' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' test argument 'unittest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' test argument 'retest_until_pass' from command line to '0'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' test argument 'retest_until_fail' from command line to '0'
+[0.313s] DEBUG:colcon.colcon_core.verb.test:Testing package 'test_gazebo' with the following arguments: {'build_base': '/home/phat/testpublicsher/build/test_gazebo', 'ctest_args': None, 'install_base': '/home/phat/testpublicsher/install/test_gazebo', 'path': '/home/phat/testpublicsher/src/test_gazebo', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' test argument 'ctest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' test argument 'python_testing' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' test argument 'pytest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' test argument 'pytest_with_coverage' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' test argument 'unittest_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' test argument 'retest_until_pass' from command line to '0'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' test argument 'retest_until_fail' from command line to '0'
+[0.313s] DEBUG:colcon.colcon_core.verb.test:Testing package 'tutorial_service' with the following arguments: {'build_base': '/home/phat/testpublicsher/build/tutorial_service', 'ctest_args': None, 'install_base': '/home/phat/testpublicsher/install/tutorial_service', 'path': '/home/phat/testpublicsher/src/tutorial_service', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testservice' test argument 'ctest_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testservice' test argument 'python_testing' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testservice' test argument 'pytest_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testservice' test argument 'pytest_with_coverage' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testservice' test argument 'unittest_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testservice' test argument 'retest_until_pass' from command line to '0'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'testservice' test argument 'retest_until_fail' from command line to '0'
+[0.314s] DEBUG:colcon.colcon_core.verb.test:Testing package 'testservice' with the following arguments: {'build_base': '/home/phat/testpublicsher/build/testservice', 'ctest_args': None, 'install_base': '/home/phat/testpublicsher/install/testservice', 'path': '/home/phat/testpublicsher/src/testservice', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/phat/testpublicsher/src/tutorial_service' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/phat/testpublicsher/src/tutorial_service'
+[0.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/phat/testpublicsher/src/articubot_one' with build type 'ament_cmake'
+[0.322s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/phat/testpublicsher/src/articubot_one'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/phat/testpublicsher/src/cpp_pub' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/phat/testpublicsher/src/cpp_pub'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/phat/testpublicsher/src/polygon_base' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/phat/testpublicsher/src/polygon_base'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/phat/testpublicsher/src/test_gazebo' with build type 'ament_cmake'
+[0.340s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/phat/testpublicsher/src/test_gazebo'
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/polygon_base': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/cpp_pub': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/cpp_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/cpp_pub /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/test_gazebo': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/tutorial_service': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/tutorial_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/tutorial_service LD_LIBRARY_PATH=/home/phat/testpublicsher/install/tutorial_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/articubot_one': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/articubot_one:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/articubot_one /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[60.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/test_gazebo' returned '8': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[60.965s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/phat/testpublicsher/src/testservice' with build type 'ament_cmake'
+[60.966s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/phat/testpublicsher/src/testservice'
+[60.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[60.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[60.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/tutorial_service' returned '8': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/tutorial_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/tutorial_service LD_LIBRARY_PATH=/home/phat/testpublicsher/install/tutorial_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[61.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/testservice': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service LD_LIBRARY_PATH=/home/phat/testpublicsher/install/tutorial_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[61.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/articubot_one' returned '8': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/articubot_one:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/articubot_one /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[61.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/polygon_base' returned '8': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[62.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/cpp_pub' returned '8': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/cpp_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/cpp_pub /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[122.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[122.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[122.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[122.243s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[122.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/testservice' returned '8': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service LD_LIBRARY_PATH=/home/phat/testpublicsher/install/tutorial_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[122.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[122.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[122.258s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[122.284s] DEBUG:colcon.colcon_core.event_reactor:joined thread

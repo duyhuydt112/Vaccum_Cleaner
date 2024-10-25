@@ -1,0 +1,41 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tutorial_service: 0.0.0 (/home/phat/testpublicsher/install/tutorial_service/share/tutorial_service/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/phat/testpublicsher/build/testservice
+[35m[1mScanning dependencies of target service[0m
+[35m[1mScanning dependencies of target client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/service.dir/src/service_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client_server.cpp.o[0m
+[01m[K/home/phat/testpublicsher/src/testservice/src/client_server.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_service/msg/Num.hpp: No such file or directory
+    4 | #include [01;31m[K"tutorial_service/msg/Num.hpp"[m[K        // CHANGE
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/phat/testpublicsher/src/testservice/src/service_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_service/msg/Num.hpp: No such file or directory
+    5 | #include [01;31m[K"tutorial_service/msg/Num.hpp"[m[K     // CHANGE
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/client_server.cpp.o] Error 1
+make[2]: *** [CMakeFiles/service.dir/build.make:63: CMakeFiles/service.dir/src/service_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/service.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

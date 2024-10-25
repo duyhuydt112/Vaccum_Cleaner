@@ -1,0 +1,736 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict([('my_bot', '/home/phat/testpublicsher/install/my_bot')])}
+[0.000297] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.026935] (my_bot) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/phat/testpublicsher/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1753'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phat/testpublicsher/install/tutorial_service/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/phat/testpublicsher/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44741'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1819,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1819'), ('INVOCATION_ID', 'a180e34132114891b540395a6a9f449b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e5f8c07_b643_4ebc_a073_ec07b7030cb6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/my_bot:/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service:/home/phat/testpublicsher/install/test_gazebo:/home/phat/testpublicsher/install/polygon_base:/home/phat/testpublicsher/install/cpp_pub:/home/phat/testpublicsher/install/articubot_one:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/my_bot:/home/phat/testpublicsher/install/testservice:/home/phat/testpublicsher/install/tutorial_service:/home/phat/testpublicsher/install/test_gazebo:/home/phat/testpublicsher/install/polygon_base:/home/phat/testpublicsher/install/cpp_pub:/home/phat/testpublicsher/install/articubot_one')]), 'shell': False}
+[0.048763] (my_bot) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/my_bot/CTestConfiguration.ini\n'}
+[0.048963] (my_bot) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/my_bot/CTestConfiguration.ini\n'}
+[0.049074] (my_bot) StdoutLine: {'line': b'   Site: phat-Legion-5-15ACH6\n'}
+[0.049161] (my_bot) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.049246] (my_bot) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.049315] (my_bot) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.049390] (my_bot) StdoutLine: {'line': b'Create new tag: 20241006-0455 - Experimental\n'}
+[0.049496] (my_bot) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/my_bot/CTestConfiguration.ini\n'}
+[0.049597] (my_bot) StdoutLine: {'line': b'Parse Config file:/home/phat/testpublicsher/build/my_bot/CTestConfiguration.ini\n'}
+[0.049662] (my_bot) StdoutLine: {'line': b'Test project /home/phat/testpublicsher/build/my_bot\n'}
+[0.049727] (my_bot) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.049790] (my_bot) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.049878] (my_bot) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.049981] (my_bot) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.050053] (my_bot) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.050119] (my_bot) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.050180] (my_bot) StdoutLine: {'line': b'test 1\n'}
+[0.050269] (my_bot) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.050337] (my_bot) StdoutLine: {'line': b'\n'}
+[0.050399] (my_bot) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/copyright.xunit.xml" "--package-name" "my_bot" "--output-file" "/home/phat/testpublicsher/build/my_bot/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/copyright.xunit.xml"\n'}
+[0.050477] (my_bot) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099266] (-) TimerEvent: {}
+[0.103354] (my_bot) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/my_bot':\n"}
+[0.103511] (my_bot) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/my_bot/test_results/my_bot/copyright.xunit.xml\n'}
+[0.199374] (-) TimerEvent: {}
+[0.251084] (my_bot) StdoutLine: {'line': b'1: CONTRIBUTING.md: file not found\n'}
+[0.251250] (my_bot) StdoutLine: {'line': b'1: LICENSE: file not found\n'}
+[0.251329] (my_bot) StdoutLine: {'line': b'1: launch/rsp.launch.py: could not find copyright notice\n'}
+[0.251400] (my_bot) StdoutLine: {'line': b'1: 3 errors, checked 3 files\n'}
+[0.261283] (my_bot) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.261474] (my_bot) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/my_bot/test_results/my_bot/copyright.xunit.xml'\n"}
+[0.272168] (my_bot) StdoutLine: {'line': b'1/5 Test #1: copyright ........................***Failed    0.22 sec\n'}
+[0.272356] (my_bot) StdoutLine: {'line': b'test 2\n'}
+[0.272447] (my_bot) StdoutLine: {'line': b'    Start 2: flake8\n'}
+[0.272560] (my_bot) StdoutLine: {'line': b'\n'}
+[0.272636] (my_bot) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/flake8.xunit.xml" "--package-name" "my_bot" "--output-file" "/home/phat/testpublicsher/build/my_bot/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/flake8.xunit.xml"\n'}
+[0.272721] (my_bot) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.299459] (-) TimerEvent: {}
+[0.313761] (my_bot) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/my_bot':\n"}
+[0.313904] (my_bot) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/phat/testpublicsher/build/my_bot/test_results/my_bot/flake8.xunit.xml\n'}
+[0.399584] (-) TimerEvent: {}
+[0.499847] (-) TimerEvent: {}
+[0.545520] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.545683] (my_bot) StdoutLine: {'line': b"2: ./launch/rsp.launch.py:20:39: E231 missing whitespace after ','\n"}
+[0.545761] (my_bot) StdoutLine: {'line': b"2:     xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')\n"}
+[0.545830] (my_bot) StdoutLine: {'line': b'2:                                       ^\n'}
+[0.545895] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.545959] (my_bot) StdoutLine: {'line': b"2: ./launch/rsp.launch.py:20:53: E231 missing whitespace after ','\n"}
+[0.546021] (my_bot) StdoutLine: {'line': b"2:     xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')\n"}
+[0.546082] (my_bot) StdoutLine: {'line': b'2:                                                     ^\n'}
+[0.546145] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.546206] (my_bot) StdoutLine: {'line': b'2: ./launch/rsp.launch.py:22:1: W293 blank line contains whitespace\n'}
+[0.546267] (my_bot) StdoutLine: {'line': b'2:     \n'}
+[0.546329] (my_bot) StdoutLine: {'line': b'2: ^\n'}
+[0.546389] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.546448] (my_bot) StdoutLine: {'line': b'2: ./launch/rsp.launch.py:33:5: E303 too many blank lines (2)\n'}
+[0.546507] (my_bot) StdoutLine: {'line': b'2:     # Launch!\n'}
+[0.546567] (my_bot) StdoutLine: {'line': b'2:     ^\n'}
+[0.546627] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.546713] (my_bot) StdoutLine: {'line': b"2: 2     E231 missing whitespace after ','\n"}
+[0.546782] (my_bot) StdoutLine: {'line': b'2: 1     E303 too many blank lines (2)\n'}
+[0.546845] (my_bot) StdoutLine: {'line': b'2: 1     W293 blank line contains whitespace\n'}
+[0.546915] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.546977] (my_bot) StdoutLine: {'line': b'2: 1 files checked\n'}
+[0.547038] (my_bot) StdoutLine: {'line': b'2: 4 errors\n'}
+[0.547098] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.547157] (my_bot) StdoutLine: {'line': b"2: 'E'-type errors: 3\n"}
+[0.547215] (my_bot) StdoutLine: {'line': b"2: 'W'-type errors: 1\n"}
+[0.547290] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.547424] (my_bot) StdoutLine: {'line': b'2: Checked files:\n'}
+[0.547595] (my_bot) StdoutLine: {'line': b'2: \n'}
+[0.547785] (my_bot) StdoutLine: {'line': b'2: * ./launch/rsp.launch.py\n'}
+[0.563160] (my_bot) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
+[0.563401] (my_bot) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/my_bot/test_results/my_bot/flake8.xunit.xml'\n"}
+[0.576540] (my_bot) StdoutLine: {'line': b'2/5 Test #2: flake8 ...........................***Failed    0.30 sec\n'}
+[0.576731] (my_bot) StdoutLine: {'line': b'test 3\n'}
+[0.576801] (my_bot) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.576867] (my_bot) StdoutLine: {'line': b'\n'}
+[0.576928] (my_bot) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/lint_cmake.xunit.xml" "--package-name" "my_bot" "--output-file" "/home/phat/testpublicsher/build/my_bot/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/lint_cmake.xunit.xml"\n'}
+[0.577011] (my_bot) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.599939] (-) TimerEvent: {}
+[0.624048] (my_bot) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/my_bot':\n"}
+[0.624209] (my_bot) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/my_bot/test_results/my_bot/lint_cmake.xunit.xml\n'}
+[0.700043] (-) TimerEvent: {}
+[0.760250] (my_bot) StdoutLine: {'line': b'3: \n'}
+[0.760413] (my_bot) StdoutLine: {'line': b'3: No problems found\n'}
+[0.769254] (my_bot) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.769436] (my_bot) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/phat/testpublicsher/build/my_bot/test_results/my_bot/lint_cmake.xunit.xml'\n"}
+[0.781737] (my_bot) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.21 sec\n'}
+[0.781909] (my_bot) StdoutLine: {'line': b'test 4\n'}
+[0.781985] (my_bot) StdoutLine: {'line': b'    Start 4: pep257\n'}
+[0.782052] (my_bot) StdoutLine: {'line': b'\n'}
+[0.782115] (my_bot) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/pep257.xunit.xml" "--package-name" "my_bot" "--output-file" "/home/phat/testpublicsher/build/my_bot/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/pep257.xunit.xml"\n'}
+[0.782183] (my_bot) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.800126] (-) TimerEvent: {}
+[0.825308] (my_bot) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/my_bot':\n"}
+[0.825475] (my_bot) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/phat/testpublicsher/build/my_bot/test_results/my_bot/pep257.xunit.xml\n'}
+[0.900247] (-) TimerEvent: {}
+[1.000511] (-) TimerEvent: {}
+[1.008212] (my_bot) StdoutLine: {'line': b'4: checking ./launch/rsp.launch.py\n'}
+[1.008370] (my_bot) StdoutLine: {'line': b'4: No problems found\n'}
+[1.019519] (my_bot) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.019741] (my_bot) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/phat/testpublicsher/build/my_bot/test_results/my_bot/pep257.xunit.xml'\n"}
+[1.034125] (my_bot) StdoutLine: {'line': b'4/5 Test #4: pep257 ...........................   Passed    0.25 sec\n'}
+[1.034327] (my_bot) StdoutLine: {'line': b'test 5\n'}
+[1.034404] (my_bot) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[1.034475] (my_bot) StdoutLine: {'line': b'\n'}
+[1.034540] (my_bot) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/xmllint.xunit.xml" "--package-name" "my_bot" "--output-file" "/home/phat/testpublicsher/build/my_bot/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/my_bot/test_results/my_bot/xmllint.xunit.xml"\n'}
+[1.034620] (my_bot) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.076927] (my_bot) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/my_bot':\n"}
+[1.077263] (my_bot) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/my_bot/test_results/my_bot/xmllint.xunit.xml\n'}
+[1.100634] (-) TimerEvent: {}
+[1.200864] (-) TimerEvent: {}
+[1.301167] (-) TimerEvent: {}
+[1.401874] (-) TimerEvent: {}
+[1.502444] (-) TimerEvent: {}
+[1.602907] (-) TimerEvent: {}
+[1.703544] (-) TimerEvent: {}
+[1.804064] (-) TimerEvent: {}
+[1.904531] (-) TimerEvent: {}
+[2.004960] (-) TimerEvent: {}
+[2.105302] (-) TimerEvent: {}
+[2.205646] (-) TimerEvent: {}
+[2.305978] (-) TimerEvent: {}
+[2.406323] (-) TimerEvent: {}
+[2.506691] (-) TimerEvent: {}
+[2.607131] (-) TimerEvent: {}
+[2.707633] (-) TimerEvent: {}
+[2.808089] (-) TimerEvent: {}
+[2.908561] (-) TimerEvent: {}
+[3.008954] (-) TimerEvent: {}
+[3.109380] (-) TimerEvent: {}
+[3.210187] (-) TimerEvent: {}
+[3.310787] (-) TimerEvent: {}
+[3.411275] (-) TimerEvent: {}
+[3.511726] (-) TimerEvent: {}
+[3.612190] (-) TimerEvent: {}
+[3.712579] (-) TimerEvent: {}
+[3.812969] (-) TimerEvent: {}
+[3.913387] (-) TimerEvent: {}
+[4.013732] (-) TimerEvent: {}
+[4.114112] (-) TimerEvent: {}
+[4.214527] (-) TimerEvent: {}
+[4.315082] (-) TimerEvent: {}
+[4.415600] (-) TimerEvent: {}
+[4.516048] (-) TimerEvent: {}
+[4.616534] (-) TimerEvent: {}
+[4.716932] (-) TimerEvent: {}
+[4.817430] (-) TimerEvent: {}
+[4.917777] (-) TimerEvent: {}
+[5.018496] (-) TimerEvent: {}
+[5.118990] (-) TimerEvent: {}
+[5.219407] (-) TimerEvent: {}
+[5.319758] (-) TimerEvent: {}
+[5.420166] (-) TimerEvent: {}
+[5.520617] (-) TimerEvent: {}
+[5.621004] (-) TimerEvent: {}
+[5.721344] (-) TimerEvent: {}
+[5.821721] (-) TimerEvent: {}
+[5.922073] (-) TimerEvent: {}
+[6.022483] (-) TimerEvent: {}
+[6.122900] (-) TimerEvent: {}
+[6.223284] (-) TimerEvent: {}
+[6.323673] (-) TimerEvent: {}
+[6.424194] (-) TimerEvent: {}
+[6.524709] (-) TimerEvent: {}
+[6.625270] (-) TimerEvent: {}
+[6.725769] (-) TimerEvent: {}
+[6.826183] (-) TimerEvent: {}
+[6.926528] (-) TimerEvent: {}
+[7.026920] (-) TimerEvent: {}
+[7.127303] (-) TimerEvent: {}
+[7.227658] (-) TimerEvent: {}
+[7.328039] (-) TimerEvent: {}
+[7.428408] (-) TimerEvent: {}
+[7.528842] (-) TimerEvent: {}
+[7.629437] (-) TimerEvent: {}
+[7.729961] (-) TimerEvent: {}
+[7.830635] (-) TimerEvent: {}
+[7.931177] (-) TimerEvent: {}
+[8.031703] (-) TimerEvent: {}
+[8.132280] (-) TimerEvent: {}
+[8.232820] (-) TimerEvent: {}
+[8.333523] (-) TimerEvent: {}
+[8.434005] (-) TimerEvent: {}
+[8.534411] (-) TimerEvent: {}
+[8.634749] (-) TimerEvent: {}
+[8.735079] (-) TimerEvent: {}
+[8.835405] (-) TimerEvent: {}
+[8.935736] (-) TimerEvent: {}
+[9.036062] (-) TimerEvent: {}
+[9.136391] (-) TimerEvent: {}
+[9.236715] (-) TimerEvent: {}
+[9.337043] (-) TimerEvent: {}
+[9.437411] (-) TimerEvent: {}
+[9.537822] (-) TimerEvent: {}
+[9.638153] (-) TimerEvent: {}
+[9.738546] (-) TimerEvent: {}
+[9.838916] (-) TimerEvent: {}
+[9.939242] (-) TimerEvent: {}
+[10.039624] (-) TimerEvent: {}
+[10.139958] (-) TimerEvent: {}
+[10.240323] (-) TimerEvent: {}
+[10.340679] (-) TimerEvent: {}
+[10.441030] (-) TimerEvent: {}
+[10.541449] (-) TimerEvent: {}
+[10.641804] (-) TimerEvent: {}
+[10.742133] (-) TimerEvent: {}
+[10.842471] (-) TimerEvent: {}
+[10.942881] (-) TimerEvent: {}
+[11.043249] (-) TimerEvent: {}
+[11.143595] (-) TimerEvent: {}
+[11.243970] (-) TimerEvent: {}
+[11.344344] (-) TimerEvent: {}
+[11.444782] (-) TimerEvent: {}
+[11.545131] (-) TimerEvent: {}
+[11.645464] (-) TimerEvent: {}
+[11.745844] (-) TimerEvent: {}
+[11.846177] (-) TimerEvent: {}
+[11.946540] (-) TimerEvent: {}
+[12.047121] (-) TimerEvent: {}
+[12.147621] (-) TimerEvent: {}
+[12.248038] (-) TimerEvent: {}
+[12.348475] (-) TimerEvent: {}
+[12.448888] (-) TimerEvent: {}
+[12.549256] (-) TimerEvent: {}
+[12.649607] (-) TimerEvent: {}
+[12.749979] (-) TimerEvent: {}
+[12.850330] (-) TimerEvent: {}
+[12.950749] (-) TimerEvent: {}
+[13.051209] (-) TimerEvent: {}
+[13.151548] (-) TimerEvent: {}
+[13.251897] (-) TimerEvent: {}
+[13.352269] (-) TimerEvent: {}
+[13.452751] (-) TimerEvent: {}
+[13.553223] (-) TimerEvent: {}
+[13.653610] (-) TimerEvent: {}
+[13.754006] (-) TimerEvent: {}
+[13.854367] (-) TimerEvent: {}
+[13.954781] (-) TimerEvent: {}
+[14.055196] (-) TimerEvent: {}
+[14.155637] (-) TimerEvent: {}
+[14.256004] (-) TimerEvent: {}
+[14.356370] (-) TimerEvent: {}
+[14.456750] (-) TimerEvent: {}
+[14.557522] (-) TimerEvent: {}
+[14.657919] (-) TimerEvent: {}
+[14.758351] (-) TimerEvent: {}
+[14.859239] (-) TimerEvent: {}
+[14.959634] (-) TimerEvent: {}
+[15.060050] (-) TimerEvent: {}
+[15.160687] (-) TimerEvent: {}
+[15.261131] (-) TimerEvent: {}
+[15.361520] (-) TimerEvent: {}
+[15.461908] (-) TimerEvent: {}
+[15.562553] (-) TimerEvent: {}
+[15.662930] (-) TimerEvent: {}
+[15.763297] (-) TimerEvent: {}
+[15.863691] (-) TimerEvent: {}
+[15.964112] (-) TimerEvent: {}
+[16.064635] (-) TimerEvent: {}
+[16.165079] (-) TimerEvent: {}
+[16.265475] (-) TimerEvent: {}
+[16.365914] (-) TimerEvent: {}
+[16.466387] (-) TimerEvent: {}
+[16.567018] (-) TimerEvent: {}
+[16.667467] (-) TimerEvent: {}
+[16.767960] (-) TimerEvent: {}
+[16.868377] (-) TimerEvent: {}
+[16.968765] (-) TimerEvent: {}
+[17.069143] (-) TimerEvent: {}
+[17.169799] (-) TimerEvent: {}
+[17.270282] (-) TimerEvent: {}
+[17.370732] (-) TimerEvent: {}
+[17.471242] (-) TimerEvent: {}
+[17.571725] (-) TimerEvent: {}
+[17.672347] (-) TimerEvent: {}
+[17.772883] (-) TimerEvent: {}
+[17.873336] (-) TimerEvent: {}
+[17.973693] (-) TimerEvent: {}
+[18.074058] (-) TimerEvent: {}
+[18.174646] (-) TimerEvent: {}
+[18.275087] (-) TimerEvent: {}
+[18.375410] (-) TimerEvent: {}
+[18.475786] (-) TimerEvent: {}
+[18.576144] (-) TimerEvent: {}
+[18.676574] (-) TimerEvent: {}
+[18.777060] (-) TimerEvent: {}
+[18.877719] (-) TimerEvent: {}
+[18.978251] (-) TimerEvent: {}
+[19.078933] (-) TimerEvent: {}
+[19.179488] (-) TimerEvent: {}
+[19.279899] (-) TimerEvent: {}
+[19.380284] (-) TimerEvent: {}
+[19.480638] (-) TimerEvent: {}
+[19.581025] (-) TimerEvent: {}
+[19.681653] (-) TimerEvent: {}
+[19.782196] (-) TimerEvent: {}
+[19.882705] (-) TimerEvent: {}
+[19.983111] (-) TimerEvent: {}
+[20.083497] (-) TimerEvent: {}
+[20.183868] (-) TimerEvent: {}
+[20.284639] (-) TimerEvent: {}
+[20.385048] (-) TimerEvent: {}
+[20.485401] (-) TimerEvent: {}
+[20.586045] (-) TimerEvent: {}
+[20.686429] (-) TimerEvent: {}
+[20.787115] (-) TimerEvent: {}
+[20.887680] (-) TimerEvent: {}
+[20.988105] (-) TimerEvent: {}
+[21.088553] (-) TimerEvent: {}
+[21.188898] (-) TimerEvent: {}
+[21.289235] (-) TimerEvent: {}
+[21.389629] (-) TimerEvent: {}
+[21.490061] (-) TimerEvent: {}
+[21.590433] (-) TimerEvent: {}
+[21.690843] (-) TimerEvent: {}
+[21.791188] (-) TimerEvent: {}
+[21.891682] (-) TimerEvent: {}
+[21.992041] (-) TimerEvent: {}
+[22.092414] (-) TimerEvent: {}
+[22.193176] (-) TimerEvent: {}
+[22.293768] (-) TimerEvent: {}
+[22.394164] (-) TimerEvent: {}
+[22.494586] (-) TimerEvent: {}
+[22.595073] (-) TimerEvent: {}
+[22.695587] (-) TimerEvent: {}
+[22.796119] (-) TimerEvent: {}
+[22.896557] (-) TimerEvent: {}
+[22.996905] (-) TimerEvent: {}
+[23.097300] (-) TimerEvent: {}
+[23.198097] (-) TimerEvent: {}
+[23.298598] (-) TimerEvent: {}
+[23.399182] (-) TimerEvent: {}
+[23.499615] (-) TimerEvent: {}
+[23.600018] (-) TimerEvent: {}
+[23.700523] (-) TimerEvent: {}
+[23.801000] (-) TimerEvent: {}
+[23.901519] (-) TimerEvent: {}
+[24.002004] (-) TimerEvent: {}
+[24.102448] (-) TimerEvent: {}
+[24.202905] (-) TimerEvent: {}
+[24.303404] (-) TimerEvent: {}
+[24.403896] (-) TimerEvent: {}
+[24.504334] (-) TimerEvent: {}
+[24.605139] (-) TimerEvent: {}
+[24.705715] (-) TimerEvent: {}
+[24.806191] (-) TimerEvent: {}
+[24.906610] (-) TimerEvent: {}
+[25.007063] (-) TimerEvent: {}
+[25.107486] (-) TimerEvent: {}
+[25.207882] (-) TimerEvent: {}
+[25.308240] (-) TimerEvent: {}
+[25.408644] (-) TimerEvent: {}
+[25.509031] (-) TimerEvent: {}
+[25.609383] (-) TimerEvent: {}
+[25.709711] (-) TimerEvent: {}
+[25.810298] (-) TimerEvent: {}
+[25.910727] (-) TimerEvent: {}
+[26.011104] (-) TimerEvent: {}
+[26.111558] (-) TimerEvent: {}
+[26.211978] (-) TimerEvent: {}
+[26.312360] (-) TimerEvent: {}
+[26.412802] (-) TimerEvent: {}
+[26.513242] (-) TimerEvent: {}
+[26.613654] (-) TimerEvent: {}
+[26.714025] (-) TimerEvent: {}
+[26.814420] (-) TimerEvent: {}
+[26.914770] (-) TimerEvent: {}
+[27.015363] (-) TimerEvent: {}
+[27.115801] (-) TimerEvent: {}
+[27.216236] (-) TimerEvent: {}
+[27.316596] (-) TimerEvent: {}
+[27.416954] (-) TimerEvent: {}
+[27.517264] (-) TimerEvent: {}
+[27.617702] (-) TimerEvent: {}
+[27.718188] (-) TimerEvent: {}
+[27.818571] (-) TimerEvent: {}
+[27.918983] (-) TimerEvent: {}
+[28.019485] (-) TimerEvent: {}
+[28.120007] (-) TimerEvent: {}
+[28.220485] (-) TimerEvent: {}
+[28.321038] (-) TimerEvent: {}
+[28.421578] (-) TimerEvent: {}
+[28.521879] (-) TimerEvent: {}
+[28.622289] (-) TimerEvent: {}
+[28.722560] (-) TimerEvent: {}
+[28.822891] (-) TimerEvent: {}
+[28.923340] (-) TimerEvent: {}
+[29.023784] (-) TimerEvent: {}
+[29.124190] (-) TimerEvent: {}
+[29.224649] (-) TimerEvent: {}
+[29.325122] (-) TimerEvent: {}
+[29.425556] (-) TimerEvent: {}
+[29.525976] (-) TimerEvent: {}
+[29.626328] (-) TimerEvent: {}
+[29.727021] (-) TimerEvent: {}
+[29.827390] (-) TimerEvent: {}
+[29.927807] (-) TimerEvent: {}
+[30.028280] (-) TimerEvent: {}
+[30.128732] (-) TimerEvent: {}
+[30.229147] (-) TimerEvent: {}
+[30.329614] (-) TimerEvent: {}
+[30.430081] (-) TimerEvent: {}
+[30.530511] (-) TimerEvent: {}
+[30.630885] (-) TimerEvent: {}
+[30.731372] (-) TimerEvent: {}
+[30.831762] (-) TimerEvent: {}
+[30.932191] (-) TimerEvent: {}
+[31.032667] (-) TimerEvent: {}
+[31.133113] (-) TimerEvent: {}
+[31.233528] (-) TimerEvent: {}
+[31.333964] (-) TimerEvent: {}
+[31.434502] (-) TimerEvent: {}
+[31.535000] (-) TimerEvent: {}
+[31.635535] (-) TimerEvent: {}
+[31.736448] (-) TimerEvent: {}
+[31.837011] (-) TimerEvent: {}
+[31.937610] (-) TimerEvent: {}
+[32.038090] (-) TimerEvent: {}
+[32.138547] (-) TimerEvent: {}
+[32.239028] (-) TimerEvent: {}
+[32.339575] (-) TimerEvent: {}
+[32.440163] (-) TimerEvent: {}
+[32.540849] (-) TimerEvent: {}
+[32.641672] (-) TimerEvent: {}
+[32.742151] (-) TimerEvent: {}
+[32.842546] (-) TimerEvent: {}
+[32.942884] (-) TimerEvent: {}
+[33.043351] (-) TimerEvent: {}
+[33.143799] (-) TimerEvent: {}
+[33.244252] (-) TimerEvent: {}
+[33.344712] (-) TimerEvent: {}
+[33.445115] (-) TimerEvent: {}
+[33.545508] (-) TimerEvent: {}
+[33.646009] (-) TimerEvent: {}
+[33.746505] (-) TimerEvent: {}
+[33.847083] (-) TimerEvent: {}
+[33.947620] (-) TimerEvent: {}
+[34.048301] (-) TimerEvent: {}
+[34.149032] (-) TimerEvent: {}
+[34.249537] (-) TimerEvent: {}
+[34.349974] (-) TimerEvent: {}
+[34.450387] (-) TimerEvent: {}
+[34.550805] (-) TimerEvent: {}
+[34.651345] (-) TimerEvent: {}
+[34.751871] (-) TimerEvent: {}
+[34.852288] (-) TimerEvent: {}
+[34.952758] (-) TimerEvent: {}
+[35.053181] (-) TimerEvent: {}
+[35.153600] (-) TimerEvent: {}
+[35.254022] (-) TimerEvent: {}
+[35.354479] (-) TimerEvent: {}
+[35.454949] (-) TimerEvent: {}
+[35.555374] (-) TimerEvent: {}
+[35.655829] (-) TimerEvent: {}
+[35.756305] (-) TimerEvent: {}
+[35.856791] (-) TimerEvent: {}
+[35.957319] (-) TimerEvent: {}
+[36.057758] (-) TimerEvent: {}
+[36.158176] (-) TimerEvent: {}
+[36.258597] (-) TimerEvent: {}
+[36.359099] (-) TimerEvent: {}
+[36.459536] (-) TimerEvent: {}
+[36.560071] (-) TimerEvent: {}
+[36.660627] (-) TimerEvent: {}
+[36.761413] (-) TimerEvent: {}
+[36.861865] (-) TimerEvent: {}
+[36.962276] (-) TimerEvent: {}
+[37.062596] (-) TimerEvent: {}
+[37.163049] (-) TimerEvent: {}
+[37.263420] (-) TimerEvent: {}
+[37.363833] (-) TimerEvent: {}
+[37.464223] (-) TimerEvent: {}
+[37.564701] (-) TimerEvent: {}
+[37.665181] (-) TimerEvent: {}
+[37.765965] (-) TimerEvent: {}
+[37.866466] (-) TimerEvent: {}
+[37.967003] (-) TimerEvent: {}
+[38.067510] (-) TimerEvent: {}
+[38.167949] (-) TimerEvent: {}
+[38.268386] (-) TimerEvent: {}
+[38.368871] (-) TimerEvent: {}
+[38.469288] (-) TimerEvent: {}
+[38.569735] (-) TimerEvent: {}
+[38.670208] (-) TimerEvent: {}
+[38.770689] (-) TimerEvent: {}
+[38.871172] (-) TimerEvent: {}
+[38.971625] (-) TimerEvent: {}
+[39.072061] (-) TimerEvent: {}
+[39.172477] (-) TimerEvent: {}
+[39.272914] (-) TimerEvent: {}
+[39.373351] (-) TimerEvent: {}
+[39.473772] (-) TimerEvent: {}
+[39.574213] (-) TimerEvent: {}
+[39.674675] (-) TimerEvent: {}
+[39.775160] (-) TimerEvent: {}
+[39.875633] (-) TimerEvent: {}
+[39.976118] (-) TimerEvent: {}
+[40.076540] (-) TimerEvent: {}
+[40.176949] (-) TimerEvent: {}
+[40.277391] (-) TimerEvent: {}
+[40.377873] (-) TimerEvent: {}
+[40.478251] (-) TimerEvent: {}
+[40.578716] (-) TimerEvent: {}
+[40.679221] (-) TimerEvent: {}
+[40.779603] (-) TimerEvent: {}
+[40.879962] (-) TimerEvent: {}
+[40.980324] (-) TimerEvent: {}
+[41.080740] (-) TimerEvent: {}
+[41.181139] (-) TimerEvent: {}
+[41.281564] (-) TimerEvent: {}
+[41.381977] (-) TimerEvent: {}
+[41.482416] (-) TimerEvent: {}
+[41.583024] (-) TimerEvent: {}
+[41.683758] (-) TimerEvent: {}
+[41.784293] (-) TimerEvent: {}
+[41.885118] (-) TimerEvent: {}
+[41.985616] (-) TimerEvent: {}
+[42.086172] (-) TimerEvent: {}
+[42.186589] (-) TimerEvent: {}
+[42.287121] (-) TimerEvent: {}
+[42.387706] (-) TimerEvent: {}
+[42.488220] (-) TimerEvent: {}
+[42.588580] (-) TimerEvent: {}
+[42.689056] (-) TimerEvent: {}
+[42.789806] (-) TimerEvent: {}
+[42.890504] (-) TimerEvent: {}
+[42.991079] (-) TimerEvent: {}
+[43.091625] (-) TimerEvent: {}
+[43.192151] (-) TimerEvent: {}
+[43.292533] (-) TimerEvent: {}
+[43.392936] (-) TimerEvent: {}
+[43.493330] (-) TimerEvent: {}
+[43.593774] (-) TimerEvent: {}
+[43.694220] (-) TimerEvent: {}
+[43.794643] (-) TimerEvent: {}
+[43.895481] (-) TimerEvent: {}
+[43.996016] (-) TimerEvent: {}
+[44.096488] (-) TimerEvent: {}
+[44.196974] (-) TimerEvent: {}
+[44.297546] (-) TimerEvent: {}
+[44.397957] (-) TimerEvent: {}
+[44.498348] (-) TimerEvent: {}
+[44.598824] (-) TimerEvent: {}
+[44.699382] (-) TimerEvent: {}
+[44.800103] (-) TimerEvent: {}
+[44.900631] (-) TimerEvent: {}
+[45.001321] (-) TimerEvent: {}
+[45.102052] (-) TimerEvent: {}
+[45.202584] (-) TimerEvent: {}
+[45.303082] (-) TimerEvent: {}
+[45.403491] (-) TimerEvent: {}
+[45.503910] (-) TimerEvent: {}
+[45.604297] (-) TimerEvent: {}
+[45.704681] (-) TimerEvent: {}
+[45.805154] (-) TimerEvent: {}
+[45.905519] (-) TimerEvent: {}
+[46.005881] (-) TimerEvent: {}
+[46.106266] (-) TimerEvent: {}
+[46.206623] (-) TimerEvent: {}
+[46.307066] (-) TimerEvent: {}
+[46.407488] (-) TimerEvent: {}
+[46.507915] (-) TimerEvent: {}
+[46.608221] (-) TimerEvent: {}
+[46.708717] (-) TimerEvent: {}
+[46.809379] (-) TimerEvent: {}
+[46.910080] (-) TimerEvent: {}
+[47.010739] (-) TimerEvent: {}
+[47.111276] (-) TimerEvent: {}
+[47.211899] (-) TimerEvent: {}
+[47.312447] (-) TimerEvent: {}
+[47.412965] (-) TimerEvent: {}
+[47.513489] (-) TimerEvent: {}
+[47.614031] (-) TimerEvent: {}
+[47.714416] (-) TimerEvent: {}
+[47.814807] (-) TimerEvent: {}
+[47.915230] (-) TimerEvent: {}
+[48.015637] (-) TimerEvent: {}
+[48.116060] (-) TimerEvent: {}
+[48.216467] (-) TimerEvent: {}
+[48.316899] (-) TimerEvent: {}
+[48.417431] (-) TimerEvent: {}
+[48.517903] (-) TimerEvent: {}
+[48.618403] (-) TimerEvent: {}
+[48.719326] (-) TimerEvent: {}
+[48.819807] (-) TimerEvent: {}
+[48.920634] (-) TimerEvent: {}
+[49.021118] (-) TimerEvent: {}
+[49.121654] (-) TimerEvent: {}
+[49.222286] (-) TimerEvent: {}
+[49.322843] (-) TimerEvent: {}
+[49.423324] (-) TimerEvent: {}
+[49.523869] (-) TimerEvent: {}
+[49.624779] (-) TimerEvent: {}
+[49.725313] (-) TimerEvent: {}
+[49.825776] (-) TimerEvent: {}
+[49.926180] (-) TimerEvent: {}
+[50.026573] (-) TimerEvent: {}
+[50.127004] (-) TimerEvent: {}
+[50.227411] (-) TimerEvent: {}
+[50.327929] (-) TimerEvent: {}
+[50.428344] (-) TimerEvent: {}
+[50.528802] (-) TimerEvent: {}
+[50.629201] (-) TimerEvent: {}
+[50.729576] (-) TimerEvent: {}
+[50.829942] (-) TimerEvent: {}
+[50.930309] (-) TimerEvent: {}
+[51.030697] (-) TimerEvent: {}
+[51.131073] (-) TimerEvent: {}
+[51.231447] (-) TimerEvent: {}
+[51.331830] (-) TimerEvent: {}
+[51.432223] (-) TimerEvent: {}
+[51.532681] (-) TimerEvent: {}
+[51.633089] (-) TimerEvent: {}
+[51.733486] (-) TimerEvent: {}
+[51.833889] (-) TimerEvent: {}
+[51.934309] (-) TimerEvent: {}
+[52.034795] (-) TimerEvent: {}
+[52.135348] (-) TimerEvent: {}
+[52.235936] (-) TimerEvent: {}
+[52.336432] (-) TimerEvent: {}
+[52.436820] (-) TimerEvent: {}
+[52.537248] (-) TimerEvent: {}
+[52.637689] (-) TimerEvent: {}
+[52.738091] (-) TimerEvent: {}
+[52.838512] (-) TimerEvent: {}
+[52.939138] (-) TimerEvent: {}
+[53.039708] (-) TimerEvent: {}
+[53.140116] (-) TimerEvent: {}
+[53.240523] (-) TimerEvent: {}
+[53.340928] (-) TimerEvent: {}
+[53.441336] (-) TimerEvent: {}
+[53.541860] (-) TimerEvent: {}
+[53.642293] (-) TimerEvent: {}
+[53.742685] (-) TimerEvent: {}
+[53.843150] (-) TimerEvent: {}
+[53.943556] (-) TimerEvent: {}
+[54.043925] (-) TimerEvent: {}
+[54.144303] (-) TimerEvent: {}
+[54.244680] (-) TimerEvent: {}
+[54.345057] (-) TimerEvent: {}
+[54.445689] (-) TimerEvent: {}
+[54.546473] (-) TimerEvent: {}
+[54.647031] (-) TimerEvent: {}
+[54.747746] (-) TimerEvent: {}
+[54.848305] (-) TimerEvent: {}
+[54.948779] (-) TimerEvent: {}
+[55.049152] (-) TimerEvent: {}
+[55.149527] (-) TimerEvent: {}
+[55.250112] (-) TimerEvent: {}
+[55.350620] (-) TimerEvent: {}
+[55.451160] (-) TimerEvent: {}
+[55.551851] (-) TimerEvent: {}
+[55.652379] (-) TimerEvent: {}
+[55.752908] (-) TimerEvent: {}
+[55.853371] (-) TimerEvent: {}
+[55.953817] (-) TimerEvent: {}
+[56.054303] (-) TimerEvent: {}
+[56.154831] (-) TimerEvent: {}
+[56.255166] (-) TimerEvent: {}
+[56.355522] (-) TimerEvent: {}
+[56.455929] (-) TimerEvent: {}
+[56.556352] (-) TimerEvent: {}
+[56.656812] (-) TimerEvent: {}
+[56.757241] (-) TimerEvent: {}
+[56.857639] (-) TimerEvent: {}
+[56.958139] (-) TimerEvent: {}
+[57.058984] (-) TimerEvent: {}
+[57.159826] (-) TimerEvent: {}
+[57.260569] (-) TimerEvent: {}
+[57.361089] (-) TimerEvent: {}
+[57.461591] (-) TimerEvent: {}
+[57.562086] (-) TimerEvent: {}
+[57.662844] (-) TimerEvent: {}
+[57.763389] (-) TimerEvent: {}
+[57.863909] (-) TimerEvent: {}
+[57.964667] (-) TimerEvent: {}
+[58.065251] (-) TimerEvent: {}
+[58.165998] (-) TimerEvent: {}
+[58.266717] (-) TimerEvent: {}
+[58.367569] (-) TimerEvent: {}
+[58.468042] (-) TimerEvent: {}
+[58.568459] (-) TimerEvent: {}
+[58.669076] (-) TimerEvent: {}
+[58.769785] (-) TimerEvent: {}
+[58.870508] (-) TimerEvent: {}
+[58.971105] (-) TimerEvent: {}
+[59.071631] (-) TimerEvent: {}
+[59.172542] (-) TimerEvent: {}
+[59.273107] (-) TimerEvent: {}
+[59.373672] (-) TimerEvent: {}
+[59.474191] (-) TimerEvent: {}
+[59.574717] (-) TimerEvent: {}
+[59.675293] (-) TimerEvent: {}
+[59.775686] (-) TimerEvent: {}
+[59.876039] (-) TimerEvent: {}
+[59.976402] (-) TimerEvent: {}
+[60.076787] (-) TimerEvent: {}
+[60.177185] (-) TimerEvent: {}
+[60.277820] (-) TimerEvent: {}
+[60.378525] (-) TimerEvent: {}
+[60.479137] (-) TimerEvent: {}
+[60.579626] (-) TimerEvent: {}
+[60.680104] (-) TimerEvent: {}
+[60.780652] (-) TimerEvent: {}
+[60.881433] (-) TimerEvent: {}
+[60.981978] (-) TimerEvent: {}
+[61.082787] (-) TimerEvent: {}
+[61.110507] (my_bot) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................***Timeout  60.08 sec\n'}
+[61.110818] (my_bot) StdoutLine: {'line': b'\n'}
+[61.110919] (my_bot) StdoutLine: {'line': b'40% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 5\n'}
+[61.110990] (my_bot) StdoutLine: {'line': b'\n'}
+[61.111068] (my_bot) StdoutLine: {'line': b'Label Time Summary:\n'}
+[61.111130] (my_bot) StdoutLine: {'line': b'copyright     =   0.22 sec*proc (1 test)\n'}
+[61.111194] (my_bot) StdoutLine: {'line': b'flake8        =   0.30 sec*proc (1 test)\n'}
+[61.111257] (my_bot) StdoutLine: {'line': b'lint_cmake    =   0.21 sec*proc (1 test)\n'}
+[61.111317] (my_bot) StdoutLine: {'line': b'linter        =  61.06 sec*proc (5 tests)\n'}
+[61.111375] (my_bot) StdoutLine: {'line': b'pep257        =   0.25 sec*proc (1 test)\n'}
+[61.111439] (my_bot) StdoutLine: {'line': b'xmllint       =  60.08 sec*proc (1 test)\n'}
+[61.111497] (my_bot) StdoutLine: {'line': b'\n'}
+[61.111555] (my_bot) StdoutLine: {'line': b'Total Test time (real) =  61.06 sec\n'}
+[61.111613] (my_bot) StdoutLine: {'line': b'\n'}
+[61.111671] (my_bot) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[61.111728] (my_bot) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[61.111803] (my_bot) StdoutLine: {'line': b'\t\x1b[0;31m  2 - flake8 (Failed)\x1b[0;0m\n'}
+[61.111863] (my_bot) StdoutLine: {'line': b'\t\x1b[0;31m  5 - xmllint (Timeout)\x1b[0;0m\n'}
+[61.135592] (my_bot) StderrLine: {'line': b'Errors while running CTest\n'}
+[61.140695] (my_bot) CommandEnded: {'returncode': 8}
+[61.141678] (my_bot) TestFailure: {'identifier': 'my_bot'}
+[61.141774] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[61.143684] (-) EventReactorShutdown: {}

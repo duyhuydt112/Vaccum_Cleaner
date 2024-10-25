@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/articubot_one':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml
+
+CONTRIBUTING.md: file not found
+LICENSE: file not found
+launch/ball_tracker.launch.py: could not find copyright notice
+launch/camera.launch.py: could not find copyright notice
+launch/joystick.launch.py: could not find copyright notice
+launch/launch_robot.launch.py: could not find copyright notice
+launch/launch_sim.launch.py: could not find copyright notice
+launch/online_async_launch.py: could not find copyright notice
+launch/rplidar.launch.py: could not find copyright notice
+launch/rsp.launch.py: could not find copyright notice
+10 errors, checked 12 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/phat/testpublicsher/build/articubot_one/test_results/articubot_one/copyright.xunit.xml'
