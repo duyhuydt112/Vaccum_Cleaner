@@ -6,3 +6,4 @@
 + ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=true
 + ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true params_file:=./src/my_bot/config/nav2_params.yaml 
 + https://robotics.snowcron.com/robotics_ros2/robotics_ros2.htm
+https://github.com/ros-navigation/navigation2/issues/4027
