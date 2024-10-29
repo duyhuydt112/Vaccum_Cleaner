@@ -1,0 +1,1 @@
+/home/phat/testpublicsher/build/test_gazebo/ament_cmake_core/test_gazeboConfig.cmake

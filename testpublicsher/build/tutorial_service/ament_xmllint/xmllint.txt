@@ -1,0 +1,3 @@
+-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/tutorial_service':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/tutorial_service/test_results/tutorial_service/xmllint.xunit.xml
+

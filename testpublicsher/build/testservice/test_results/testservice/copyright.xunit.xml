@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="testservice.copyright"
+  tests="2"
+  errors="0"
+  failures="2"
+  time="0.008"
+>
+  <testcase
+    name="src/client_server.cpp"
+    classname="testservice.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/service_server.cpp"
+    classname="testservice.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* src/client_server.cpp
+* src/service_server.cpp</system-out>
+</testsuite>

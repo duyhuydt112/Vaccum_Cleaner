@@ -1,0 +1,37 @@
+-- run_test.py: invoking following command in '/home/phat/testpublicsher/src/my_bot':
+ - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/phat/testpublicsher/build/my_bot/test_results/my_bot/flake8.xunit.xml
+
+
+./launch/rsp.launch.py:20:39: E231 missing whitespace after ','
+    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')
+                                      ^
+
+./launch/rsp.launch.py:20:53: E231 missing whitespace after ','
+    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')
+                                                    ^
+
+./launch/rsp.launch.py:22:1: W293 blank line contains whitespace
+    
+^
+
+./launch/rsp.launch.py:33:5: E303 too many blank lines (2)
+    # Launch!
+    ^
+
+2     E231 missing whitespace after ','
+1     E303 too many blank lines (2)
+1     W293 blank line contains whitespace
+
+1 files checked
+4 errors
+
+'E'-type errors: 3
+'W'-type errors: 1
+
+Checked files:
+
+* ./launch/rsp.launch.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/phat/testpublicsher/build/my_bot/test_results/my_bot/flake8.xunit.xml'

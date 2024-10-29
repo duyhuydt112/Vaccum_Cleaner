@@ -1,0 +1,17 @@
+/home/phat/testpublicsher/install/cpp_pub/lib/cpp_pub/publisher
+/home/phat/testpublicsher/install/cpp_pub/lib/cpp_pub/listener
+/home/phat/testpublicsher/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+/home/phat/testpublicsher/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/environment/path.sh
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/environment/path.dsv
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/local_setup.bash
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/local_setup.sh
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/local_setup.zsh
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/local_setup.dsv
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.dsv
+/home/phat/testpublicsher/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.xml

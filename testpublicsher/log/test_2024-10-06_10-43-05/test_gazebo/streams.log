@@ -1,0 +1,64 @@
+[0.056s] Invoking command in '/home/phat/testpublicsher/build/test_gazebo': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.069s] UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini
+[0.069s] Parse Config file:/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini
+[0.069s]    Site: phat-Legion-5-15ACH6
+[0.069s]    Build name: (empty)
+[0.069s]  Add coverage exclude regular expressions.
+[0.069s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.069s] Create new tag: 20241006-0343 - Experimental
+[0.070s] UpdateCTestConfiguration  from :/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini
+[0.070s] Parse Config file:/home/phat/testpublicsher/build/test_gazebo/CTestConfiguration.ini
+[0.070s] Test project /home/phat/testpublicsher/build/test_gazebo
+[0.070s] Constructing a list of tests
+[0.070s] Done constructing a list of tests
+[0.070s] Updating test list for fixtures
+[0.070s] Added 0 tests to meet fixture requirements
+[0.070s] Checking test dependency graph...
+[0.070s] Checking test dependency graph end
+[0.071s] test 1
+[0.071s]     Start 1: copyright
+[0.071s] 
+[0.071s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml" "--package-name" "test_gazebo" "--output-file" "/home/phat/testpublicsher/build/test_gazebo/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml"
+[0.071s] 1: Test timeout computed to be: 60
+[0.103s] 1: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/test_gazebo':
+[0.103s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml
+[0.256s] 1: No repository roots and files found
+[0.256s] 1: No problems found, checked 0 files
+[0.270s] 1: -- run_test.py: return code 0
+[0.270s] 1: -- run_test.py: verify result file '/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/copyright.xunit.xml'
+[0.280s] 1/3 Test #1: copyright ........................   Passed    0.22 sec
+[0.280s] test 2
+[0.280s]     Start 2: lint_cmake
+[0.280s] 
+[0.280s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml" "--package-name" "test_gazebo" "--output-file" "/home/phat/testpublicsher/build/test_gazebo/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml"
+[0.281s] 2: Test timeout computed to be: 60
+[0.324s] 2: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/test_gazebo':
+[0.324s] 2:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml
+[0.464s] 2: 
+[0.464s] 2: No problems found
+[0.473s] 2: -- run_test.py: return code 0
+[0.473s] 2: -- run_test.py: verify result file '/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/lint_cmake.xunit.xml'
+[0.485s] 2/3 Test #2: lint_cmake .......................   Passed    0.20 sec
+[0.485s] test 3
+[0.485s]     Start 3: xmllint
+[0.485s] 
+[0.485s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/xmllint.xunit.xml" "--package-name" "test_gazebo" "--output-file" "/home/phat/testpublicsher/build/test_gazebo/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/xmllint.xunit.xml"
+[0.485s] 3: Test timeout computed to be: 60
+[0.533s] 3: -- run_test.py: invoking following command in '/home/phat/testpublicsher/src/test_gazebo':
+[0.533s] 3:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/phat/testpublicsher/build/test_gazebo/test_results/test_gazebo/xmllint.xunit.xml
+[60.564s] 3/3 Test #3: xmllint ..........................***Timeout  60.08 sec
+[60.571s] 
+[60.571s] 67% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 3
+[60.571s] 
+[60.572s] Label Time Summary:
+[60.572s] copyright     =   0.22 sec*proc (1 test)
+[60.572s] lint_cmake    =   0.20 sec*proc (1 test)
+[60.572s] linter        =  60.50 sec*proc (3 tests)
+[60.572s] xmllint       =  60.08 sec*proc (1 test)
+[60.572s] 
+[60.573s] Total Test time (real) =  60.51 sec
+[60.573s] 
+[60.573s] The following tests FAILED:
+[60.573s] 	[0;31m  3 - xmllint (Timeout)[0;0m
+[60.590s] Errors while running CTest
+[60.594s] Invoked command in '/home/phat/testpublicsher/build/test_gazebo' returned '8': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/test_gazebo /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

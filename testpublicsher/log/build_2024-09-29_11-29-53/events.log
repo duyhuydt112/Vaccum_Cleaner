@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000337] (-) JobUnselected: {'identifier': 'cpp_pub'}
+[0.000393] (-) JobUnselected: {'identifier': 'tutorial_service'}
+[0.000421] (testservice) JobQueued: {'identifier': 'testservice', 'dependencies': OrderedDict()}
+[0.000927] (testservice) JobStarted: {'identifier': 'testservice'}
+[0.008339] (testservice) JobProgress: {'identifier': 'testservice', 'progress': 'cmake'}
+[0.008804] (testservice) Command: {'cmd': ['/usr/bin/cmake', '/home/phat/testpublicsher/src/testservice', '-DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/testservice'], 'cwd': '/home/phat/testpublicsher/build/testservice', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'phat'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1772'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phat/testpublicsher/install/tutorial_service/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/phat'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/phat/testpublicsher/src/tutorial_service'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1620'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/phat/testpublicsher/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'phat'), ('http_proxy', 'http://172.20.10.2:1082/'), ('JOURNAL_STREAM', '8:44442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'phat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/phat/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/phat-Legion-5-15ACH6:@/tmp/.ICE-unix/1838,unix/phat-Legion-5-15ACH6:/tmp/.ICE-unix/1838'), ('INVOCATION_ID', 'ce7e6ff786fb49788821c3b09fb9dc92'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75dfd223_5510_4eac_90b7_d5c5e5e99653'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/phat/testpublicsher/install/tutorial_service:/home/phat/testpublicsher/install/cpp_pub:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/phat/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phat/testpublicsher/build/testservice'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/phat/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phat/testpublicsher/install/tutorial_service/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://172.20.10.2:1082/'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/phat/testpublicsher/install/tutorial_service:/home/phat/testpublicsher/install/cpp_pub:/opt/ros/foxy')]), 'shell': False}
+[0.092722] (testservice) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.100026] (-) TimerEvent: {}
+[0.161412] (testservice) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.166648] (testservice) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200183] (-) TimerEvent: {}
+[0.268664] (testservice) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.270280] (testservice) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300309] (-) TimerEvent: {}
+[0.367974] (testservice) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.379219] (testservice) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.379327] (testservice) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.381099] (testservice) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400442] (-) TimerEvent: {}
+[0.492747] (testservice) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.493273] (testservice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500531] (-) TimerEvent: {}
+[0.594397] (testservice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600946] (-) TimerEvent: {}
+[0.602110] (testservice) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.602490] (testservice) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.604710] (testservice) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.627991] (testservice) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.628144] (testservice) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.701059] (-) TimerEvent: {}
+[0.794534] (testservice) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.801175] (-) TimerEvent: {}
+[0.843766] (testservice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.854867] (testservice) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901280] (-) TimerEvent: {}
+[0.963458] (testservice) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.988985] (testservice) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.001435] (-) TimerEvent: {}
+[1.065312] (testservice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101600] (-) TimerEvent: {}
+[1.155240] (testservice) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.156791] (testservice) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.158104] (testservice) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201799] (-) TimerEvent: {}
+[1.260145] (testservice) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.260825] (testservice) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301906] (-) TimerEvent: {}
+[1.362184] (testservice) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.362414] (testservice) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.402086] (-) TimerEvent: {}
+[1.461460] (testservice) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.461781] (testservice) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.502190] (-) TimerEvent: {}
+[1.546962] (testservice) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.547767] (testservice) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.602269] (-) TimerEvent: {}
+[1.677024] (testservice) StderrLine: {'line': b'CMake Error at CMakeLists.txt:21 (find_package):\n'}
+[1.677158] (testservice) StderrLine: {'line': b'  By not providing "Findtutorial_testservice.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.677233] (testservice) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.677300] (testservice) StderrLine: {'line': b'  "tutorial_testservice", but CMake did not find one.\n'}
+[1.677365] (testservice) StderrLine: {'line': b'\n'}
+[1.677427] (testservice) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.677487] (testservice) StderrLine: {'line': b'  "tutorial_testservice" with any of the following names:\n'}
+[1.677549] (testservice) StderrLine: {'line': b'\n'}
+[1.677612] (testservice) StderrLine: {'line': b'    tutorial_testserviceConfig.cmake\n'}
+[1.677674] (testservice) StderrLine: {'line': b'    tutorial_testservice-config.cmake\n'}
+[1.677734] (testservice) StderrLine: {'line': b'\n'}
+[1.677793] (testservice) StderrLine: {'line': b'  Add the installation prefix of "tutorial_testservice" to CMAKE_PREFIX_PATH\n'}
+[1.677852] (testservice) StderrLine: {'line': b'  or set "tutorial_testservice_DIR" to a directory containing one of the\n'}
+[1.677913] (testservice) StderrLine: {'line': b'  above files.  If "tutorial_testservice" provides a separate development\n'}
+[1.677985] (testservice) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[1.678049] (testservice) StderrLine: {'line': b'\n'}
+[1.678110] (testservice) StderrLine: {'line': b'\n'}
+[1.679045] (testservice) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.679139] (testservice) StdoutLine: {'line': b'See also "/home/phat/testpublicsher/build/testservice/CMakeFiles/CMakeOutput.log".\n'}
+[1.679203] (testservice) StdoutLine: {'line': b'See also "/home/phat/testpublicsher/build/testservice/CMakeFiles/CMakeError.log".\n'}
+[1.684827] (testservice) CommandEnded: {'returncode': 1}
+[1.702534] (-) TimerEvent: {}
+[1.709041] (testservice) JobEnded: {'identifier': 'testservice', 'rc': 1}
+[1.709803] (-) EventReactorShutdown: {}

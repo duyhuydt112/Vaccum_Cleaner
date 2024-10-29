@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/phat/testpublicsher/build/testservice/service" "/home/phat/testpublicsher/build/testservice/client" "TARGETS" "service" "client" "DESTINATION" "lib/testservice")

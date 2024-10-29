@@ -1,0 +1,553 @@
+[0.149s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.149s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f94ed5af3d0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f94ed5af3d0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f94ed4f3670>)
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.266s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/phat/testpublicsher'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/articubot_one) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/cpp_pub) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_base) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/polygon_plugins) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/test_gazebo) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/testservice) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/tutorial_service) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pub' with type 'ros.ament_cmake' and name 'cpp_pub'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_gazebo) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_gazebo' with type 'ros.ament_cmake' and name 'test_gazebo'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/testservice) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testservice' with type 'ros.ament_cmake' and name 'testservice'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_service) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_service' with type 'ros.ament_cmake' and name 'tutorial_service'
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.311s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 259 installed packages in /opt/ros/foxy
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phat/testpublicsher/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phat/testpublicsher/install/articubot_one', 'merge_install': False, 'path': '/home/phat/testpublicsher/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phat/testpublicsher/build/cpp_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phat/testpublicsher/install/cpp_pub', 'merge_install': False, 'path': '/home/phat/testpublicsher/src/cpp_pub', 'symlink_install': True, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phat/testpublicsher/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phat/testpublicsher/install/polygon_base', 'merge_install': False, 'path': '/home/phat/testpublicsher/src/polygon_base', 'symlink_install': True, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'test_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'test_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phat/testpublicsher/build/test_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phat/testpublicsher/install/test_gazebo', 'merge_install': False, 'path': '/home/phat/testpublicsher/src/test_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'tutorial_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phat/testpublicsher/build/tutorial_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phat/testpublicsher/install/tutorial_service', 'merge_install': False, 'path': '/home/phat/testpublicsher/src/tutorial_service', 'symlink_install': True, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phat/testpublicsher/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phat/testpublicsher/install/polygon_plugins', 'merge_install': False, 'path': '/home/phat/testpublicsher/src/polygon_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'testservice' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'testservice' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phat/testpublicsher/build/testservice', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phat/testpublicsher/install/testservice', 'merge_install': False, 'path': '/home/phat/testpublicsher/src/testservice', 'symlink_install': True, 'test_result_base': None}
+[0.378s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phat/testpublicsher/src/polygon_base' with build type 'ament_cmake'
+[0.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phat/testpublicsher/src/polygon_base'
+[0.382s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phat/testpublicsher/src/tutorial_service' with build type 'ament_cmake'
+[0.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phat/testpublicsher/src/tutorial_service'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phat/testpublicsher/src/articubot_one' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phat/testpublicsher/src/articubot_one'
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.395s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phat/testpublicsher/src/cpp_pub' with build type 'ament_cmake'
+[0.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phat/testpublicsher/src/cpp_pub'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phat/testpublicsher/src/test_gazebo' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phat/testpublicsher/src/test_gazebo'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/polygon_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/polygon_base
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/tutorial_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/tutorial_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/tutorial_service
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/articubot_one
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/cpp_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/cpp_pub
+[0.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/test_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/test_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/test_gazebo
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/cpp_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/cpp_pub
+[1.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/cpp_pub -- -j12 -l12
+[1.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/articubot_one
+[1.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/articubot_one -- -j12 -l12
+[1.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/test_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/test_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/test_gazebo
+[1.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/test_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/test_gazebo -- -j12 -l12
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/articubot_one -- -j12 -l12
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/test_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/test_gazebo -- -j12 -l12
+[1.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/articubot_one
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/test_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/test_gazebo
+[1.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/polygon_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/polygon_base
+[1.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/polygon_base -- -j12 -l12
+[1.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/cpp_pub -- -j12 -l12
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/polygon_base -- -j12 -l12
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/cpp_pub
+[1.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_gazebo)
+[1.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/test_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/test_gazebo
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo' for CMake module files
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo' for CMake config files
+[1.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_gazebo', 'cmake_prefix_path')
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/hook/cmake_prefix_path.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/hook/cmake_prefix_path.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/hook/cmake_prefix_path.sh'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/bin'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/lib/pkgconfig/test_gazebo.pc'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/lib/python3.8/site-packages'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/bin'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.ps1'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.dsv'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.sh'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.bash'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.zsh'
+[1.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/test_gazebo/share/colcon-core/packages/test_gazebo)
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/polygon_base
+[1.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_gazebo)
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo' for CMake module files
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo' for CMake config files
+[1.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_gazebo', 'cmake_prefix_path')
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/hook/cmake_prefix_path.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/hook/cmake_prefix_path.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/hook/cmake_prefix_path.sh'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/bin'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/lib/pkgconfig/test_gazebo.pc'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/lib/python3.8/site-packages'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/test_gazebo/bin'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.ps1'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.dsv'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.sh'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.bash'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/test_gazebo/share/test_gazebo/package.zsh'
+[1.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/test_gazebo/share/colcon-core/packages/test_gazebo)
+[1.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[1.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/cpp_pub
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub' for CMake module files
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub' for CMake config files
+[1.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/lib'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/bin'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/lib/python3.8/site-packages'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/bin'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.sh'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.bash'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.zsh'
+[1.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[1.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/tutorial_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/tutorial_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/tutorial_service
+[1.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/tutorial_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/tutorial_service -- -j12 -l12
+[1.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub' for CMake module files
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub' for CMake config files
+[1.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/lib'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/bin'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/lib/python3.8/site-packages'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/cpp_pub/bin'
+[1.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.ps1'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.dsv'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.sh'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.bash'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/cpp_pub/share/cpp_pub/package.zsh'
+[1.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[1.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base' for CMake module files
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/polygon_base
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base' for CMake config files
+[1.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/lib'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/bin'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/lib/python3.8/site-packages'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/bin'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.dsv'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.sh'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.bash'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.zsh'
+[1.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base' for CMake module files
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base' for CMake config files
+[1.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/lib'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/bin'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/lib/python3.8/site-packages'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_base/bin'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.ps1'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.dsv'
+[1.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.sh'
+[1.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.bash'
+[1.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_base/share/polygon_base/package.zsh'
+[1.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phat/testpublicsher/src/polygon_plugins' with build type 'ament_cmake'
+[1.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phat/testpublicsher/src/polygon_plugins'
+[1.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/polygon_plugins': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base:/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/polygon_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/polygon_plugins
+[1.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one' for CMake module files
+[1.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/articubot_one
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one' for CMake config files
+[1.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[1.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[1.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[1.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[1.713s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/bin'
+[1.713s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/lib/python3.8/site-packages'
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/bin'
+[1.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.ps1'
+[1.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.dsv'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.sh'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.bash'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.zsh'
+[1.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/articubot_one/share/colcon-core/packages/articubot_one)
+[1.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[1.738s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one' for CMake module files
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one' for CMake config files
+[1.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[1.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/bin'
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/lib/python3.8/site-packages'
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/articubot_one/bin'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.ps1'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.dsv'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.sh'
+[1.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.bash'
+[1.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/articubot_one/share/articubot_one/package.zsh'
+[1.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/articubot_one/share/colcon-core/packages/articubot_one)
+[2.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/tutorial_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/phat/testpublicsher/build/tutorial_service -- -j12 -l12
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phat/testpublicsher/build/tutorial_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/phat/testpublicsher/build/tutorial_service
+[2.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phat/testpublicsher/build/polygon_plugins' returned '1': AMENT_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phat/testpublicsher/install/polygon_base:/opt/ros/foxy /usr/bin/cmake /home/phat/testpublicsher/src/polygon_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phat/testpublicsher/install/polygon_plugins
+[2.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_plugins' for CMake module files
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_plugins' for CMake config files
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_plugins/bin'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_plugins/lib/python3.8/site-packages'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/phat/testpublicsher/install/polygon_plugins/bin'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phat/testpublicsher/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_plugins/share/polygon_plugins/package.sh'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_plugins/share/polygon_plugins/package.bash'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/phat/testpublicsher/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[2.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phat/testpublicsher/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[3.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.023s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.023s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.023s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.034s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.051s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phat/testpublicsher/install/local_setup.ps1'
+[3.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phat/testpublicsher/install/_local_setup_util_ps1.py'
+[3.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phat/testpublicsher/install/setup.ps1'
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phat/testpublicsher/install/local_setup.sh'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phat/testpublicsher/install/_local_setup_util_sh.py'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phat/testpublicsher/install/setup.sh'
+[3.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phat/testpublicsher/install/local_setup.bash'
+[3.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phat/testpublicsher/install/setup.bash'
+[3.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phat/testpublicsher/install/local_setup.zsh'
+[3.059s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phat/testpublicsher/install/setup.zsh'

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_pub.cpplint"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.022"
+>
+  <testcase
+    name="/home/phat/testpublicsher/src/cpp_pub/src/publisher_member_function.cpp"
+    classname="cpp_pub.cpplint"/>
+  <testcase
+    name="/home/phat/testpublicsher/src/cpp_pub/src/subscriber_member_function.cpp"
+    classname="cpp_pub.cpplint"/>
+  <system-out>Checked files:
+* /home/phat/testpublicsher/src/cpp_pub/src/publisher_member_function.cpp
+* /home/phat/testpublicsher/src/cpp_pub/src/subscriber_member_function.cpp</system-out>
+</testsuite>

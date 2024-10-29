@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target client[0m
+[35m[1mScanning dependencies of target service[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/service.dir/src/service_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable service[0m
+[ 75%] Built target service
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/phat/testpublicsher/install/testservice/lib/testservice/service
+-- Set runtime path of "/home/phat/testpublicsher/install/testservice/lib/testservice/service" to ""
+-- Installing: /home/phat/testpublicsher/install/testservice/lib/testservice/client
+-- Set runtime path of "/home/phat/testpublicsher/install/testservice/lib/testservice/client" to ""
+-- Installing: /home/phat/testpublicsher/install/testservice/share/ament_index/resource_index/package_run_dependencies/testservice
+-- Installing: /home/phat/testpublicsher/install/testservice/share/ament_index/resource_index/parent_prefix_path/testservice
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/environment/ament_prefix_path.sh
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/environment/ament_prefix_path.dsv
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/environment/path.sh
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/environment/path.dsv
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/local_setup.bash
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/local_setup.sh
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/local_setup.zsh
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/local_setup.dsv
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/package.dsv
+-- Installing: /home/phat/testpublicsher/install/testservice/share/ament_index/resource_index/packages/testservice
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/cmake/testserviceConfig.cmake
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/cmake/testserviceConfig-version.cmake
+-- Installing: /home/phat/testpublicsher/install/testservice/share/testservice/package.xml

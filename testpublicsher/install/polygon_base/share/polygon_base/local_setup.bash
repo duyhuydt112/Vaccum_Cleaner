@@ -1,0 +1,1 @@
+/home/phat/testpublicsher/build/polygon_base/ament_cmake_environment_hooks/local_setup.bash
