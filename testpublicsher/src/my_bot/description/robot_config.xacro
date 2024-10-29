@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <!-- Base -->
+    <link name="base_link"></link>
+
+    <!-- Base_footprintf_link -->
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="base_footprint" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+
+    </joint>
+
+    <link name="base_footprint"></link>
+
+     <!--bottom_vaccum-->
+    <joint name="bottom_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="main_link"/>
+        <origin xyz="0 0 ${wheel_radius}"/>
+    </joint>
+
+    <link name="main_link">
+        <visual>
+            <origin xyz="0 0 ${wheel_radius}"/>
+            <geometry>
+                <cylinder length="${main_block_height}" radius="${main_block_radius}" />
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 ${wheel_radius}"/>
+            <geometry>
+                <cylinder length="${main_block_height}" radius="${main_block_radius}" />
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="3.3" length="${main_block_height}" radius="${main_block_radius}">
+            <origin xyz="0 0 ${main_block_height/2}"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="main_link">
+        <material>Gazebo/White</material>
+    </gazebo>
+   
+    
+    <!--wheel_right-->
+    <joint name="wheel_right" type="continuous">
+        <parent link="main_link"/>
+        <child link="wheel_right_link"/>
+        <origin xyz="-0.0619  ${main_block_radius/2+0.03} 0" rpy="${pi/2} 0 0"/>
+        <axis xyz="0 0 -1" />
+    </joint>
+    
+
+    <link name="wheel_right_link">
+        <visual>
+            <geometry>
+                <cylinder length="${wheel_size}" radius="${wheel_radius}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="${wheel_size}" radius="${wheel_radius}"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.2" length="${wheel_size}" radius="${wheel_radius}">
+            <origin xyz="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="wheel_right_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+     <!--wheel_left-->
+    <joint name="wheel_left" type="continuous">
+        <parent link="main_link"/>
+        <child link="wheel_left_link"/>
+        <origin xyz="-0.0619 -${main_block_radius/2+0.03} 0" rpy="-${pi/2} 0 0"/>
+        <axis xyz="0 0 1" />
+    </joint>
+    
+
+    <link name="wheel_left_link">
+        <visual>
+            <geometry>
+                <cylinder length="${wheel_size}" radius="${wheel_radius}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="${wheel_size}" radius="${wheel_radius}"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.2" length="${wheel_size}" radius="${wheel_radius}">
+            <origin xyz="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="wheel_left_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <!-- wheel_direct-->
+    <joint name="wheel_direct" type="fixed">
+        <parent link="main_link"/>
+        <child link="wheel_direct_link"/>
+        <origin xyz="${main_block_radius/2 +0.02} 0 0"/>
+    </joint>
+
+    <link name="wheel_direct_link">
+        <visual>
+            <geometry>
+                <sphere radius="${wheel_radius}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="${wheel_radius}"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_sphere mass="0.1" radius="${wheel_radius}">
+            <origin xyz="0 0 0"/>
+        </xacro:inertial_sphere>
+    </link>
+
+    <gazebo reference="wheel_direct_link">
+        <material>Gazebo/Black</material>
+        <mu1 value="0.001" />
+        <mu2 value="0.001" />
+    </gazebo>
+
+    <!-- lidar_file -->
+    <xacro:include filename="lidar.xacro" />
+
+
+</robot>
