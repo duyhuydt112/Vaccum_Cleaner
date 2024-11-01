@@ -8,7 +8,15 @@ from launch_ros.actions import Node
 def generate_launch_description():
     package_name = 'my_bot'
     rsp = IncludeLaunchDescription(PythonLaunchDescriptionSource([os.path.join(get_package_share_directory(package_name), 
-    'launch','rsp.launch.py')]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'false'}.items())
+    'launch','rsp.launch.py')]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'true'}.items())
+
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+    twist_mux = Node(
+            package="twist_mux",
+            executable="twist_mux",
+            parameters=[twist_mux_params, {'use_sim_time': True}],
+            remappings=[('/cmd_vel','/diff_cont/cmd_vel_unstamped')]
+        )
 
     gazebo_params_path = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
 
@@ -36,6 +44,7 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
+        twist_mux,
         diff_drive_spawner,
         joint_broad_spawner
     ])

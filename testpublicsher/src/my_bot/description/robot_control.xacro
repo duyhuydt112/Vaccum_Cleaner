@@ -3,6 +3,7 @@
 
     <gazebo>
         <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+        
             <!--wheel_information-->
             <left_joint>wheel_left</left_joint>
             <right_joint>wheel_right</right_joint>
