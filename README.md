@@ -7,3 +7,4 @@
 + ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true params_file:=./src/my_bot/config/nav2_params.yaml 
 + https://robotics.snowcron.com/robotics_ros2/robotics_ros2.htm
 https://github.com/ros-navigation/navigation2/issues/4027
++ ros2 run twist_mux twist_mux --ros-args --params-file ./src/my_bot/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
