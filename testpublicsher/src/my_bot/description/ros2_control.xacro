@@ -27,6 +27,10 @@
     <gazebo>
         <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
             <parameters>$(find my_bot)/config/my_controller.yaml</parameters>
+                <!-- <ros>
+                    <argument>~/out:=keyboard</argument>
+                </ros>
+                <output_type>geometry_msgs/msg/Twist</output_type> -->
         </plugin>
     </gazebo>
 

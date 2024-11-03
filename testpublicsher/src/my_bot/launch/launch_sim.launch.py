@@ -15,7 +15,8 @@ def generate_launch_description():
             package="twist_mux",
             executable="twist_mux",
             parameters=[twist_mux_params, {'use_sim_time': True}],
-            remappings=[('/cmd_vel','/diff_cont/cmd_vel_unstamped')]
+            # remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+            remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
         )
 
     gazebo_params_path = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
@@ -29,6 +30,7 @@ def generate_launch_description():
         package="controller_manager",
         executable="spawner.py",
         arguments=["diff_cont"],
+        # remappings=[('/odom','/tf')],
     )
 
     joint_broad_spawner = Node(

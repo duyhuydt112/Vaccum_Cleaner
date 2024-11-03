@@ -6,6 +6,6 @@ twist_mux:
         timeout : 0.5
         priority: 100
       keyboard:
-        topic   : diff_cont/cmd_vel_unstamped
+        topic   : key_board #diff_cont/cmd_vel_unstamped
         timeout : 0.5
         priority: 100 

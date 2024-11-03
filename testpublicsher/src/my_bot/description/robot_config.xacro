@@ -17,7 +17,7 @@
 
      <!--bottom_vaccum-->
     <joint name="bottom_joint" type="fixed">
-        <parent link="base_link"/>
+        <parent link="base_footprint"/>
         <child link="main_link"/>
         <origin xyz="0 0 ${wheel_radius}"/>
     </joint>
