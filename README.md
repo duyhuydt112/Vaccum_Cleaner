@@ -10,3 +10,4 @@ https://github.com/ros-navigation/navigation2/issues/4027
 + ros2 run twist_mux twist_mux --ros-args --params-file ./src/my_bot/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
 + ros2 run tf2_tools view_frames.py
 + ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/key_board
++ errror shchedual: https://docs.google.com/document/d/1yaQNlgrnH9eBzvAaWgLmfuhKEVl-1CULxKFdlTZdlWg/edit?usp=sharing
