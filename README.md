@@ -13,3 +13,4 @@ https://github.com/ros-navigation/navigation2/issues/4027
 + errror shchedual: https://docs.google.com/document/d/1yaQNlgrnH9eBzvAaWgLmfuhKEVl-1CULxKFdlTZdlWg/edit?usp=sharing
 + Mastering ROS for Robotics Programming, Third edition: Best practices and troubleshooting solutions when working with ROS , Third Edition
 https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#run-slam-node
+https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#tuning-guide
