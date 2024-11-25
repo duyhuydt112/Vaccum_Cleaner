@@ -14,3 +14,5 @@ https://github.com/ros-navigation/navigation2/issues/4027
 + Mastering ROS for Robotics Programming, Third edition: Best practices and troubleshooting solutions when working with ROS , Third Edition
 https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#run-slam-node
 https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#tuning-guide
++ navigation source : https://github.com/ros-navigation/navigation2/blob/foxy-devel/nav2_waypoint_follower/include/nav2_waypoint_follower/waypoint_follower.hpp
++ 
